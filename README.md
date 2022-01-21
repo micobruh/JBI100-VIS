@@ -51,4 +51,3 @@ You will get a http link, open this in your browser to see the results. You can 
 ## Resources
 
 * [Dash](https://dash.plot.ly/)
-* [pydeck](https://deckgl.readthedocs.io/en/latest/)
