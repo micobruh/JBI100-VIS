@@ -67,4 +67,4 @@ if __name__ == '__main__':
         return barplot.update(feature_x_1, feature_x_2)
 
 
-    app.run_server(debug=False, dev_tools_ui=False)
+    app.run_server(debug=False, dev_tools_ui=False, use_reloader=True)
