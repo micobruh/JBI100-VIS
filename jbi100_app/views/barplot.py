@@ -38,10 +38,9 @@ class Barplot(html.Div):
         return self.fig
 
     def reload_df(self, df):
-        self.fig = go.Figure()
         self.df = df
 
-        return Barplot.update("Hour", "Speed_limit")
+        return self.update("Hour", "Speed_limit")
 
     def __init__(self, name, df):
         self.fig = go.Figure()
