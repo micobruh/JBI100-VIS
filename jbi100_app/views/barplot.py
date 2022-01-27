@@ -3,22 +3,7 @@ from dash import dcc, html
 
 
 class Barplot(html.Div):
-    def __init__(self, name, df):
-        self.html_id = name.lower().replace(" ", "-")
-        self.df = df
-
-        # Equivalent to `html.Div([...])`
-        super().__init__(
-            className="graph_card",
-            children=[
-                html.H6(name),
-                dcc.Graph(id=self.html_id)
-            ],
-        )
-
     def update(self, feature_x_1, feature_x_2):
-        self.fig = go.Figure()
-
         traces = []
         if feature_x_1 == feature_x_2:
             temp = self.df[[feature_x_1]]
@@ -57,3 +42,18 @@ class Barplot(html.Div):
         self.df = df
 
         return Barplot.update("Hour", "Speed_limit")
+
+    def __init__(self, name, df):
+        self.fig = go.Figure()
+        self.html_id = name.lower().replace(" ", "-")
+        self.df = df
+        self.update("Day_of_Week", "Hour")
+
+        # Equivalent to `html.Div([...])`
+        super().__init__(
+            className="graph_card",
+            children=[
+                html.H6(name),
+                dcc.Graph(id=self.html_id)
+            ],
+        )

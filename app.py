@@ -40,7 +40,6 @@ def serve_map_layout():
                 id="left-column",
                 className="three columns",
                 children=make_menu_layout(),
-                style={"z-index": "5"}
             ),
 
             # Right column
@@ -61,18 +60,14 @@ def serve_map_layout():
 
 
 if __name__ == '__main__':
-    # Supress memory warning at startup
-    low_memory = False
-
     # Create data
     df = get_data()
 
     # Instantiate custom views
     barplot = Barplot("Barplot", df)
-    mapViewHex = MapViewHex("Map view")
+    mapViewHex = MapViewHex("Map-view")
 
-    app.layout = serve_map_layout
-
+    app.layout = serve_chart_layout
 
     @app.callback(
         Output(barplot.html_id, "figure"), [
@@ -95,13 +90,12 @@ if __name__ == '__main__':
     )
     def update_view(value):
         if value is False:
-            state = 'chart view'
+            state = 'Chart view'
             app.layout = serve_chart_layout
         else:
-            state = 'map view'
+            state = 'Map view'
             app.layout = serve_map_layout
 
-        return 'Currently in ' + state
-
+        return state
 
     app.run_server(debug=False, dev_tools_ui=False, use_reloader=True)

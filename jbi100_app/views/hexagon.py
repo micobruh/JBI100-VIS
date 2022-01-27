@@ -28,10 +28,6 @@ class MapViewHex(html.Div):
 
     r = pdk.Deck(layers=[layer], initial_view_state=view_state)
 
-    # Rendering
-    def serve_component(self):
-        return dash_deck.DeckGL(self.r.to_json(), id="map-view-hex")
-
     def __init__(self, name):
         self.html_id = name.lower().replace(" ", "-")
 
@@ -39,6 +35,6 @@ class MapViewHex(html.Div):
         super().__init__(
             className="map-hex-class",
             children=[
-                self.serve_component()
+                dash_deck.DeckGL(self.r.to_json(), id="map-view-hex")
             ],
         )

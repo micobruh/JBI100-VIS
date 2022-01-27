@@ -4,11 +4,9 @@ import pandas as pd
 
 
 def get_data():
+    # Supress memory warning at startup
+    low_memory = False
     return pd.read_csv("dataset_clean.csv")
-
-
-def read_data(filename):
-    return pd.read_csv(filename)
 
 
 def update_date(start_date, end_date):
