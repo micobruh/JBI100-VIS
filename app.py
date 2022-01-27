@@ -1,10 +1,10 @@
 from dash import html
 from dash.dependencies import Input, Output
-from jbi100_app.views.hexagon import MapView
-from jbi100_app.views.scatterplot import Barplot
 
 from jbi100_app.data import get_data
 from jbi100_app.main import app
+from jbi100_app.views.barplot import Barplot
+from jbi100_app.views.hexagon import MapViewHex
 from jbi100_app.views.menu import make_menu_layout
 
 
@@ -52,7 +52,7 @@ def serve_map_layout():
                         style={"z-index": "-1", "background-color": "black"},
                         id='map-subdiv',
                         className="nine columns",
-                        children=mapview
+                        children=mapViewHex
                     ),
                 ],
             ),
@@ -61,12 +61,15 @@ def serve_map_layout():
 
 
 if __name__ == '__main__':
+    # Supress memory warning at startup
+    low_memory = False
+
     # Create data
     df = get_data()
 
     # Instantiate custom views
     barplot = Barplot("Barplot", df)
-    mapview = MapView("Map view")
+    mapViewHex = MapViewHex("Map view")
 
     app.layout = serve_map_layout
 
@@ -87,7 +90,7 @@ if __name__ == '__main__':
 
 
     @app.callback(
-        Output('view-state', 'children'),
+        Output('view-state-output', 'children'),
         Input('view-switcher', 'value'),
     )
     def update_view(value):
