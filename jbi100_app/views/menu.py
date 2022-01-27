@@ -1,4 +1,3 @@
-import dash_daq as daq
 from dash import dcc, html
 
 from ..config import final
@@ -42,15 +41,6 @@ def generate_control_card():
                 options=[{"label": i.replace("_", " "), "value": i} for i in final],
                 value=final[1],
             ),
-            html.Br(),
-            html.Br(),
-            daq.ToggleSwitch(
-                id='view-switch',
-                # False = chart view
-                # True = map view
-                value=False
-            ),
-            html.Div(id='view-state-output')
         ], style={"textAlign": "float-left"}
     )
 
