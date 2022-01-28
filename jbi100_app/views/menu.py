@@ -1,3 +1,5 @@
+from datetime import date
+
 from dash import dcc, html
 
 from ..config import final
@@ -14,7 +16,7 @@ def generate_description_card():
             html.H5("Dashboard"),
             html.Div(
                 id="intro",
-                children="Choose the attributes of your interest",
+                children="Choose the attributes and time range of your interest",
             ),
         ],
     )
@@ -28,6 +30,16 @@ def generate_control_card():
     return html.Div(
         id="control-card",
         children=[
+            dcc.DatePickerRange(
+                id='date-picker-range',
+                min_date_allowed=date(2015, 1, 1),
+                max_date_allowed=date(2015, 12, 31),
+                initial_visible_month=date(2015, 1, 1),
+                start_date=date(2015, 1, 1),
+                end_date=date(2015, 12, 31)
+            ),
+            html.Br(),
+            html.Br(),
             html.Label("First Attribute"),
             dcc.Dropdown(
                 id="select-x-attribute-bar-1",

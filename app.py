@@ -12,7 +12,7 @@ from jbi100_app.views.menu import make_menu_layout
 df = get_data()
 
 # Instantiate custom views
-barplot = Barplot("Barplot", df)
+barplot = Barplot("barplot", df)
 mapViewHex = MapViewHex("Hexmap-view")
 mapViewHeat = MapViewHeat("Heatmap-view")
 
@@ -49,12 +49,12 @@ app.layout = html.Div(
 
 
 @app.callback(
-    Output(barplot.html_id, "figure"), [
-        Input("select-x-attribute-bar-1", "value"),
-        Input("select-x-attribute-bar-2", 'value'),
-        Input("date-picker-range", "start_date"),
-        Input("date-picker-range", 'end_date'),
-    ])
+    Output("barplot", "figure"),
+    Input("select-x-attribute-bar-1", "value"),
+    Input("select-x-attribute-bar-2", 'value'),
+    Input("date-picker-range", "start_date"),
+    Input("date-picker-range", 'end_date'),
+)
 def update_x(feature_x_1, feature_x_2, start_date, end_date):
     # df = update_date(start_date, end_date)
     # print(df['Date'].tolist())

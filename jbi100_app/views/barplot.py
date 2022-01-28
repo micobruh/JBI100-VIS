@@ -4,6 +4,8 @@ from dash import dcc, html
 
 class Barplot(html.Div):
     def update(self, feature_x_1, feature_x_2):
+        self.fig = go.Figure()
+
         traces = []
         if feature_x_1 == feature_x_2:
             temp = self.df[[feature_x_1]]
@@ -40,11 +42,11 @@ class Barplot(html.Div):
     def reload_df(self, df):
         self.df = df
 
-        return self.update("Hour", "Speed_limit")
+        return self.update("Hour", "Hour")
 
     def __init__(self, name, df):
         self.fig = go.Figure()
-        self.html_id = name.lower().replace(" ", "-")
+        self.html_id = "barplot"
         self.df = df
         self.update("Day_of_Week", "Hour")
 
@@ -52,7 +54,7 @@ class Barplot(html.Div):
         super().__init__(
             className="graph_card",
             children=[
-                html.H6(name),
+                html.H6("Barplot"),
                 dcc.Graph(id=self.html_id)
             ],
         )
