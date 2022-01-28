@@ -35,6 +35,11 @@ class MapViewHex(html.Div):
         super().__init__(
             className="map-hex-class",
             children=[
-                dash_deck.DeckGL(self.r.to_json(), id="map-view-hex")
+                dash_deck.DeckGL(
+                    self.r.to_json(),
+                    id="map-view-hex",
+                    style={'height': '90vh', 'width': '75vw', "align": "right"},
+                    tooltip=True,
+                )
             ],
         )
