@@ -4,6 +4,7 @@ from dash.dependencies import Input, Output
 from jbi100_app.data import get_data
 from jbi100_app.main import app
 from jbi100_app.views.barplot import Barplot
+from jbi100_app.views.heatmap import MapViewHeat
 from jbi100_app.views.hexagon import MapViewHex
 from jbi100_app.views.menu import make_menu_layout
 
@@ -12,7 +13,8 @@ df = get_data()
 
 # Instantiate custom views
 barplot = Barplot("Barplot", df)
-mapViewHex = MapViewHex("Map-view")
+mapViewHex = MapViewHex("Hexmap-view")
+mapViewHeat = MapViewHeat("Heatmap-view")
 
 # Define layout
 app.layout = html.Div(
@@ -35,7 +37,8 @@ app.layout = html.Div(
                     value='chart-view',
                     children=[
                         dcc.Tab(label='Chart View', value='chart-view'),
-                        dcc.Tab(label='Map View', value='map-view'),
+                        dcc.Tab(label='Hexmap View', value='hex-view'),
+                        dcc.Tab(label='Heatmap View', value='heat-view')
                     ]
                 ),
                 html.Div(id='tabs-content')
@@ -67,6 +70,8 @@ def update_x(feature_x_1, feature_x_2, start_date, end_date):
 def update_view(tab):
     if tab == 'chart-view':
         return html.Div([barplot])
+    elif tab == 'heat-view':
+        return html.Div([mapViewHeat])
     else:
         return html.Div([mapViewHex])
 

@@ -26,7 +26,7 @@ class MapViewHex(html.Div):
         longitude=-1.415, latitude=52.2323, zoom=6, min_zoom=5, max_zoom=15, pitch=40.5, bearing=-27.36,
     )
 
-    r = pdk.Deck(layers=[layer], initial_view_state=view_state)
+    r = pdk.Deck(layers=[layer], initial_view_state=view_state, map_style=pdk.map_styles.SATELLITE)
 
     def __init__(self, name):
         self.html_id = name.lower().replace(" ", "-")
