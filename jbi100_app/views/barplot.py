@@ -34,6 +34,7 @@ class Barplot(html.Div):
 
         self.fig.update_layout(
             xaxis_title=feature_x_2.replace("_", " "),
+            legend_title=feature_x_1.replace("_", " "),
             yaxis_title="Number of Accidents",
         )
 
