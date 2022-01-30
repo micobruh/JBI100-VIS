@@ -1,32 +1,24 @@
-import dash_deck
-import pydeck as pdk
-from dash import html
+import pandas as pd
+import plotly.figure_factory as ff
+from dash import html, dcc
 
 
 class MapViewHex(html.Div):
-    HEXAGON_LAYER_DATA = (
-        "https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/dataset_unique.csv"
-    )
+    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/pydeck-testing/dataset_unique.csv')
 
-    # Define a layer to display on a map
-    layer = pdk.Layer(
-        "HexagonLayer",
-        HEXAGON_LAYER_DATA,
-        get_position=["Longitude", "Latitude"],
-        auto_highlight=True,
-        elevation_scale=50,
-        pickable=True,
-        elevation_range=[0, 3000],
-        extruded=True,
-        coverage=1,
-    )
+    df['Latitude'] = df['Latitude'].astype(float)
+    df['Longitude'] = df['Longitude'].astype(float)
 
-    # Set the viewport location
-    view_state = pdk.ViewState(
-        longitude=-1.415, latitude=52.2323, zoom=6, min_zoom=5, max_zoom=15, pitch=40.5, bearing=-27.36,
+    fig = ff.create_hexbin_mapbox(
+        data_frame=df, lat="Latitude", lon="Longitude",
+        nx_hexagon=20, opacity=0.5, labels={"color": "Accident Count"},
+        min_count=1, color_continuous_scale="Viridis",
+        show_original_data=True,
+        original_data_marker=dict(size=2, opacity=0.1, color="deeppink")
     )
-
-    r = pdk.Deck(layers=[layer], initial_view_state=view_state, map_style=pdk.map_styles.SATELLITE)
+    fig.update_layout(mapbox_style="carto-darkmatter", mapbox_center_lat=51, mapbox_center_lon=0, width=1095,
+                      height=650)
+    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
     def __init__(self, name):
         self.html_id = name.lower().replace(" ", "-")
@@ -35,11 +27,6 @@ class MapViewHex(html.Div):
         super().__init__(
             className="map-hex-class",
             children=[
-                dash_deck.DeckGL(
-                    self.r.to_json(),
-                    id="map-view-hex",
-                    style={'height': '90vh', 'width': '75vw', "align": "right"},
-                    tooltip=True,
-                )
+                dcc.Graph(figure=self.fig)
             ],
         )

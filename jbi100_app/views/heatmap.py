@@ -1,31 +1,16 @@
-import dash_deck
-import pydeck as pdk
-from dash import html
-from pydeck.types import String
+import pandas as pd
+import plotly.graph_objects as go
+from dash import html, dcc
 
 
 class MapViewHeat(html.Div):
-    HEATMAP_LAYER_DATA = "https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/dataset_unique.csv"
+    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/pydeck-testing/dataset_map.csv')
 
-    # Set the viewport location
-    view_state = pdk.ViewState(
-        longitude=-1.415, latitude=52.2323, zoom=6, min_zoom=5, max_zoom=15, pitch=40.5, bearing=-27.36,
-    )
-
-    layer = pdk.Layer(
-        "HeatmapLayer",
-        data=HEATMAP_LAYER_DATA,
-        opacity=0.9,
-        get_position=["Longitude", "Latitude"],
-        threshold=0.75,
-        aggregation=String("SUM"),
-        pickable=True,
-    )
-
-    r = pdk.Deck(
-        layers=[layer],
-        initial_view_state=view_state,
-    )
+    fig = go.Figure(go.Densitymapbox(lat=df.Latitude, lon=df.Longitude,
+                                     hovertext="hello", hoverinfo="text", radius=5))
+    fig.update_layout(mapbox_style="carto-darkmatter", mapbox_center_lat=51, mapbox_center_lon=0, width=1095,
+                      height=650)
+    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
     def __init__(self, name):
         self.html_id = name.lower().replace(" ", "-")
@@ -34,11 +19,7 @@ class MapViewHeat(html.Div):
         super().__init__(
             className="map-heat-class",
             children=[
-                dash_deck.DeckGL(
-                    self.r.to_json(),
-                    id="map-view-heat",
-                    style={'height': '90vh', 'width': '75vw', "align": "right"},
-                    tooltip=False,
-                )
+                # TODO Change the size of the graph
+                dcc.Graph(figure=self.fig)
             ],
         )
