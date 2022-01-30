@@ -30,6 +30,7 @@ def generate_control_card():
     return html.Div(
         id="control-card",
         children=[
+            html.H6("Tools for the Chart View: "),
             dcc.DatePickerRange(
                 id='date-picker-range',
                 min_date_allowed=date(2015, 1, 1),
