@@ -41,6 +41,7 @@ app.layout = html.Div(
                         dcc.Tab(label='Heatmap View', value='heat-view')
                     ]
                 ),
+                # TODO make it fill the rest of the page
                 html.Div(id='tabs-content')
             ],
         ),
@@ -65,15 +66,24 @@ def update_x(feature_x_1, feature_x_2, start_date, end_date):
 
 @app.callback(
     Output('tabs-content', 'children'),
+    Output('left-column', 'children'),
     Input('tab-aggregator', 'value')
 )
 def update_view(tab):
     if tab == 'chart-view':
-        return html.Div([barplot])
+        return html.Div([barplot]), make_menu_layout(False)
     elif tab == 'heat-view':
-        return html.Div([mapViewHeat])
+        return html.Div([mapViewHeat]), make_menu_layout(True)
     else:
-        return html.Div([mapViewHex])
+        return html.Div([mapViewHex]), make_menu_layout(False)
+
+
+@app.callback(
+    Output('tabs-content', 'children'),
+    Input('select-z-attribute-dropdown', 'value')
+)
+def update_heatmap(attr):
+    return mapViewHeat.update_z_attr(attr)
 
 
 if __name__ == '__main__':

@@ -22,41 +22,57 @@ def generate_description_card():
     )
 
 
-def generate_control_card():
+def generate_control_card(isHeatMap):
     """
 
     :return: A Div containing controls for graphs.
     """
-    return html.Div(
-        id="control-card",
-        children=[
-            html.H6("Tools for the Chart View: "),
-            dcc.DatePickerRange(
-                id='date-picker-range',
-                min_date_allowed=date(2015, 1, 1),
-                max_date_allowed=date(2015, 12, 31),
-                initial_visible_month=date(2015, 1, 1),
-                start_date=date(2015, 1, 1),
-                end_date=date(2015, 12, 31)
-            ),
-            html.Br(),
-            html.Br(),
-            html.Label("First Attribute"),
-            dcc.Dropdown(
-                id="select-x-attribute-bar-1",
-                options=[{"label": i.replace("_", " "), "value": i} for i in final],
-                value=final[0],
-            ),
-            html.Br(),
-            html.Label("Second Attribute"),
-            dcc.Dropdown(
-                id="select-x-attribute-bar-2",
-                options=[{"label": i.replace("_", " "), "value": i} for i in final],
-                value=final[1],
-            ),
-        ], style={"textAlign": "float-left"}
-    )
+    if isHeatMap is True:
+        return html.Div(
+            id="control-card",
+            children=[
+                html.H6("Tools for the HeatMap View: "),
+                html.Br(),
+                html.Label("z Attribute"),
+                dcc.Dropdown(
+                    id="select-z-attribute-dropdown",
+                    options=[{"label": i.replace("_", " "), "value": i} for i in final],
+                    value=final[0],
+                ),
+            ],
+            style={"textAlign": "float-left"}
+        )
+    else:
+        return html.Div(
+            id="control-card",
+            children=[
+                html.H6("Tools for the Chart View: "),
+                dcc.DatePickerRange(
+                    id='date-picker-range',
+                    min_date_allowed=date(2015, 1, 1),
+                    max_date_allowed=date(2015, 12, 31),
+                    initial_visible_month=date(2015, 1, 1),
+                    start_date=date(2015, 1, 1),
+                    end_date=date(2015, 12, 31)
+                ),
+                html.Br(),
+                html.Br(),
+                html.Label("First Attribute"),
+                dcc.Dropdown(
+                    id="select-x-attribute-bar-1",
+                    options=[{"label": i.replace("_", " "), "value": i} for i in final],
+                    value=final[0],
+                ),
+                html.Br(),
+                html.Label("Second Attribute"),
+                dcc.Dropdown(
+                    id="select-x-attribute-bar-2",
+                    options=[{"label": i.replace("_", " "), "value": i} for i in final],
+                    value=final[1],
+                ),
+            ], style={"textAlign": "float-left"}
+        )
 
 
-def make_menu_layout():
-    return [generate_description_card(), generate_control_card()]
+def make_menu_layout(isHeatMap):
+    return [generate_description_card(), generate_control_card(isHeatMap)]
