@@ -6,7 +6,7 @@ import pandas as pd
 def get_data():
     # Supress memory warning at startup
     low_memory = False
-    return pd.read_csv("dataset_clean.csv")
+    return pd.read_csv("jbi100_app/datasets/dataset_clean.csv")
 
 
 def update_date(start_date, end_date):
