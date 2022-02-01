@@ -37,7 +37,7 @@ def generate_control_card(isHeatMap):
                 dcc.Dropdown(
                     id="select-z-attribute-dropdown",
                     options=[{"label": i.replace("_", " "), "value": i} for i in attributes_heat],
-                    value=final[0],
+                    value=attributes_heat[0],
                 ),
             ],
             style={"textAlign": "float-left"}
