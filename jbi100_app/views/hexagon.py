@@ -4,7 +4,7 @@ from dash import html, dcc
 
 
 class MapViewHex(html.Div):
-    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/dataset_unique.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/jbi100_app/datasets/dataset_unique.csv')
 
     df['Latitude'] = df['Latitude'].astype(float)
     df['Longitude'] = df['Longitude'].astype(float)

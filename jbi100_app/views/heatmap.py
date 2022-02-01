@@ -4,7 +4,7 @@ from dash import html, dcc
 
 
 class MapViewHeat(html.Div):
-    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/dataset_heatmap.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/jbi100_app/datasets/dataset_heatmap.csv')
 
     fig = go.Figure(go.Densitymapbox(lat=df.Latitude, lon=df.Longitude,
                                      hovertext="", hoverinfo="text", radius=5))
