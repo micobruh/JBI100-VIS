@@ -11,7 +11,7 @@ class Barplot(html.Div):
         super().__init__(
             className="graph_card",
             children=[
-                html.H6(name),
+                html.H6("Barplot"),
                 dcc.Graph(id=self.html_id)
             ],
         )
