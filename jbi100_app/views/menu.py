@@ -2,7 +2,7 @@ from datetime import date
 
 from dash import dcc, html
 
-from ..config import final
+from ..config import final, attributes_heat
 
 
 def generate_description_card():
@@ -36,7 +36,7 @@ def generate_control_card(isHeatMap):
                 html.Label("z Attribute"),
                 dcc.Dropdown(
                     id="select-z-attribute-dropdown",
-                    options=[{"label": i.replace("_", " "), "value": i} for i in final],
+                    options=[{"label": i.replace("_", " "), "value": i} for i in attributes_heat],
                     value=final[0],
                 ),
             ],

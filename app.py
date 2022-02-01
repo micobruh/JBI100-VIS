@@ -13,8 +13,8 @@ df = get_data()
 
 # Instantiate custom views
 barplot = Barplot("barplot", df)
-mapViewHex = MapViewHex("Hexmap-view")
-mapViewHeat = MapViewHeat("Heatmap-view")
+mapViewHex = MapViewHex("hexmap")
+mapViewHeat = MapViewHeat("heatmap")
 
 # Define layout
 app.layout = html.Div(
@@ -24,7 +24,7 @@ app.layout = html.Div(
         html.Div(
             id="left-column",
             className="three columns",
-            children=make_menu_layout()
+            children=make_menu_layout(False)
         ),
 
         # Right column
@@ -52,9 +52,9 @@ app.layout = html.Div(
 @app.callback(
     Output("barplot", "figure"),
     Input("select-x-attribute-bar-1", "value"),
-    Input("select-x-attribute-bar-2", 'value'),
+    Input("select-x-attribute-bar-2", "value"),
     Input("date-picker-range", "start_date"),
-    Input("date-picker-range", 'end_date'),
+    Input("date-picker-range", "end_date"),
 )
 def update_x(feature_x_1, feature_x_2, start_date, end_date):
     # df = update_date(start_date, end_date)
@@ -67,7 +67,7 @@ def update_x(feature_x_1, feature_x_2, start_date, end_date):
 @app.callback(
     Output('tabs-content', 'children'),
     Output('left-column', 'children'),
-    Input('tab-aggregator', 'value')
+    Input('tab-aggregator', 'value'),
 )
 def update_view(tab):
     if tab == 'chart-view':
@@ -79,7 +79,7 @@ def update_view(tab):
 
 
 @app.callback(
-    Output('tabs-content', 'children'),
+    Output('heatmap', 'figure'),
     Input('select-z-attribute-dropdown', 'value')
 )
 def update_heatmap(attr):
