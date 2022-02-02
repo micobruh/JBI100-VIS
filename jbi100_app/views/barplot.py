@@ -11,12 +11,12 @@ class Barplot(html.Div):
         super().__init__(
             className="graph_card",
             children=[
-                html.H6("Barplot"),
+                html.H6(name),
                 dcc.Graph(id=self.html_id)
             ],
         )
 
-    def update(self, feature_x_1, feature_x_2):
+    def update(self, feature_x_1, feature_x_2, type):
         self.fig = go.Figure()
 
         traces = []
@@ -45,6 +45,10 @@ class Barplot(html.Div):
             xaxis_zeroline=False,
             barmode='stack',
         )
+        if type == "Percentage":
+            self.fig.update_layout(
+                barnorm='percent',
+            )
 
         self.fig.update_layout(
             xaxis_title=feature_x_2.replace("_", " "),
