@@ -70,6 +70,13 @@ def generate_control_card(isHeatMap):
                     options=[{"label": i.replace("_", " "), "value": i} for i in final],
                     value=final[1],
                 ),
+                html.Br(),
+                html.Label("Show in Amount or Percentage"),
+                dcc.Dropdown(
+                    id="amount-or-percent",
+                    options=[{"label": 'Amount', "value": 'Amount'}, {"label": 'Percentage', "value": 'Percentage'}],
+                    value="Amount",
+                ),
             ], style={"textAlign": "float-left"}
         )
 
