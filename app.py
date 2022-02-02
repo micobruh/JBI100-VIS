@@ -53,15 +53,16 @@ app.layout = html.Div(
     Output("barplot", "figure"),
     Input("select-x-attribute-bar-1", "value"),
     Input("select-x-attribute-bar-2", "value"),
+    Input("amount-or-percent", 'value'),
     Input("date-picker-range", "start_date"),
     Input("date-picker-range", "end_date"),
 )
-def update_x(feature_x_1, feature_x_2, start_date, end_date):
+def update_x(feature_x_1, feature_x_2, type, start_date, end_date):
     # df = update_date(start_date, end_date)
     # print(df['Date'].tolist())
     #
     # barplot.reload_df(df)
-    return barplot.update(feature_x_1, feature_x_2)
+    return barplot.update(feature_x_1, feature_x_2, type)
 
 
 @app.callback(
