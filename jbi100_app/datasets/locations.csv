@@ -1,1608 +1,1605 @@
-latitude,longitude,city
-53.50302,-1.61249,Hunshelf
-53.57851,-1.39127,Brierley
-53.52458,-1.39355,Darfield
-53.50053,-1.43913,Hoyland
-51.35957,-2.37633,Bath
-51.4077,-2.49176,Keynsham
-51.32749,-2.53109,Clutton
-51.34644,-2.69071,Nempnett Thrubwell
-52.15113,-0.44614,Bedford
-52.12002,-0.47352,Kempston
-52.11837,-0.55684,Kempston Rural
-52.19402,-0.42563,Wilden
-52.39962,-1.93385,Tees Grove
-53.69781,-2.46503,Darwen
-53.54928,-2.51473,Westhoughton
-53.59142,-2.53941,Horwich
-51.34761,-0.78799,Sandhurst
-51.40655,-0.74904,Bracknell
-51.42729,-0.75423,Warfield
-53.84871,-1.83278,Bingley
-53.89646,-1.94673,Steeton
-53.84522,-1.95288,Keighley
-53.81179,-1.78888,Queensbury
-53.92058,-1.80356,Ilkley
-50.8402,-0.21452,Brighton
-51.60928,-0.70159,Chepping Wycombe
-51.63309,-0.74137,High Wycombe
-51.64839,-0.82913,Bledlow-cum-Saunderton
-51.65615,-0.71182,Hazlemere
-51.70208,-0.71775,Great Missenden
-51.81347,-0.98155,Ashendon
-51.80641,-0.80473,Aylesbury
-51.80601,-0.76558,Weston Turville
-51.71944,-0.83019,Princes Risborough
-51.71251,-0.60744,Chesham
-51.66487,-0.6089,Amersham
-51.64286,-0.57344,Chalfont St Giles
-51.61035,-0.63801,Beaconsfield
-51.52431,-0.51371,Iver
-51.57411,-0.7762,Marlow
-51.57786,-0.70682,Wooburn
-51.59677,-0.55467,Chalfont St Peter
-51.58157,-0.49019,Denham Green
-53.64526,-2.31468,Ramsbottom
-53.69779,-1.92426,Halifax
-53.73916,-2.00758,Hebden Royd
-53.71395,-2.0985,Todmorden
-52.17611,0.18955,Fulbourn
-52.16276,0.13333,Great Shelford
-52.13194,0.29553,Balsham
-52.12718,0.12898,Little Shelford
-52.21349,-0.02215,Highfields
-52.31538,0.02762,Over
-52.26083,0.23615,Lode
-52.21324,0.02448,Hardwick
-52.24312,0.11521,Impington
-52.23868,0.21021,Stow cum Quy
-52.40388,0.22434,Downham
-52.36606,0.32087,Soham
-52.23083,0.42659,Woodditton
-52.66895,0.13868,Wisbech
-52.53589,0.08649,March
-52.45379,0.05022,Chatteris
-52.24203,-0.2584,St Neots
-52.45292,-0.1132,Ramsey
-52.35784,-0.18629,The Stukeleys
-52.33345,-0.17848,Huntingdon
-52.53877,-0.19801,Farcet
-52.06369,-0.01293,Melbourn
-51.90829,-0.5127,Thorn
-51.87711,-0.53552,Dunstable
-51.90921,-0.66388,Leighton-Linslade
-52.02462,-0.46803,Maulden
-52.01276,-0.26149,Arlesey
-52.01507,-0.29638,Henlow
-52.03445,-0.33063,Shefford
-52.08208,-0.26609,Biggleswade
-53.18907,-2.44604,Middlewich
-53.1426,-2.36482,Sandbach
-53.16455,-2.21093,Congleton
-53.08119,-2.44642,Crewe
-52.99952,-2.40534,Bridgemere
-53.20648,-2.34739,Holmes Chapel
-53.062,-2.52084,Nantwich
-53.35169,-2.09165,Poynton
-53.32723,-2.22975,Macclesfield
-53.3026,-2.37068,Knutsford
-53.20173,-2.90732,Chester
-53.27704,-2.93442,Ellesmere Port
-53.16197,-2.66565,Tarporley
-53.19054,-2.52688,Winsford
-53.2533,-2.56363,Weaverham
-53.25897,-2.50074,Northwich
-53.02924,-2.76203,Malpas
-53.27222,-2.72285,Frodsham
-51.45769,-2.57291,Bristol
-53.75567,-0.28589,Hull
-50.82366,-4.53323,Bude
-50.34537,-4.21106,Rame
-50.3725,-4.2503,Antony
-50.41932,-4.2483,Saltash
-50.35715,-4.47456,Looe
-50.46351,-4.4646,Liskeard
-50.63218,-4.39987,South Petherwin
-50.51625,-4.3051,Callington
-50.51523,-4.21899,Calstock
-50.40273,-4.65146,Lostwithiel
-50.33653,-4.63513,Fowey
-50.35461,-4.70925,St Blaise
-50.34038,-4.77872,St Austell
-50.34196,-4.8252,St Mewan
-50.52248,-4.87408,St Breock
-50.53366,-4.96651,Padstow
-50.58564,-4.82988,St Endellion
-50.49992,-4.72743,Helland
-50.46858,-4.7214,Bodmin
-50.63282,-4.66015,Camelford
-50.6213,-4.73021,St Teath
-50.6597,-4.74234,Tintagel
-50.68444,-4.68431,Forrabury and Minster
-50.26241,-5.05347,Truro
-50.16624,-5.11736,Penryn
-50.14907,-5.08684,Falmouth
-50.0431,-5.17923,St Keverne
-50.10945,-5.28435,Helston
-50.20987,-5.29686,Camborne
-50.23272,-5.21988,Redruth
-50.12482,-5.46735,Marazion
-50.1163,-5.54089,Penzance
-50.10012,-5.62783,Sancreed
-50.25334,-4.95186,Tregoney
-50.13138,-5.48882,Ludgvan
-50.20276,-5.4786,St Ives
-50.18162,-5.4028,Hayle
-50.21684,-5.10944,Perranarworthal
-50.28359,-5.13626,Kenwyn
-50.30819,-5.19127,St Agnes
-50.34167,-5.15134,Perranporth
-50.41304,-5.073,Newquay
-50.39869,-5.03689,Colan
-50.41387,-4.93648,St Columb Major
-54.78103,-1.56616,Durham
-54.85933,-1.59648,Chester-le-Street
-54.87181,-1.56675,North Lodge
-54.75276,-1.46391,Shadforth
-54.78943,-1.66406,Esh
-54.85541,-1.84422,Burnhope
-54.86773,-1.70704,Stanley
-54.57239,-1.98453,Cotherstone
-54.71619,-1.95343,Stanhope
-54.7096,-1.72836,Lcp Stanhope and Wolsingham Parishes And
-54.69848,-1.60429,Spennymoor
-54.68118,-1.54086,Ferryhill
-54.63029,-1.64368,Shildon
-54.61749,-1.57565,Great Aycliffe
-54.83046,-1.36168,Dalton-le-Dale
-54.7665,-1.33471,Peterlee
-54.62676,-1.42529,Sedgefield
-54.72309,-1.28728,Monk Hesleden
-54.72536,-1.37265,Hutton Henry
-54.71032,-1.41945,Trimdon
-52.06415,-2.66963,Hampton Bishop
-52.0095,-2.78393,Allensmore
-52.09353,-3.07446,Clifford
-52.08784,-2.76632,Burghill
-52.19196,-3.02708,Kington Rural
-52.23258,-2.77028,Leominster
-52.18629,-2.52079,Bromyard
-52.04454,-2.44331,Ledbury
-51.90816,-2.58153,Ross-on-Wye
-52.09433,-2.34161,Colwall
-52.44378,-1.563,Hawkes End
-54.61104,-2.65966,Cliburn
-54.66422,-2.78611,Catterlen
-54.60214,-3.13326,Keswick
-54.65997,-3.36589,Cockermouth
-54.63454,-3.53704,Workington
-54.71165,-3.48096,Maryport
-54.57413,-2.48269,Appleby-in-Westmorland
-54.47841,-2.35037,Kirkby Stephen
-54.38651,-3.38297,Muncaster
-54.40987,-3.46081,Gosforth
-54.44516,-3.51451,Beckermet
-54.51493,-3.54181,Egremont
-54.52243,-3.51737,Cleator Moor
-54.54445,-3.48108,Arlecdon
-54.49091,-3.59186,St Bees
-54.54324,-3.57689,Whitehaven
-54.9076,-2.93904,Carlisle
-54.84636,-2.83326,Wetheral
-54.85485,-3.0157,Orton
-54.99423,-2.8926,Kirklinton
-54.80696,-3.23702,Waverton
-54.93895,-2.68531,Brampton
-54.80176,-2.4185,Alston
-54.31433,-2.49348,Sedbergh
-54.20034,-2.92446,Grange-over-Sands
-54.20351,-3.08246,Ulverston
-54.1185,-3.2302,Dalton-in-Furness
-54.15588,-3.1777,Dalton Town with Newton
-54.1862,-3.20155,Ireleth
-54.2386,-3.17545,Kirkby Ireleth
-54.21512,-3.27448,Millom
-54.29312,-3.37523,Bootle
-54.29404,-3.20469,Broughton West
-54.3645,-3.07283,Coniston
-54.42276,-2.98649,Lakes
-54.37122,-2.91136,Windermere
-54.22568,-2.77162,Milnthorpe
-54.32563,-2.74273,Kendal
-54.5286,-1.6013,Halnaby Ave
-52.90852,-1.54049,Mickleover
-52.77372,-1.55377,Swadlincote
-52.72516,-1.55279,Overseal
-53.12707,-1.56357,Matlock Bath
-53.21464,-1.6765,Bakewell
-53.10104,-1.37114,Alfreton
-53.02152,-1.47369,Belper
-52.99358,-1.7169,Osmaston
-52.86651,-1.60927,Hilton
-52.8933,-1.35929,Draycott
-52.84694,-1.43571,Swarkestone
-53.01284,-1.35305,Heanor
-52.90005,-1.28187,Ilkeston
-53.29931,-1.47178,Dronfield
-53.31213,-1.33802,Eckington
-53.29454,-1.63839,Grindleford
-53.3415,-1.72061,Aston
-53.24696,-1.42746,Chesterfield
-53.20019,-1.42209,Wingerworth
-53.2672,-1.34172,Staveley
-53.22478,-1.31241,Bolsover
-53.16602,-1.42106,Clay Cross
-53.4479,-1.96386,Glossop
-53.24378,-1.87861,King Sterndale
-53.3724,-1.98497,New Mills
-53.32744,-1.94895,Chapel-en-le-Frith
-50.69252,-3.24461,Sidmouth
-50.74603,-3.28714,Ottery St Mary
-50.70585,-3.08066,Seaton
-50.78655,-3.00733,Axminster
-50.81272,-3.1896,Honiton
-50.87675,-3.33907,Kentisbeare
-50.92258,-3.49122,Tiverton
-50.81176,-3.70205,Sandford
-50.90155,-3.88739,Chawleigh
-50.87712,-4.0044,Dowland
-50.75004,-4.01882,Okehampton Hamlets
-50.80507,-4.20857,Black Torrington
-50.82804,-4.3673,Holsworthy Hamlets
-50.73816,-3.08849,Colyton
-51.07115,-4.01849,Barnstaple
-51.11343,-4.16894,Braunton
-51.19829,-4.10278,Ilfracombe
-51.2236,-3.82749,Lynton
-51.01638,-3.79224,Bishops Nympton
-50.97875,-3.95179,High Bickington
-50.94376,-4.15107,Little Torrington
-51.01394,-4.24557,Abbotsham
-50.73055,-3.52621,Exeter
-50.75684,-3.43916,Broad Clyst
-50.67744,-3.59668,Doddiscombsleigh
-50.59183,-3.47227,Dawlish
-50.62958,-3.40133,Exmouth
-50.6386,-3.32239,Budleigh Salterton
-50.64562,-4.26757,Lifton
-50.55602,-4.15454,Tavistock
-50.50125,-4.09986,Horrabridge
-50.38566,-3.91748,Ivybridge
-50.33548,-4.01243,Yealmpton
-50.42412,-3.81906,South Brent
-50.48137,-3.78179,Buckfast
-50.52882,-3.61142,Newton Abbot
-50.59296,-3.71817,Bovey Tracey
-50.55002,-3.50626,Teignmouth
-50.34655,-3.58837,Dartmouth
-50.28256,-3.78278,Kingsbridge
-50.23686,-3.77125,Salcombe
-50.41619,-3.68924,Totnes
-53.45158,-1.08284,Tickhill
-53.48313,-1.22082,Conisbrough
-53.54578,-1.05817,Edenthorpe
-53.53763,-1.17153,Brodsworth
-53.5961,-1.17643,Owston
-53.61415,-0.95535,Thorne
-50.73783,-2.04394,Upton
-50.61102,-1.9689,Swanage
-50.68648,-2.14582,Wareham
-50.81248,-1.97303,Colehill
-50.80524,-1.88787,Ferndown
-50.87537,-1.87207,Verwood
-50.71093,-2.44052,Dorchester
-50.93702,-2.33306,Sturminster Newton
-50.86091,-2.18047,Bryanston
-50.74955,-2.45365,Charminster
-50.60921,-2.4636,Weymouth
-50.54724,-2.44041,Portland
-50.73886,-2.77528,Allington
-50.7286,-2.94657,Lyme Regis
-50.81632,-2.7581,Beaminster
-50.94086,-2.51529,Castleton
-51.0039,-2.18245,Shaftesbury
-52.45177,-2.06622,Hurst Green
-53.70747,-0.93638,Airmyn
-53.82572,-0.21921,Ellerby
-53.72369,-0.13105,Burstwick
-53.72446,-0.43572,Hessle
-53.72799,-0.50078,North Ferriby
-53.74831,-0.62139,Ellerker
-53.8466,-0.42661,Cottingham
-53.90944,-0.16692,Hornsea
-53.72277,0.03566,Withernsea
-53.78836,-0.51229,Rowley
-54.09514,-0.20004,Bridlington
-54.00465,-0.41302,Driffield
-53.96966,-0.90227,Catton
-53.92274,-0.7908,Barmby Moor
-53.84976,-0.68952,Market Weighton
-50.7953,0.00232,Peacehaven
-50.79764,0.31325,Eastbourne
-50.81618,0.3312,Westham
-50.77633,0.10932,Seaford
-50.82098,0.22352,Long Man
-50.87146,0.2643,Hailsham
-50.87719,0.00014,Lewes
-50.91318,0.05148,Ringmer
-50.79536,0.05058,Newhaven
-51.09702,0.03104,Forest Row
-51.00262,0.40754,Burwash
-51.02633,0.25615,Mayfield
-50.95871,0.26427,Heathfield
-50.98067,0.10005,Uckfield
-50.96233,0.68748,Peasmarsh
-50.9793,0.4904,Salehurst
-50.91032,0.47676,Battle
-50.92061,0.70216,Icklesham
-50.86297,0.54531,Hastings
-50.84449,0.48463,Bexhill
-51.06471,0.36223,Wadhurst
-51.05216,0.17464,Crowborough
-51.09204,0.10938,Hartfield
-52.02989,0.26551,Saffron Walden
-51.66221,0.83719,Southminster
-51.74454,0.45694,Chelmsford
-51.62757,0.41593,Billericay
-51.64328,0.30545,Brentwood
-51.69981,0.12161,Epping
-51.72141,0.48754,Great Baddow
-51.77476,0.10483,Harlow
-51.86164,0.22218,Great Hallingbury
-51.8988,0.20657,Stansted Mountfitchet
-51.71932,0.58445,Danbury
-51.67392,0.39235,Ingatestone
-51.72083,0.24857,Ongar
-51.8768,0.36678,Great Dunmow
-51.89752,0.53797,Braintree
-51.80536,0.6387,Witham
-51.74097,0.70159,Heybridge
-51.94126,1.0789,Mistley
-51.93115,1.25427,Harwich
-51.84979,1.26873,Frinton and Walton
-51.7962,1.15605,Clacton-on-Sea
-51.82039,1.1258,Little Clacton
-51.90654,0.92383,Colchester
-51.81459,0.82209,Layer Breton
-51.92419,0.78968,Fordham
-51.8838,1.0052,Elmstead
-51.97328,0.76797,Bures Hamlet
-51.96878,0.61043,Sible Hedingham
-51.69451,0.01427,Waltham Abbey
-51.62391,0.04004,Loughton
-51.63255,0.16038,Stapleford Abbotts
-51.60556,0.52164,Wickford
-51.56201,0.4543,Basildon
-51.59406,0.71452,Rochford
-51.60722,0.6503,Hockley
-51.58746,0.60872,Rayleigh
-51.5222,0.59057,Canvey Island
-53.16823,-2.93803,Saltney
-53.20424,-3.04064,Shotton
-53.25003,-3.14518,Flint
-53.16924,-3.13256,Mold
-53.28144,-3.24053,Holywell
-54.9324,-1.69096,Wickham and Dunston
-54.96584,-1.77193,Blaydon
-51.7429,-2.28391,Stonehouse
-51.68875,-2.35591,Dursley
-51.69289,-2.45867,Berkeley
-51.81691,-2.47879,Littledean
-51.73656,-2.55036,Lydney
-51.79561,-2.61054,Coleford
-51.85542,-2.51405,Drybrook
-51.94124,-2.41464,Oxenhall
-51.94252,-2.28662,Ashleworth
-52.00304,-2.12966,Ashchurch
-51.86451,-2.17719,Hucclecote
-51.84196,-2.2163,Gloucester
-51.73855,-2.2187,Rodborough
-51.91588,-2.05816,Prestbury
-51.88081,-2.06684,Cheltenham
-51.89693,-1.86338,Naunton
-52.06043,-1.76806,Chipping Campden
-51.98836,-1.70435,Moreton-in-Marsh
-51.735,-2.19117,Thrupp
-51.71263,-1.89723,Ampney St Mary
-51.64151,-2.17054,Tetbury
-51.45484,0.14046,Bexley
-51.47574,0.17745,Crayford
-51.52789,-0.02482,Poplar
-51.62196,-0.00339,Walthamstow
-51.5256,0.05583,East Ham
-51.54678,0.02793,Stratford
-51.60965,-0.30727,Harrow
-51.60694,0.0335,Ilford
-51.36405,-0.30197,Kingston Upon Thames
-51.57052,-0.1009,Hackney
-51.55277,-0.11607,Islington
-51.58335,-0.11625,Tottenham
-51.62825,-0.05659,Enfield
-51.61488,-0.23484,Barnet
-51.5864,-0.25472,Brent
-51.5748,0.17063,Romford
-51.54036,0.13582,Barking
-51.41151,-0.05716,Bromley
-51.39742,-0.07501,Croydon
-51.47322,-0.09055,Camberwell
-51.48369,0.03521,Greenwich
-51.48118,-0.02828,Lewisham
-51.44465,0.05651,Eltham
-51.35984,-0.14267,Sutton
-51.4496,-0.18941,Wandsworth
-51.41058,-0.22547,Merton
-51.46907,-0.11232,Lambeth
-51.53911,-0.34306,Southall
-51.53458,-0.473,Hillingdon
-51.49118,-0.26268,Hounslow
-51.49246,-0.22805,Hammersmith
-51.5111,-0.33398,Ealing
-51.50003,-0.19317,Kensington
-51.52607,-0.1907,Paddington
-51.51339,-0.12778,Camden Town
-53.52143,-2.21269,Manchester
-53.36309,-2.27653,Ringway
-53.37189,-2.74107,Runcorn
-50.84377,-1.78551,Ringwood
-50.75173,-1.65692,New Milton
-51.24841,-0.76194,Aldershot
-51.29246,-0.76075,Farnborough
-51.32959,-0.78559,Blackwater and Hawley
-51.07435,-0.80228,Liphook
-50.9962,-0.90263,Petersfield
-51.00849,-0.96934,Stroud
-51.04915,-0.89139,Liss
-51.13902,-0.98359,Alton
-51.11617,-0.84692,Lindford
-51.3372,-0.82559,Yateley
-50.7918,-0.97553,South Hayling
-50.81229,-1.17808,Gosport
-50.88957,-1.16819,Wickham
-50.88227,-1.03753,Southwick
-50.91084,-1.01275,Horndean
-50.86291,-0.9825,Havant
-51.28094,-1.0708,Basingstoke
-51.22767,-1.16211,Dummer
-51.34966,-1.11824,Pamber
-51.29963,-0.94132,Hook
-51.23327,-1.33391,Whitchurch
-51.24751,-0.94538,Odiham
-51.11361,-1.50422,Longstock
-51.06765,-1.30774,Winchester
-51.08367,-1.14615,Bishops Sutton
-50.91924,-1.30568,Hedge End
-50.86882,-1.29506,Locks Heath
-50.9474,-1.20845,Bishops Waltham
-50.91484,-1.50065,Totton
-50.75502,-1.56473,Lymington
-50.80976,-1.53442,Denny Lodge
-50.88729,-1.58341,Lyndhurst
-50.994,-1.50407,Romsey
-50.97663,-1.44015,North Baddesley
-50.98442,-1.38022,Eastleigh
-51.21065,-1.48314,Andover
-51.22696,-1.51303,Charlton
-50.93553,-1.80074,Fordingbridge
-51.23018,-1.66053,South Tidworth
-51.72064,-0.33353,St Albans
-51.77781,-0.37057,Redbourn
-51.77133,-0.29398,Sandridge
-51.81622,-0.35177,Harpenden
-51.83104,-0.19737,Welwyn
-51.80334,-0.20863,Welwyn Garden City
-51.74472,-0.19791,Hatfield
-51.81177,0.14718,Sawbridgeworth
-51.87178,0.16021,Bishops Stortford
-51.76502,-0.00723,Hoddesdon
-51.69799,-0.03189,Broxbourne
-51.79496,-0.66001,Tring
-51.73689,-0.47054,Hemel Hempstead
-51.76688,-0.56663,Berkhamsted
-51.8446,0.07178,Much Hadham
-51.88125,0.03278,Standon
-51.81375,-0.01669,Ware
-51.8962,-0.16569,Stevenage
-51.86046,-0.18022,Knebworth
-51.921,-0.25922,Ippollitts
-51.96727,-0.28654,Ickleford
-51.97888,-0.22057,Hitchin
-52.00335,-0.17443,Bygrave
-51.9458,-0.00796,Buntingford
-51.6315,-0.39027,Watford Rural
-51.64554,-0.3652,Potters Bar
-51.68363,-0.38842,Watford
-51.6453,-0.48085,Chorleywood
-51.70882,-0.45556,Kings Langley
-51.7047,-0.41662,Abbots Langley
-51.65684,-0.27514,Borehamwood
-51.68611,-0.30876,Radlett
-50.75286,-1.30531,Cowes
-50.71557,-1.11178,Nettlestone
-50.68657,-1.08401,Bembridge
-50.65748,-1.1624,Sandown
-50.63151,-1.177,Shanklin
-50.60406,-1.24108,Ventnor
-50.68027,-1.53853,Totland
-50.68199,-1.52011,Freshwater
-50.69979,-1.47744,Yarmouth
-49.96401,-6.29276,Isles of Scilly
-51.39751,0.1766,Swanley
-51.36208,1.43073,Broadstairs
-51.34216,1.37322,Manston
-51.26692,1.33042,Sandwich
-51.17109,1.28343,Whitfield
-51.12845,1.29613,Dover
-51.11447,1.15078,Hawkinge
-51.07899,1.16551,Folkestone
-51.07233,1.07795,Hythe
-51.27743,1.21213,Wingham
-51.22462,1.06805,Lower Hardres
-51.3642,1.13054,Canterbury
-51.37122,1.30062,Birchington
-51.38304,1.3906,Margate
-51.44637,0.20915,Dartford
-51.44445,0.30837,Swanscombe
-51.42757,0.38809,Gravesend
-51.38235,0.35555,Meopham Station
-51.4315,0.23433,Darenth
-51.38417,0.30965,Hartley
-51.39106,0.23236,Horton Kirby
-51.41247,0.74833,Queenborough
-51.30275,0.89675,Faversham
-51.27414,0.49915,Maidstone
-51.23484,0.61021,Leeds
-51.24426,0.42301,West Farleigh
-51.29307,0.41123,West Malling
-51.30467,0.45919,Ditton
-51.32662,0.4417,Snodland
-51.33297,0.72491,Sittingbourne
-51.17194,0.44067,Yalding
-51.27593,0.18519,Sevenoaks
-51.29525,0.16172,Dunton Green
-51.29951,0.26953,Wrotham
-51.0961,0.5381,Cranbrook
-51.04328,0.52665,Four Throws
-51.14917,0.88712,Ashford
-51.14426,0.93972,Wye
-51.09988,0.80547,Shadoxhurst
-51.16519,0.70642,Smarden
-50.98202,0.95226,New Romney
-50.99327,0.93444,St Mary In The Marsh
-51.06195,0.69753,Tenterden
-51.1459,0.25912,Royal Tunbridge Wells
-51.1942,0.07969,Edenbridge
-51.19053,0.27705,Tonbridge
-53.62404,-1.87601,Huddersfield
-53.6012,-1.6796,Kirkburton
-53.57988,-1.79457,Holme
-53.68034,-1.69263,Mirfield
-53.71885,-1.64082,Dewsbury
-53.3641,-2.83262,Halewood
-53.48965,-2.87577,Kirkby
-53.41439,-2.83962,Hyton
-53.78294,-2.25196,Burnley
-53.80353,-2.29005,Ightenhill
-53.91433,-2.17053,Salterforth
-53.79238,-2.41598,Accrington
-53.87338,-2.38636,Clitheroe
-53.83695,-2.21429,Newchurch
-53.91635,-3.02629,Hardhorn and Thornton
-53.75026,-3.001,Lytham Saint Annes
-53.60227,-2.84032,Burscough
-54.06537,-2.6739,Caton
-54.06964,-2.85125,Lancaster
-54.14287,-2.78998,Warton
-54.17537,-2.61134,Whittingham
-53.70034,-2.20299,Rawtenstall
-53.77753,-2.70722,Preston
-53.68743,-2.74054,Leyland
-53.86826,-2.71636,Claughton
-53.75335,-2.83271,Freckleton
-53.73107,-2.65641,Bamber Bridge
-53.6448,-2.65205,Chorley
-53.55242,-2.76838,Ormskirk
-53.85958,-1.52709,Harewood
-53.87365,-1.71251,Guiseley
-53.91132,-1.67876,Otley
-53.93179,-1.39375,Wetherby
-53.90372,-1.35458,Boston Spa
-53.78584,-1.33059,Micklefield
-53.75227,-1.44791,Rothwell
-53.74839,-1.60266,Gildersome
-52.60942,-1.11531,Oadby
-52.61217,-1.41362,Market Bosworth
-52.84368,-1.32884,Lockington
-52.76641,-1.19217,Loughborough
-52.7838,-0.89527,Melton Mowbray
-52.4669,-1.17706,Gilmorton
-52.58332,-1.11141,Wigston
-52.66244,-1.24141,Groby
-52.74819,-1.4681,Ashby-de-la-Zouch
-52.71619,-1.36041,Coalville
-52.67739,-1.06808,Barkby
-52.55264,-1.09728,Kilby
-52.57012,-1.28728,Hinckley
-53.51089,-0.03636,Tetney
-53.56115,-0.39192,Bigby
-53.25883,-0.58621,Burton
-53.15858,-0.21703,Woodhall Spa
-53.3732,0.02496,Louth
-53.3293,0.2662,Mablethorpe
-53.25429,-0.5084,Nettleham
-53.24325,-0.41885,Fiskerton
-53.15018,-0.38489,Dunston
-53.17126,-0.55617,Waddington
-53.20319,-0.59403,Lincoln
-53.49216,-0.34327,Caistor
-53.37321,-0.32384,Linwood
-53.21719,-0.11124,Horncastle
-52.9142,-0.6391,Grantham
-52.94939,-0.64991,Great Gonerby
-52.81819,-0.57829,Burton Coggles
-52.98753,-0.39096,Sleaford
-52.77693,-0.3765,Bourne
-52.80714,-0.16616,Pinchbeck
-52.78328,0.0286,Fleet
-52.932,-0.10136,Swineshead
-52.97477,-0.02203,Boston
-53.04826,0.0455,Old Leake
-53.17244,0.09181,Spilsby
-53.16561,0.26804,Burgh Le Marsh
-53.15261,0.33616,Skegness
-52.65562,-0.25531,Deeping St James
-52.65422,-0.48012,Stamford
-53.49118,-3.02203,Crosby
-53.37827,-2.86296,Garston
-51.51145,-0.11921,Westminster
-51.39136,0.4854,Strood
-51.43322,0.54668,Hoo St Werburgh
-51.34896,0.53338,Rochester
-51.36102,0.5987,Gillingham
-54.52141,-1.23054,Stainton
-52.05741,-0.81555,Stony Stratford
-52.05258,-0.78359,Bradwell
-52.05955,-0.76152,Stantonbury
-52.05739,-0.72802,Willen
-52.08879,-0.72129,Newport Pagnell
-51.99235,-0.70074,Bow Brickhill
-51.99651,-0.75306,Bletchley
-52.00397,-0.77762,Shenley Brook End
-52.15411,-0.69165,Clifton Reynes
-52.02021,-0.78301,Shenley Church End
-52.02967,-0.74193,Woughton On The Green
-52.01921,-0.68976,Walton
-52.0357,-0.803,Bradwell Abbey
-55.04642,-1.64469,Brunswick
-54.99621,-1.68735,Newburn
-54.99947,-1.57788,Byker
-52.40601,1.3215,Harleston
-52.41869,0.75903,Thetford
-52.58588,0.83892,Ovington
-52.50733,0.57739,Methwold
-52.73642,1.24582,Hevingham
-52.84173,1.27596,Erpingham
-52.75971,1.47144,Smallburgh
-52.63372,1.47327,Blofield
-52.56445,1.3807,Alpington
-52.50639,1.2701,Hempnall
-52.476,1.06162,Old Buckenham
-52.51544,0.99655,Attleborough
-52.57095,1.11105,Wymondham
-52.67542,0.92907,Scarning
-52.72449,0.98124,Swanton Morley
-52.84097,0.85257,Fakenham
-52.89366,0.86793,Walsingham
-52.94872,0.85966,Wells-next-the-Sea
-52.85851,1.05135,Briston
-52.91969,1.08541,Holt
-52.93511,1.21602,Sheringham
-52.92467,1.30157,Cromer
-52.82203,1.40068,North Walsham
-52.57614,1.71087,Great Yarmouth
-52.66074,1.2831,Norwich
-52.67798,1.21188,Taverham
-52.63574,1.10973,Marlingford
-52.63884,0.21112,Emneth
-52.75978,0.41884,King's Lynn
-52.87538,0.56647,Snettisham
-52.73016,0.62756,West Acre
-52.64814,0.46886,Shouldham
-52.7245,0.33986,Wiggenhall St Germans
-52.8253,0.51155,Sandringham
-52.936,0.50754,Old Hunstanton
-52.64414,0.69336,Swaffham
-52.58977,0.37698,Denver
-53.55494,-0.03583,Cleethorpes
-53.54033,-0.13461,Bradley
-53.6208,-0.22331,Immingham
-53.58351,-0.19466,Stallingborough
-53.5721,-0.70114,Burringham
-53.68055,-0.44643,Barton-Upon-Humber
-53.68387,-0.35847,Barrow-Upon-Humber
-53.617,-0.33385,Ulceby
-53.50661,-0.89316,Haxey
-51.47916,-2.75176,Portbury
-51.43443,-2.84886,Clevedon
-51.34266,-2.97065,Weston-Super-Mare
-51.32769,-2.93158,Hutton
-51.32039,-2.82522,Winscombe
-51.33081,-2.87709,Banwell
-51.42221,-2.65158,Long Ashton
-51.42523,-2.748,Nailsea
-51.3798,-2.81767,Yatton
-55.0246,-1.56823,Longbenton
-53.99264,-2.05339,Thorlby
-54.07773,-2.27361,Langcliffe
-54.41381,-1.69025,Skeeby
-54.43841,-1.8751,Marske
-54.37042,-1.38885,Winton
-54.33761,-1.48471,Yafforth
-54.29267,-1.78489,Spennithorne
-54.37521,-1.70902,Colburn
-53.98722,-1.52565,Harrogate
-54.03069,-1.61676,Clint
-54.15636,-1.5666,North Stainley
-54.013,-1.45668,Knaresborough
-53.86987,-1.25168,Grimston
-54.46614,-1.16368,Great and Little Broughton
-54.27356,-0.42267,Scarborough
-54.28798,-0.49587,Stainton Dale
-54.19903,-0.29672,Muston
-54.13631,-0.75397,Settrington
-54.2587,-0.76717,Pickering
-54.47654,-0.71123,Hutton Mulgrave
-54.45038,-0.62104,Snainton
-54.08182,-1.37628,Boroughbridge
-54.08237,-0.94057,Thornton-le-Clay
-54.11579,-1.1937,Easingwold
-54.24282,-0.99325,Nawton
-54.2237,-1.3496,Sowerby
-53.7813,-1.05745,Selby
-52.48616,-0.89244,Dingley
-52.07215,-0.85164,Cosgrove
-52.2915,-0.59668,Rushden
-52.24033,-1.17833,Badby
-52.12744,-0.99778,Towcester
-52.0324,-1.14715,Brackley
-52.40948,-0.69145,Warkton
-52.40531,-0.72098,Kettering
-52.47986,-0.7144,Corby
-52.2599,-0.66362,Wollaston
-52.24732,-0.92916,Duston
-52.32208,-0.9435,Spratton
-52.20954,-0.92714,Northampton
-52.30254,-0.69754,Wellingborough
-52.33288,-0.59831,Irthlingborough
-52.07291,-1.28938,Middleton Cheney
-52.52694,-0.44176,Tansor
-55.03787,-1.86072,Stamfordham
-55.17901,-2.0958,Elsdon
-55.05304,-1.78553,Ponteland
-55.12238,-1.52013,Blyth
-54.9758,-1.81875,Wylam
-54.96237,-1.85474,Prudhoe
-54.94804,-1.90475,Stocksfield
-54.94268,-1.97814,Broomhaugh and Riding
-54.97683,-2.01563,Corbridge
-54.97948,-2.10626,Hexham
-54.92894,-2.25127,Allendale
-55.13114,-2.25724,Bellingham
-54.96698,-2.45927,Haltwhistle
-55.18045,-1.68905,Morpeth
-55.18437,-1.51467,Wansbeck
-55.3127,-1.75104,Newton on the Moor
-55.42858,-1.73135,Denwick
-55.53363,-1.6926,Ellingham
-55.57398,-1.65739,North Sunderland
-55.60468,-1.71586,Bamburgh
-55.59409,-1.81591,Belford
-55.55558,-2.04439,Akeld
-52.89934,-1.17335,Clifton
-53.42705,-0.94339,Everton
-52.91104,-1.05415,Cotgrave
-52.94767,-0.92087,Bingham
-53.01519,-1.03696,Lowdham
-53.02688,-1.29319,Greasley
-53.11569,-1.26035,Sutton in Ashfield
-53.15933,-1.19678,Mansfield
-52.935,-1.131,West Bridgford
-53.20958,-1.18386,Warsop
-53.14069,-1.10443,Rainworth
-53.17826,-0.97046,Ompton
-53.11553,-0.80012,North Muskham
-53.06966,-0.79841,Newark-on-Trent
-53.07294,-0.95506,Southwell
-52.97062,-1.08561,Carlton
-52.92583,-1.23533,Beeston
-53.29205,-1.14928,Clumber and Hardwick
-53.3377,-1.12134,Carlton in Lindrick
-53.57191,-2.10874,Shaw
-53.55309,-2.00906,Saddleworth
-51.60781,-1.12625,Wallingford
-51.59965,-1.24626,Didcot
-51.59437,-1.42537,Wantage
-51.67849,-1.34765,Marcham
-51.66728,-1.2755,Culham
-52.03219,-1.40666,Tadmarton
-52.06241,-1.34061,Banbury
-51.76232,-1.59134,Carterton
-51.85659,-1.35814,Woodstock
-51.90067,-1.21216,Chesterton
-51.93709,-1.14751,Fringford
-51.78529,-1.48675,Witney
-51.79403,-1.43154,Eynsham
-51.75813,-1.14653,Holton
-51.70045,-0.91317,Chinnor
-51.72984,-1.21513,Oxford
-51.70046,-1.13025,Cuddesdon
-51.64996,-0.99967,Watlington
-51.82917,-1.28016,Kidlington
-51.90845,-1.16695,Bicester
-51.91135,-1.52747,Chadlington
-51.78964,-1.4548,South Leigh
-51.73794,-0.9818,Thame
-51.50513,-1.10516,Whitchurch-on-Thames
-51.54407,-0.92267,Rotherfield Greys
-51.64892,-1.56345,Shellingford
-52.57867,-0.34398,Ailsworth
-50.3916,-4.04436,Plympton
-50.35394,-4.08773,Plymstock
-54.58734,-1.02501,Saltburn Marske and New Marske
-54.56258,-0.96528,Skelton
-54.54989,-0.85427,Loftus
-54.53189,-1.06034,Guisborough
-54.56583,-1.15236,Redcar
-53.55113,-2.19624,Middleton
-53.59064,-2.22211,Heywood
-53.36891,-1.21389,Dinnington
-53.35678,-1.28624,Todwick
-53.465,-1.34619,Rawmarsh
-53.42033,-1.24153,Bramley
-52.65594,-0.70037,Hambleton
-53.53167,-2.42096,Walkden
-52.56057,-2.02065,West Bromwich
-53.47398,-2.92668,Aintree
-53.51346,-2.93659,Maghull
-53.65974,-2.96859,Southport
-53.45763,-1.49542,Ecclesfield
-53.39794,-1.41641,Norton
-52.37985,-2.46282,Cleobury Mortimer
-52.83579,-3.12089,Oswestry Rural
-52.8663,-3.02808,Oswestry
-52.90335,-2.89364,Ellesmere
-52.95147,-2.68921,Whitchurch Rural
-52.69923,-2.76959,Shrewsbury
-52.79556,-2.75052,Myddle
-52.65299,-2.82791,Longden
-52.53906,-2.79038,Church Stretton
-52.42508,-2.88688,Hopesay
-52.36523,-2.69474,Ludlow
-52.49803,-2.98558,Lydham
-52.66253,-2.35933,Shifnal
-52.61175,-2.48003,Broseley
-52.57803,-2.5815,Much Wenlock
-52.8977,-2.46832,Sutton upon Tern
-52.51593,-2.37435,Bridgnorth
-52.5112,-2.44062,Chetton
-52.63309,-2.27043,Albrighton
-51.49961,-0.55198,Colnbrook with Poyle
-52.50373,-1.77899,Castle Bromwich
-52.47847,-1.74083,Chelmsley Wood
-52.45865,-1.72181,Bickenhill
-52.38048,-1.74288,Dorridge
-51.11291,-2.44576,Bruton
-51.23652,-2.32519,Frome
-51.12489,-2.74313,Street
-50.95107,-2.63358,Yeovil
-50.96814,-2.63666,Mudford
-51.27468,-2.47313,Kilmersdon
-51.17102,-2.53073,Shepton Mallet
-51.21266,-2.65291,St Cuthbert Out
-51.14042,-2.70478,Glastonbury
-51.08833,-2.51835,Castle Cary
-50.99883,-2.41046,Templecombe
-51.05729,-2.40955,Wincanton
-51.27971,-2.85461,Weare
-51.27131,-2.76987,Cheddar
-51.22515,-2.81349,Wedmore
-51.01234,-3.10203,Taunton
-51.03262,-2.82438,Langport
-51.06039,-2.70214,Somerton
-50.97452,-2.77207,Martock
-50.94638,-2.81004,South Petherton
-50.94588,-2.75024,Norton Sub Hamdon
-50.95058,-2.71757,Montacute
-50.90693,-2.79229,Merriott
-50.90753,-2.83497,Hinton St George
-50.88269,-2.78619,Crewkerne
-50.93392,-2.91373,Ilminster
-51.03303,-3.10109,Staplegrove
-50.87329,-2.96087,Chard
-51.0451,-3.54509,Dulverton
-51.16171,-3.3516,Williton
-51.18137,-3.50957,Wootton Courtenay
-50.99403,-3.03889,Stoke St Mary
-51.07092,-3.26758,Lydeard St Lawrence
-51.14633,-3.10379,Spaxton
-51.12479,-2.99895,Bridgwater
-51.12999,-2.91187,Stawell
-51.24445,-2.99294,Burnham-on-Sea
-51.22588,-2.9553,Burnham Without
-51.48496,-2.50988,Kingswood
-51.44465,-2.47201,Bitton
-51.54228,-2.55955,Bradley Stoke
-51.52338,-2.56364,Stoke Gifford
-51.59629,-2.54866,Aust
-51.52553,-2.48582,Frampton Cotterell
-51.53928,-2.41675,Yate
-51.55763,-2.29718,Hawkesbury
-50.93521,-1.43069,9 Arcadia Close
-53.41478,-2.78244,Rainhill
-52.60598,-1.67362,Tamworth
-52.65005,-1.68069,Wigginton
-52.80741,-1.68844,Branston
-52.79908,-1.6084,Burton upon Trent
-52.46596,-2.22376,Kinver
-52.96693,-2.06552,Forsbrook
-52.94795,-2.17117,Barlaston
-53.1009,-2.01793,Leek
-52.90304,-1.86767,Uttoxeter
-52.90033,-2.14719,Stone
-52.7889,-2.09936,Stafford
-52.81408,-2.08161,Hopton
-52.71243,-2.14656,Penkridge
-52.79854,-2.26255,Gnosall
-52.86777,-2.25851,Eccleshall
-53.01526,-2.23703,Newcastle-under-Lyme
-53.08802,-2.2658,Kidsgrove
-53.11517,-2.16735,Biddulph
-53.05052,-2.09847,Bagnall
-52.70623,-1.99852,Cannock
-52.6917,-1.818,Lichfield
-52.66292,-1.81368,Swinfen and Packington
-52.75834,-1.91701,Brereton
-52.65767,-2.02218,Great Wyrley
-52.68012,-1.91272,Burntwood
-52.53342,-2.20936,Wombourne
-52.62337,-2.1832,Bilbrook
-53.36962,-2.14129,Cheadle
-54.49144,-1.32992,Kirklevington
-54.52393,-1.35257,Egglescliffe
-54.53713,-1.30289,Thornaby
-54.61809,-1.3139,Grindon
-52.08212,0.44187,Haverhill
-52.05706,0.72355,Sudbury
-52.01888,1.26939,Levington
-51.97028,1.3343,Felixstowe
-52.09243,1.37262,Bromeswell
-52.18475,1.32107,Kettleburgh
-52.20597,1.03423,Stowupland
-52.15686,1.59688,Aldeburgh
-52.20397,1.58604,Leiston
-52.22985,1.50316,Kelsale
-52.32995,1.67259,Southwold
-52.33982,1.4957,Halesworth
-52.36431,1.23608,Syleham
-52.37548,1.05319,Wortham
-52.30615,1.12472,Eye
-52.4298,0.5861,Brandon
-52.32627,0.54924,Tuddenham
-52.19245,0.66303,Whepstead
-52.20909,0.83679,Hessett
-52.29023,0.82877,Pakenham
-52.24178,0.70848,Bury St Edmunds
-52.06,1.18046,Ipswich
-52.06102,1.24182,Kesgrave
-52.131,1.11536,Hemingstone
-52.06872,0.94901,Aldham
-52.06169,1.0828,Sproughton
-51.99067,1.14931,Holbrook
-52.45441,1.71976,Oulton Broad
-52.43791,1.58442,Weston
-52.46125,1.43463,Bungay
-54.82372,-1.45363,Hetton
-54.89412,-1.52441,Washington
-54.90088,-1.42451,Houghton-le-Spring
-54.92334,-1.42419,Castletown
-51.30799,-0.05149,Whyteleafe
-51.25167,-0.73032,Ash
-51.311,-0.72868,Camberley
-51.36776,-0.65671,Windlesham
-51.31162,-0.54929,Woking
-51.29671,-0.50816,Ripley
-51.32963,-0.62625,Bisley
-51.4009,-0.56948,Virginia Water
-51.08155,-0.71785,Haslemere
-51.24596,-0.62301,Worplesdon
-51.24315,-0.53999,Guildford
-51.20237,-0.51551,Wonersh
-51.14078,-0.48174,Cranleigh
-51.18915,-0.61039,Godalming
-51.15082,-0.64014,Witley
-51.21815,-0.79282,Farnham
-51.32769,-0.40237,Cobham
-51.36309,-0.49451,Addlestone
-51.35096,-0.26799,Epsom
-51.3007,-0.33731,Leatherhead
-51.26869,-0.42879,East Horsley
-51.38959,-0.3269,Esher
-51.40089,-0.36243,West Molesey
-51.23242,-0.2796,Brockham
-51.22871,-0.33418,Dorking
-51.19463,-0.34113,Capel
-51.17126,-0.1617,Horley
-51.17427,-0.01564,Lingfield
-51.2513,0.00344,Limpsfield
-51.23543,-0.06889,Godstone
-51.32296,-0.20014,Reigate and Banstead
-51.428,-0.50677,Staines
-51.42674,-0.54997,Egham
-51.5911,-1.79644,Haydon Wick
-51.61086,-1.78335,Blunsdon St Andrew
-51.53089,-1.81978,Wroughton
-51.62067,-1.74141,Stanton Fitzwarren
-53.51712,-2.03771,Mossley
-53.47395,-2.08137,Ashton-under-Lyne
-52.70002,-2.43956,St Georges and Priorslee
-52.66404,-2.44363,Hollinswood
-52.66125,-2.46726,Telford
-52.7149,-2.53594,Wellington
-52.7355,-2.55397,Rodington
-52.63525,-2.44925,Madeley
-52.62974,-2.47875,The Gorge
-51.52093,0.44055,Corringham
-50.42326,-3.56982,Torquay
-53.4193,-2.42136,Partington
-53.45095,-2.36294,Urmston
-53.64741,-1.51888,Crigglestone
-53.69997,-1.41375,Normanton
-53.66639,-1.35065,Featherstone
-53.60599,-1.31983,North Elmsall
-52.64597,-1.93348,Brownhills
-52.6091,-1.91729,Aldridge
-52.58484,-2.06052,Willenhall
-53.38226,-2.46911,Lymm
-53.41054,-2.58075,Birchwood
-53.45384,-2.54821,Croft
-53.36472,-2.57412,Appleton
-53.39857,-2.63624,Great Sankey
-52.50803,-1.69351,Coleshill
-52.21704,-1.86679,Alcester
-52.16847,-1.85377,Bidford-on-Avon
-52.27641,-1.89593,Studley
-52.3509,-1.7915,Tanworth-in-Arden
-52.28524,-1.78008,Henley-in-Arden
-52.51885,-1.45318,Nuneaton
-52.47399,-1.47288,Bedworth
-52.35522,-1.28633,Rugby
-52.36165,-1.30826,Dunchurch
-52.2962,-1.53072,Leamington Spa
-52.25735,-1.48424,Radford Semele
-52.2829,-1.57924,Warwick
-52.229,-1.5944,Wasperton
-52.06726,-1.62504,Shipston-on-Stour
-52.1853,-1.71328,Stratford-Upon-Avon
-52.23349,-1.38494,Ladbroke
-52.3511,-1.54336,Kenilworth
-52.58493,-1.55864,Atherstone
-51.43998,-1.48775,Hungerford
-51.43326,-1.2418,Bucklebury
-51.39368,-1.24102,Thatcham
-51.40325,-1.33575,Newbury
-51.3979,-1.07706,Sulhamstead
-50.83181,-0.37959,Worthing
-50.83013,-0.32426,Lancing
-50.81446,-0.49377,Rustington
-50.81408,-0.53495,Littlehampton
-50.84881,-0.57933,Arundel
-50.83557,-0.26583,Shoreham-by-Sea
-50.89036,-0.3221,Steyning
-50.8892,-0.18421,Newtimber
-50.92645,-0.26815,Henfield
-50.92918,-0.15276,Clayton
-50.99061,-0.62915,Tillington
-50.98383,-0.74619,Midhurst
-50.85074,-0.92878,Hermitage
-50.86403,-0.81478,Funtington
-50.83756,-0.7771,Chichester
-50.78278,-0.78563,Sidlesham
-50.78362,-0.69622,Aldwick
-50.79835,-0.64756,Felpham
-51.11079,-0.20554,Crawley
-51.07579,-0.33254,Horsham
-51.03701,-0.32537,Southwater
-51.03197,-0.48245,Wisborough Green
-50.95675,-0.13316,Burgess Hill
-51.00204,-0.09713,Haywards Heath
-51.02122,-0.11488,Cuckfield Rural
-51.12474,-0.01205,East Grinstead
-50.93647,-0.4699,Storrington
-53.57369,-2.66908,Pemberton
-53.49803,-2.51712,Leigh
-51.17117,-2.1874,Longbridge Deverill
-51.26201,-2.17917,Westbury
-51.35088,-2.26425,Bradford-on-Avon
-51.33589,-1.98708,Roundway
-51.43931,-1.99856,Calne
-51.37178,-2.13649,Melksham
-51.42383,-2.21001,Corsham
-51.47511,-2.1944,Yatton Keynell
-51.47255,-2.0792,Bremhill
-51.59304,-2.08951,Malmesbury
-51.40741,-1.6851,Savernake
-51.324,-1.78614,Manningford
-51.07406,-1.82441,Salisbury
-51.10117,-2.00571,Dinton
-51.16479,-1.764,Amesbury
-51.02271,-1.77185,Downton
-51.4753,-0.62475,Windsor
-51.40468,-0.66138,Sunninghill
-51.52231,-0.72569,Maidenhead
-53.42801,-3.05061,Wallasey
-53.37116,-3.16947,Hoylake
-53.34754,-3.10122,Heswall
-53.34474,-3.01101,Birkenhead
-51.48055,-0.86224,Twyford
-51.37471,-0.8002,Wokingham Without
-51.45219,-0.90612,Woodley
-51.43893,-0.9309,Earley
-52.55695,-2.07818,Wednesfield
-52.38699,-1.8795,Wythall
-52.35557,-1.9486,Alvechurch
-52.34477,-2.06753,Bromsgrove
-52.3034,-1.91346,Redditch
-52.38496,-2.26009,Kidderminster
-52.38569,-2.32916,Upper Arley
-52.33637,-2.28035,Stourport-on-Severn
-52.11459,-2.06426,Wick
-52.09481,-1.92847,Evesham
-52.04261,-1.87314,Broadway
-52.11328,-2.31839,Great Malvern
-52.30476,-2.56764,Tenbury
-52.22732,-2.37045,Martley
-52.19642,-2.05268,North Piddle
-52.08207,-2.20287,Worcester
-52.26826,-2.15682,Droitwich
-53.95031,-1.05822,Heslington
-53.91046,-1.02105,Wheldrake
-53.92562,-1.12122,Copmanthorpe
-53.97452,-1.17204,Upper Poppleton
-53.98579,-1.11385,Rawcliffe
-54.01143,-1.05837,Earswick
-49.45856,-2.53684,St Peter Port
-49.52875,-2.45821,St Sampson
-49.52875,-2.45821,Carmel
-49.4826,-2.58101,ALBecq
-49.52875,-2.45821,L'Islet
-49.52875,-2.45821,Richmond
-49.52875,-2.45821,Mouilpied
-49.57183,-2.28244,nr Mouilpied
-54.17891,-4.46857,"Douglas, Braddan"
-54.17219,-4.45155,Onchan
-54.18407,-4.53302,"Peel, German"
-54.19316,-4.7065,"Baldrine, Loman"
-54.28659,-4.58037,Kirk Michael
-54.32613,-4.41041,"St Judes, Andreas"
-54.278,-4.08474,Ramsay
-54.09184,-4.68352,Arbory
-49.18581,-2.13418,St+F2813 Ouen
-49.19392,-2.09104,St Helier
-54.73301,-6.25997,Mill Town
-54.63826,-5.54448,Donaghadee
-54.591,-5.79746,Dundonald
-54.53994,-5.90409,Carryduff
-55.17971,-6.71005,Portstewart
-55.19824,-6.64932,Portrush
-54.41256,-6.46416,Portadown
-54.45514,-6.33292,Lurgan
-55.00933,-7.32731,Londonderry
-54.33396,-5.70444,Downpatrick
-54.22095,-5.89385,Newcastle
-54.37531,-7.31559,Fivemiletown
-54.55423,-6.01688,Dunmurry
-55.19997,-6.25787,Ballycastle
-55.2014,-6.51755,Bushmills
-54.67658,-5.90634,Whiteabbey
-54.64154,-5.82079,Holywood
-54.65808,-5.6641,Bangor
-57.10801,-2.23776,Milltimber
-57.10076,-2.27073,Peterculter
-57.2096,-2.20033,Aberdeen Airport
-57.18724,-2.11913,Bridge Of Don
-57.15311,-2.11241,Aberdeen
-56.84678,-2.47712,Laurencekirk
-57.07479,-2.52623,Banchory
-57.15545,-2.31742,Westhill
-57.22464,-2.74203,Alford
-57.09393,-2.81204,Aboyne
-57.03829,-3.14869,Ballatar
-57.19715,-3.06589,Strathdon
-56.97778,-2.21718,Stonehaven
-57.37592,-2.10478,Ellon
-57.50079,-1.88819,Peterhead
-57.65714,-2.04358,Fraserburgh
-57.66877,-2.49122,Macduff
-57.65139,-2.56639,Banff
-57.28907,-2.40485,Inverurie
-57.34396,-2.60651,Insch
-57.52537,-2.3941,Turriff
-57.45361,-2.76333,Huntly
-56.57312,-2.59738,Kirkton
-56.5033,-2.71814,Carnoustie
-56.0137,-4.75306,Helensburgh
-55.83482,-5.0567,Rothesay
-55.90186,-5.24762,Tighnabruaich
-55.95474,-4.93154,Port Riddell
-56.15675,-4.90504,Lochgoilhead
-56.25758,-4.9369,Cairndow
-56.15422,-5.08365,Strachur
-56.0133,-5.44799,Ardrishaig
-56.52032,-4.77019,Bridge of Orchy
-55.63962,-6.18624,Port Ellen
-55.7559,-6.28324,Bowmore
-55.79785,-6.29265,Blackrock
-55.81932,-6.1656,Ballygrant
-55.86226,-6.11902,Port Askaig
-55.68236,-6.50288,Portnahaven
-55.73797,-6.38332,Port Charlotte
-56.07177,-6.20088,Scalasaig
-56.43838,-5.67471,Lochdon
-56.31356,-6.23228,Bunessan
-56.49469,-6.8835,Crossapol
-55.90925,-3.28308,Juniper Green
-55.95652,-3.39838,Kirkliston
-55.98455,-3.38336,Queensferry
-55.9336,-3.18463,Edinburgh
-56.11516,-3.78053,Alloa
-56.15009,-3.84977,Menstrie
-56.15263,-3.79998,Alva
-56.15078,-3.74032,Tillicoultry
-54.98928,-3.25044,Annan
-54.99731,-3.06777,Gretna
-54.92201,-3.81016,Dalbeattie
-54.83721,-4.05555,Kirkcudbright
-56.47812,-2.86217,Dundee
-55.5958,-4.49509,Kilmarnock
-55.60713,-4.33065,Newmilns
-55.61075,-4.28164,Darvel
-55.45063,-4.23917,Cumnock
-55.59619,-4.56338,Gatehead
-55.59894,-4.38256,Galston
-55.50987,-4.38668,Mauchline
-55.94261,-4.32034,Milngavie
-55.91127,-4.21604,Bishopbriggs
-55.94024,-4.15364,Kirkintilloch
-55.93845,-3.04548,Musselburgh
-56.03627,-2.82661,Gullane
-55.96799,-2.94853,Cockenzie and Port Seton
-55.94196,-2.94469,Tranent
-55.90919,-2.8799,Pencaitland
-55.91053,-2.94233,Ormiston
-56.04766,-2.73052,North Berwick
-55.77811,-4.27227,Thornliebank
-55.77345,-4.32941,Newton Mearns
-58.21347,-6.38138,Stornoway
-57.79992,-6.96123,Leverburgh
-56.01153,-3.6041,Grangepans
-56.00499,-3.75461,Hope St
-56.01087,-3.71958,Grangemouth
-55.99734,-3.90662,Dennyloanhead
-56.02149,-3.91423,Stoneywood
-56.07674,-3.49272,Dunfermline
-56.12234,-3.18238,Kirkcaldy
-56.06346,-3.23037,Burntisland
-56.19719,-3.15405,Glenrothes
-56.19755,-3.01061,Leven
-56.20965,-2.83356,Kilconquhar
-55.87372,-4.10199,Glasgow
-57.67758,-4.03762,Cromarty
-57.57422,-3.86458,Nairn
-57.58564,-4.54783,Strathpeffer
-57.59965,-4.42996,Dingwall
-57.66431,-4.33703,Evanton
-57.69985,-4.26043,Alness
-57.70169,-4.15479,Invergordon
-57.80478,-4.06162,Tain
-57.72377,-5.72019,Gairloch
-58.01527,-4.15668,Rogart
-57.47726,-4.24499,Inverness
-57.27372,-5.73605,Kyleakin
-57.11488,-5.87374,Saasaig
-57.1141,-5.98441,Ferrindonald
-57.33737,-5.65106,Plockton
-57.36636,-6.4279,A863
-57.52634,-4.45682,Muir Of Ord
-57.32228,-4.50465,Lewiston
-57.56922,-4.17706,Avoch
-57.97509,-3.975,Golspie
-58.50634,-3.49149,Halkirk
-58.58913,-3.55523,Thurso
-58.34893,-3.16359,Whaligoe
-58.30741,-3.27829,Lybster
-58.0137,-3.85692,Brora
-56.93428,-4.255,Dalwhinnie
-57.19857,-3.80587,Aviemore
-57.25419,-3.74891,Boat Of Garten
-57.26187,-3.64646,Nethy Bridge
-57.3298,-3.60464,Grantown-on-Spey
-57.14424,-4.68275,Fort Augustus
-56.82148,-5.11207,Fort William
-56.72124,-5.86584,Kentra
-56.91265,-5.84124,Arisaig
-57.00374,-5.83251,Mallaig
-56.90217,-6.14094,Isle Of Eigg
-57.05693,-6.50319,Isle Of Canna
-56.675,-5.10977,Glencoe
-56.71451,-4.96427,Kinlochleven
-55.89235,-4.62927,Kilmacolm
-55.88928,-4.88661,Wemyss Bay
-55.9528,-4.82244,Greenock
-57.01529,-6.28049,Isle Of Rum
-55.87324,-3.10446,Bonnyrigg and Lasswade
-55.87905,-3.15579,Loanhead
-55.88441,-3.06001,Dalkeith
-55.83956,-3.05081,Arniston
-55.85821,-3.17434,Roslin
-55.83257,-3.22307,Penicuik
-57.33098,-3.35051,Ballindalloch
-57.48589,-3.2261,Aberlour
-57.65468,-3.32732,Elgin
-57.71706,-3.28931,Lossiemouth
-57.63161,-3.11041,Mosstodloch
-57.61104,-3.60363,Forres
-55.61923,-4.66337,Irvine
-55.6553,-4.69921,Kilwinning
-55.74041,-4.67162,Glengarnock
-55.74859,-4.62596,Beith
-55.64157,-4.75072,Stevenston
-55.65019,-4.80697,Ardrossan
-55.69135,-4.85449,West Kilbride
-55.70981,-4.71412,Dalry
-55.75263,-4.6884,Kilbirnie
-55.75447,-4.92287,Millport
-55.75701,-4.85291,Fairlie
-55.79725,-4.86224,Largs
-55.86512,-4.88162,Skelmorlie
-55.97334,-4.0577,Kilsyth
-55.94755,-3.98586,Cumbernauld
-55.95345,-4.01019,Balloch
-55.77706,-3.91179,Wishaw
-55.81846,-4.02078,Motherwell
-55.85964,-4.03091,Coatbridge
-55.86704,-3.96257,Airdrie
-55.65331,-2.2384,Cornhill-on-Tweed
-55.74699,-2.01275,Berwick-upon-Tweed
-58.9803,-2.95862,Kirkwall
-58.95963,-3.27278,Stromness
-59.04195,-3.00217,Gorseness
-56.20866,-3.43173,Kinross
-56.68745,-4.3823,Killichonan
-56.30228,-3.70355,Auchterarder
-56.26072,-3.78244,Blackford
-56.32927,-3.8277,Muthill
-56.37162,-3.99491,Comrie
-56.37332,-3.82657,Crieff
-55.83375,-4.55184,Kilbarchan
-55.85649,-4.5821,Ranfurly
-55.7954,-4.62273,Lochwinnoch
-55.85205,-4.44757,Paisley
-55.87464,-4.39623,Renfrew
-55.83105,-4.50854,Johnstone
-55.90944,-4.49919,Bishopton
-55.80948,-4.55184,Howwood
-60.15232,-1.16779,Sound
-59.88369,-1.30316,Toab
-55.54945,-4.64755,Troon
-55.49734,-4.60446,Ayr
-55.81977,-4.20605,Cambuslang
-55.76912,-4.17289,East Kilbride
-55.68013,-4.06932,Strathaven
-55.66661,-3.78555,New Lanark
-55.77028,-4.05337,Hamilton
-55.7305,-3.84103,Carluke
-55.72496,-3.96658,Larkhall
-56.19081,-4.05966,Doune
-56.24019,-4.21887,Callander
-56.32448,-4.32728,Strathyre
-56.46574,-4.31969,Killin
-56.14242,-3.93955,Bridge Of Allan
-56.04243,-4.36487,Killearn
-55.62422,-3.0101,Walkerburn
-55.65494,-3.19209,Peebles
-55.6239,-2.80997,Galashiels
-55.71203,-2.44887,Greenlaw
-55.92975,-2.36975,Cockburnspath
-55.64182,-2.67051,Earlston
-55.58238,-2.6933,Newtown St Boswells
-55.47531,-2.54111,Jedburgh
-55.91309,-4.4066,Clydebank
-55.95195,-4.57403,Dumbarton
-56.01196,-4.58444,Alexandria
-55.89063,-3.42319,Kirknewton
-55.9011,-3.66353,Bathgate
-55.97656,-3.59785,Linlithgow
-55.93756,-3.48256,Broxburn
-55.89212,-3.524,Livingston
-55.84748,-3.57178,West Calder
-51.73412,-3.13977,Abertillery
-51.7707,-3.25665,Tredegar
-51.78482,-3.19615,Ebbw Vale
-51.55992,-3.58268,Garw Valley
-51.52424,-3.69101,Cynffig
-51.61024,-3.65087,Maesteg
-51.52211,-3.51793,Pencoed
-51.48456,-3.69818,Porthcawl
-51.6998,-3.24311,Bargoed
-51.65132,-3.236,Gelligaer
-51.58587,-3.2169,
-51.64249,-3.13025,Abercarn
-51.6688,-3.19743,Blackwood
-51.71964,-3.23786,New Tredegar
-51.47387,-3.17648,Butetown
-51.47281,-3.19229,Grangetown
-51.51947,-3.20216,Rhiwbina
-51.53401,-3.27319,Pentyrch
-51.5155,-3.15016,Pentwyn
-51.48479,-3.16379,Adamsdown
-51.51947,-3.11134,Trowbridge
-51.48219,-3.2415,Ely
-51.73245,-4.10721,Llannon
-51.69989,-4.16648,Llanelli Rural
-51.68922,-4.25569,Cefn Sidan
-51.7579,-4.2852,Kidwelly
-51.79798,-3.95796,Betws
-51.95284,-3.94723,Talley
-52.01025,-3.78651,Llandovery
-51.85639,-4.30762,Carmarthen
-51.88597,-4.17106,Llanegwad
-51.85022,-4.4351,Meidrim
-51.85258,-4.61822,Llanfallteg
-52.0401,-4.47312,Newcastle Emlyn
-52.01955,-4.24166,Llanfihangel-Ar-Arth
-52.08378,-4.17335,Llanwenog
-52.08619,-4.62896,Llangoedmor
-52.08625,-4.37201,Troedyraur
-52.20794,-4.358,New Quay
-52.23254,-4.24945,Aberaeron
-52.19028,-4.29561,Llanarth
-52.14338,-4.11048,Llangybi
-52.38184,-4.05129,Llanfarian
-52.47045,-4.02302,Geneur Glyn
-52.2381,-3.93626,Tregaron
-53.26827,-3.59257,Betws-yn-Rhos
-53.05695,-3.78474,Bro Machno
-53.0546,-3.87866,Dolwyddelan
-53.13877,-3.78514,Llanrwst
-53.14718,-3.82288,Trefriw
-53.28749,-3.75983,Mochdre
-53.28916,-3.70738,Old Colwyn
-53.31813,-3.81514,Llandudno
-53.29035,-3.80946,Deganwy
-53.26022,-3.83968,Henryd
-53.24987,-3.98015,Llanfairfechan
-53.27076,-3.91212,Penmaenmawr
-53.10263,-3.31455,Ruthin
-53.18489,-3.43231,Denbigh
-53.25319,-3.4346,St Asaph
-53.31023,-3.47554,Rhyl
-53.33082,-3.40866,Prestatyn
-52.95949,-3.15982,Llangollen
-52.99006,-3.40947,Corwen
-52.90493,-3.60003,Bala
-52.54657,-4.04127,Aberdovey
-52.60374,-4.06313,Bryncrug
-52.66546,-4.0823,Llangelynin
-52.71076,-4.01043,Arthog
-52.75614,-3.87468,Brithdir
-52.96914,-3.9375,Ffestiniog
-52.7253,-4.05405,Barmouth
-52.79111,-4.09572,Dyffryn Ardudwy
-52.81989,-4.09562,Llanbedr
-52.85477,-4.10621,Harlech
-52.9014,-4.06237,Talsarnau
-52.93544,-4.06994,Penrhyndeudraeth
-52.92883,-4.13808,Porthmadog
-52.97377,-4.23712,Dolbenmaen
-52.92425,-4.24052,Criccieth
-52.88418,-4.49117,Buan
-53.05829,-4.28478,Llanllyfni
-53.13355,-4.20355,Llanrug
-53.18669,-4.19879,Y Felinheli
-53.20718,-4.10998,Llandygai
-53.28022,-4.09857,Beaumaris
-53.23417,-4.15926,Cwm Cadnant
-53.21505,-4.26915,Llanfihangel Ysgeifiog
-53.1954,-4.26212,Llanidan
-53.21007,-4.38572,Bodorgan
-53.21824,-4.47007,Aberffraw
-53.22805,-4.51709,Rhosneigr
-53.30067,-4.5694,Valley
-53.38055,-4.40427,Rhosybol
-53.41097,-4.45565,Llanbadrig
-53.39818,-4.37668,Amlwch
-53.38583,-4.31883,Penysarn
-53.32732,-4.36823,Llannerch-Y-Medd
-53.34957,-4.24023,Moelfre
-53.33511,-4.24397,Llaneugrad
-53.28343,-4.21876,Pentraeth
-53.26011,-4.31053,Llangefni
-53.31678,-4.26253,Llanfair-Mathafarn-Eithaf
-51.66501,-3.3,Treharris
-51.74067,-3.3688,Town
-51.72552,-2.88616,Gwehelog Fawr
-51.64951,-2.68808,St Arvans
-51.80307,-2.72232,Monmouth
-51.59051,-2.77669,Rogiet
-51.82884,-3.00864,Abergavenny
-51.68722,-3.79836,Blaenhonddan
-51.67428,-3.76168,Tonna
-51.60725,-3.79375,Baglan
-51.60559,-3.72436,Bryn
-51.72153,-3.8475,Pontardawe
-51.57943,-3.04497,Graig
-51.60637,-2.94305,Caerleon
-51.58913,-2.9629,Alway
-51.59057,-3.0048,Allt-yr-yn
-51.97349,-4.55974,Clydau
-51.95717,-4.60684,Crymych
-52.01684,-4.59282,Boncath
-51.99718,-4.70679,Eglwyswrw
-52.01534,-4.8522,Newport
-51.79916,-4.97345,Haverfordwest
-51.84093,-5.06333,Nolton
-51.87409,-4.85342,Wiston
-52.00147,-5.01162,Pencaer
-51.98818,-4.96848,Fishguard
-51.88121,-4.74342,Maenclochog
-51.78165,-4.73157,Narberth
-51.72867,-4.76603,Jeffreyston
-51.71029,-4.70555,Saundersfoot
-51.67176,-4.73797,Penally
-51.66716,-4.92863,Pembroke
-51.6913,-4.93453,Pembroke Dock
-51.71634,-5.01146,Milford Haven
-52.26047,-3.3657,Llandrindod Wells
-52.14145,-3.39275,Duhonw
-51.96006,-3.37111,Llanddew
-52.11786,-3.55416,Llangamarch
-52.12692,-3.61584,Treflys
-52.30909,-3.50804,Rhayader
-52.3524,-3.08513,Knighton
-52.26735,-3.04348,Presteigne
-51.85996,-3.14586,Llangattock
-51.78122,-3.76729,Ystradgynlais
-52.55518,-3.12995,Montgomery
-52.52004,-3.31183,Llanllwchaiarn
-52.51644,-3.46501,Caersws
-52.44076,-3.54784,Llanidloes
-52.57388,-3.61156,Llanbrynmair
-52.61405,-3.81838,Glantwymyn
-52.65784,-3.20505,Castle Caereinion
-52.75604,-3.18553,Llansantffraid
-51.6026,-3.33288,Pontypridd
-51.56034,-3.33164,Llantwit Fardre
-51.60153,-3.42382,Cymmer
-51.62009,-3.45041,Tonypandy
-51.64758,-3.48164,Ystrad
-51.66685,-3.52132,Treorchy
-51.65788,-3.44872,Ferndale
-51.71802,-3.45788,Aberdare
-51.66882,-3.36085,Penrhiwceiber
-51.52989,-3.39852,Llanharan
-51.62742,-3.93905,Landore
-51.62021,-3.99364,Sketty
-51.57965,-4.05105,Bishopston
-51.67054,-4.04792,Gorseinon
-51.64851,-3.96886,Penderry
-51.67539,-3.92084,Morriston
-51.6615,-3.88989,Llansamlet
-51.40748,-3.47962,Llantwit Major
-51.4119,-3.25542,Barry
-51.43328,-3.18838,Penarth
-51.46176,-3.45402,Cowbridge
-51.71882,-3.04528,Trevethin
-51.65064,-3.02637,Cwmbran
-53.06314,-3.03425,Broughton
-53.08601,-2.98851,Gresford
-53.0359,-2.95902,Abenbury
-52.99198,-3.05043,Ruabon
+,latitude,longitude,city
+0,53.50302,-1.61249,Hunshelf
+4,53.57851,-1.39127,Brierley
+5,53.52458,-1.39355,Darfield
+6,53.50053,-1.43913,Hoyland
+9,51.35957,-2.37633,Bath
+10,51.4077,-2.49176,Keynsham
+11,51.32749,-2.53109,Clutton
+12,51.34644,-2.69071,Nempnett Thrubwell
+14,52.15113,-0.44614,Bedford
+15,52.12002,-0.47352,Kempston
+16,52.11837,-0.55684,Kempston Rural
+17,52.19402,-0.42563,Wilden
+46,52.39962,-1.93385,Tees Grove
+63,53.69781,-2.46503,Darwen
+72,53.54928,-2.51473,Westhoughton
+73,53.59142,-2.53941,Horwich
+86,51.34761,-0.78799,Sandhurst
+87,51.40655,-0.74904,Bracknell
+88,51.42729,-0.75423,Warfield
+95,53.84871,-1.83278,Bingley
+99,53.89646,-1.94673,Steeton
+101,53.84522,-1.95288,Keighley
+108,53.81179,-1.78888,Queensbury
+109,53.92058,-1.80356,Ilkley
+113,50.8402,-0.21452,Brighton
+115,51.60928,-0.70159,Chepping Wycombe
+118,51.63309,-0.74137,High Wycombe
+119,51.64839,-0.82913,Bledlow-cum-Saunderton
+120,51.65615,-0.71182,Hazlemere
+121,51.70208,-0.71775,Great Missenden
+123,51.81347,-0.98155,Ashendon
+126,51.80641,-0.80473,Aylesbury
+127,51.80601,-0.76558,Weston Turville
+128,51.71944,-0.83019,Princes Risborough
+129,51.71251,-0.60744,Chesham
+131,51.66487,-0.6089,Amersham
+132,51.64286,-0.57344,Chalfont St Giles
+133,51.61035,-0.63801,Beaconsfield
+134,51.52431,-0.51371,Iver
+135,51.57411,-0.7762,Marlow
+136,51.57786,-0.70682,Wooburn
+137,51.59677,-0.55467,Chalfont St Peter
+138,51.58157,-0.49019,Denham Green
+139,53.64526,-2.31468,Ramsbottom
+151,53.69779,-1.92426,Halifax
+152,53.73916,-2.00758,Hebden Royd
+153,53.71395,-2.0985,Todmorden
+154,52.17611,0.18955,Fulbourn
+155,52.16276,0.13333,Great Shelford
+156,52.13194,0.29553,Balsham
+157,52.12718,0.12898,Little Shelford
+158,52.21349,-0.02215,Highfields
+159,52.31538,0.02762,Over
+160,52.26083,0.23615,Lode
+161,52.21324,0.02448,Hardwick
+162,52.24312,0.11521,Impington
+163,52.23868,0.21021,Stow cum Quy
+164,52.40388,0.22434,Downham
+165,52.36606,0.32087,Soham
+166,52.23083,0.42659,Woodditton
+167,52.66895,0.13868,Wisbech
+168,52.53589,0.08649,March
+169,52.45379,0.05022,Chatteris
+170,52.24203,-0.2584,St Neots
+171,52.45292,-0.1132,Ramsey
+173,52.35784,-0.18629,The Stukeleys
+174,52.33345,-0.17848,Huntingdon
+175,52.53877,-0.19801,Farcet
+176,52.06369,-0.01293,Melbourn
+177,51.90829,-0.5127,Thorn
+178,51.87711,-0.53552,Dunstable
+179,51.90921,-0.66388,Leighton-Linslade
+180,52.02462,-0.46803,Maulden
+181,52.01276,-0.26149,Arlesey
+182,52.01507,-0.29638,Henlow
+183,52.03445,-0.33063,Shefford
+184,52.08208,-0.26609,Biggleswade
+187,53.18907,-2.44604,Middlewich
+188,53.1426,-2.36482,Sandbach
+189,53.16455,-2.21093,Congleton
+190,53.08119,-2.44642,Crewe
+191,52.99952,-2.40534,Bridgemere
+192,53.20648,-2.34739,Holmes Chapel
+193,53.062,-2.52084,Nantwich
+196,53.35169,-2.09165,Poynton
+197,53.32723,-2.22975,Macclesfield
+198,53.3026,-2.37068,Knutsford
+199,53.20173,-2.90732,Chester
+204,53.27704,-2.93442,Ellesmere Port
+205,53.16197,-2.66565,Tarporley
+206,53.19054,-2.52688,Winsford
+207,53.2533,-2.56363,Weaverham
+208,53.25897,-2.50074,Northwich
+209,53.02924,-2.76203,Malpas
+210,53.27222,-2.72285,Frodsham
+224,51.45769,-2.57291,Bristol
+233,53.75567,-0.28589,Hull
+252,50.82366,-4.53323,Bude
+253,50.34537,-4.21106,Rame
+254,50.3725,-4.2503,Antony
+255,50.41932,-4.2483,Saltash
+256,50.35715,-4.47456,Looe
+257,50.46351,-4.4646,Liskeard
+258,50.63218,-4.39987,South Petherwin
+259,50.51625,-4.3051,Callington
+260,50.51523,-4.21899,Calstock
+261,50.40273,-4.65146,Lostwithiel
+262,50.33653,-4.63513,Fowey
+263,50.35461,-4.70925,St Blaise
+264,50.34038,-4.77872,St Austell
+265,50.34196,-4.8252,St Mewan
+266,50.52248,-4.87408,St Breock
+267,50.53366,-4.96651,Padstow
+268,50.58564,-4.82988,St Endellion
+269,50.49992,-4.72743,Helland
+270,50.46858,-4.7214,Bodmin
+271,50.63282,-4.66015,Camelford
+272,50.6213,-4.73021,St Teath
+273,50.6597,-4.74234,Tintagel
+274,50.68444,-4.68431,Forrabury and Minster
+275,50.26241,-5.05347,Truro
+276,50.16624,-5.11736,Penryn
+277,50.14907,-5.08684,Falmouth
+278,50.0431,-5.17923,St Keverne
+279,50.10945,-5.28435,Helston
+280,50.20987,-5.29686,Camborne
+282,50.23272,-5.21988,Redruth
+283,50.12482,-5.46735,Marazion
+284,50.1163,-5.54089,Penzance
+285,50.10012,-5.62783,Sancreed
+286,50.25334,-4.95186,Tregoney
+287,50.13138,-5.48882,Ludgvan
+288,50.20276,-5.4786,St Ives
+289,50.18162,-5.4028,Hayle
+290,50.21684,-5.10944,Perranarworthal
+291,50.28359,-5.13626,Kenwyn
+292,50.30819,-5.19127,St Agnes
+293,50.34167,-5.15134,Perranporth
+294,50.41304,-5.073,Newquay
+295,50.39869,-5.03689,Colan
+296,50.41387,-4.93648,St Columb Major
+297,54.78103,-1.56616,Durham
+298,54.85933,-1.59648,Chester-le-Street
+299,54.87181,-1.56675,North Lodge
+300,54.75276,-1.46391,Shadforth
+301,54.78943,-1.66406,Esh
+302,54.85541,-1.84422,Burnhope
+303,54.86773,-1.70704,Stanley
+304,54.57239,-1.98453,Cotherstone
+305,54.71619,-1.95343,Stanhope
+307,54.7096,-1.72836,Lcp Stanhope and Wolsingham Parishes And
+308,54.69848,-1.60429,Spennymoor
+309,54.68118,-1.54086,Ferryhill
+310,54.63029,-1.64368,Shildon
+311,54.61749,-1.57565,Great Aycliffe
+312,54.83046,-1.36168,Dalton-le-Dale
+313,54.7665,-1.33471,Peterlee
+314,54.62676,-1.42529,Sedgefield
+315,54.72309,-1.28728,Monk Hesleden
+316,54.72536,-1.37265,Hutton Henry
+317,54.71032,-1.41945,Trimdon
+318,52.06415,-2.66963,Hampton Bishop
+319,52.0095,-2.78393,Allensmore
+320,52.09353,-3.07446,Clifford
+321,52.08784,-2.76632,Burghill
+322,52.19196,-3.02708,Kington Rural
+323,52.23258,-2.77028,Leominster
+324,52.18629,-2.52079,Bromyard
+325,52.04454,-2.44331,Ledbury
+326,51.90816,-2.58153,Ross-on-Wye
+327,52.09433,-2.34161,Colwall
+334,52.44378,-1.563,Hawkes End
+336,54.61104,-2.65966,Cliburn
+337,54.66422,-2.78611,Catterlen
+338,54.60214,-3.13326,Keswick
+339,54.65997,-3.36589,Cockermouth
+340,54.63454,-3.53704,Workington
+341,54.71165,-3.48096,Maryport
+342,54.57413,-2.48269,Appleby-in-Westmorland
+343,54.47841,-2.35037,Kirkby Stephen
+345,54.38651,-3.38297,Muncaster
+347,54.40987,-3.46081,Gosforth
+348,54.44516,-3.51451,Beckermet
+351,54.51493,-3.54181,Egremont
+352,54.52243,-3.51737,Cleator Moor
+353,54.54445,-3.48108,Arlecdon
+354,54.49091,-3.59186,St Bees
+355,54.54324,-3.57689,Whitehaven
+356,54.9076,-2.93904,Carlisle
+357,54.84636,-2.83326,Wetheral
+358,54.85485,-3.0157,Orton
+359,54.99423,-2.8926,Kirklinton
+360,54.80696,-3.23702,Waverton
+361,54.93895,-2.68531,Brampton
+362,54.80176,-2.4185,Alston
+363,54.31433,-2.49348,Sedbergh
+364,54.20034,-2.92446,Grange-over-Sands
+365,54.20351,-3.08246,Ulverston
+367,54.1185,-3.2302,Dalton-in-Furness
+368,54.15588,-3.1777,Dalton Town with Newton
+369,54.1862,-3.20155,Ireleth
+370,54.2386,-3.17545,Kirkby Ireleth
+371,54.21512,-3.27448,Millom
+372,54.29312,-3.37523,Bootle
+373,54.29404,-3.20469,Broughton West
+374,54.3645,-3.07283,Coniston
+375,54.42276,-2.98649,Lakes
+376,54.37122,-2.91136,Windermere
+377,54.22568,-2.77162,Milnthorpe
+379,54.32563,-2.74273,Kendal
+381,54.5286,-1.6013,Halnaby Ave
+388,52.90852,-1.54049,Mickleover
+389,52.77372,-1.55377,Swadlincote
+390,52.72516,-1.55279,Overseal
+391,53.12707,-1.56357,Matlock Bath
+392,53.21464,-1.6765,Bakewell
+394,53.10104,-1.37114,Alfreton
+395,53.02152,-1.47369,Belper
+396,52.99358,-1.7169,Osmaston
+397,52.86651,-1.60927,Hilton
+399,52.8933,-1.35929,Draycott
+400,52.84694,-1.43571,Swarkestone
+401,53.01284,-1.35305,Heanor
+402,52.90005,-1.28187,Ilkeston
+403,53.29931,-1.47178,Dronfield
+404,53.31213,-1.33802,Eckington
+405,53.29454,-1.63839,Grindleford
+406,53.3415,-1.72061,Aston
+408,53.24696,-1.42746,Chesterfield
+409,53.20019,-1.42209,Wingerworth
+410,53.2672,-1.34172,Staveley
+411,53.22478,-1.31241,Bolsover
+412,53.16602,-1.42106,Clay Cross
+413,53.4479,-1.96386,Glossop
+414,53.24378,-1.87861,King Sterndale
+415,53.3724,-1.98497,New Mills
+416,53.32744,-1.94895,Chapel-en-le-Frith
+418,50.69252,-3.24461,Sidmouth
+419,50.74603,-3.28714,Ottery St Mary
+420,50.70585,-3.08066,Seaton
+421,50.78655,-3.00733,Axminster
+422,50.81272,-3.1896,Honiton
+423,50.87675,-3.33907,Kentisbeare
+424,50.92258,-3.49122,Tiverton
+425,50.81176,-3.70205,Sandford
+426,50.90155,-3.88739,Chawleigh
+427,50.87712,-4.0044,Dowland
+429,50.75004,-4.01882,Okehampton Hamlets
+430,50.80507,-4.20857,Black Torrington
+431,50.82804,-4.3673,Holsworthy Hamlets
+432,50.73816,-3.08849,Colyton
+435,51.07115,-4.01849,Barnstaple
+436,51.11343,-4.16894,Braunton
+437,51.19829,-4.10278,Ilfracombe
+438,51.2236,-3.82749,Lynton
+439,51.01638,-3.79224,Bishops Nympton
+440,50.97875,-3.95179,High Bickington
+441,50.94376,-4.15107,Little Torrington
+442,51.01394,-4.24557,Abbotsham
+443,50.73055,-3.52621,Exeter
+444,50.75684,-3.43916,Broad Clyst
+445,50.67744,-3.59668,Doddiscombsleigh
+446,50.59183,-3.47227,Dawlish
+447,50.62958,-3.40133,Exmouth
+448,50.6386,-3.32239,Budleigh Salterton
+449,50.64562,-4.26757,Lifton
+450,50.55602,-4.15454,Tavistock
+451,50.50125,-4.09986,Horrabridge
+452,50.38566,-3.91748,Ivybridge
+453,50.33548,-4.01243,Yealmpton
+454,50.42412,-3.81906,South Brent
+455,50.48137,-3.78179,Buckfast
+456,50.52882,-3.61142,Newton Abbot
+457,50.59296,-3.71817,Bovey Tracey
+458,50.55002,-3.50626,Teignmouth
+459,50.34655,-3.58837,Dartmouth
+460,50.28256,-3.78278,Kingsbridge
+461,50.23686,-3.77125,Salcombe
+462,50.41619,-3.68924,Totnes
+464,53.45158,-1.08284,Tickhill
+465,53.48313,-1.22082,Conisbrough
+467,53.54578,-1.05817,Edenthorpe
+469,53.53763,-1.17153,Brodsworth
+470,53.5961,-1.17643,Owston
+472,53.61415,-0.95535,Thorne
+473,50.73783,-2.04394,Upton
+474,50.61102,-1.9689,Swanage
+475,50.68648,-2.14582,Wareham
+476,50.81248,-1.97303,Colehill
+477,50.80524,-1.88787,Ferndown
+479,50.87537,-1.87207,Verwood
+480,50.71093,-2.44052,Dorchester
+481,50.93702,-2.33306,Sturminster Newton
+482,50.86091,-2.18047,Bryanston
+483,50.74955,-2.45365,Charminster
+485,50.60921,-2.4636,Weymouth
+486,50.54724,-2.44041,Portland
+487,50.73886,-2.77528,Allington
+488,50.7286,-2.94657,Lyme Regis
+489,50.81632,-2.7581,Beaminster
+490,50.94086,-2.51529,Castleton
+491,51.0039,-2.18245,Shaftesbury
+494,52.45177,-2.06622,Hurst Green
+502,53.70747,-0.93638,Airmyn
+504,53.82572,-0.21921,Ellerby
+505,53.72369,-0.13105,Burstwick
+506,53.72446,-0.43572,Hessle
+507,53.72799,-0.50078,North Ferriby
+508,53.74831,-0.62139,Ellerker
+510,53.8466,-0.42661,Cottingham
+511,53.90944,-0.16692,Hornsea
+512,53.72277,0.03566,Withernsea
+513,53.78836,-0.51229,Rowley
+515,54.09514,-0.20004,Bridlington
+516,54.00465,-0.41302,Driffield
+517,53.96966,-0.90227,Catton
+518,53.92274,-0.7908,Barmby Moor
+519,53.84976,-0.68952,Market Weighton
+520,50.7953,0.00232,Peacehaven
+524,50.79764,0.31325,Eastbourne
+525,50.81618,0.3312,Westham
+526,50.77633,0.10932,Seaford
+527,50.82098,0.22352,Long Man
+528,50.87146,0.2643,Hailsham
+529,50.87719,0.00014,Lewes
+530,50.91318,0.05148,Ringmer
+531,50.79536,0.05058,Newhaven
+532,51.09702,0.03104,Forest Row
+533,51.00262,0.40754,Burwash
+534,51.02633,0.25615,Mayfield
+535,50.95871,0.26427,Heathfield
+536,50.98067,0.10005,Uckfield
+537,50.96233,0.68748,Peasmarsh
+538,50.9793,0.4904,Salehurst
+539,50.91032,0.47676,Battle
+542,50.92061,0.70216,Icklesham
+544,50.86297,0.54531,Hastings
+546,50.84449,0.48463,Bexhill
+547,51.06471,0.36223,Wadhurst
+548,51.05216,0.17464,Crowborough
+549,51.09204,0.10938,Hartfield
+550,52.02989,0.26551,Saffron Walden
+552,51.66221,0.83719,Southminster
+553,51.74454,0.45694,Chelmsford
+555,51.62757,0.41593,Billericay
+558,51.64328,0.30545,Brentwood
+559,51.69981,0.12161,Epping
+563,51.72141,0.48754,Great Baddow
+564,51.77476,0.10483,Harlow
+565,51.86164,0.22218,Great Hallingbury
+566,51.8988,0.20657,Stansted Mountfitchet
+567,51.71932,0.58445,Danbury
+568,51.67392,0.39235,Ingatestone
+569,51.72083,0.24857,Ongar
+570,51.8768,0.36678,Great Dunmow
+571,51.89752,0.53797,Braintree
+572,51.80536,0.6387,Witham
+573,51.74097,0.70159,Heybridge
+575,51.94126,1.0789,Mistley
+576,51.93115,1.25427,Harwich
+578,51.84979,1.26873,Frinton and Walton
+579,51.7962,1.15605,Clacton-on-Sea
+580,51.82039,1.1258,Little Clacton
+583,51.90654,0.92383,Colchester
+584,51.81459,0.82209,Layer Breton
+585,51.92419,0.78968,Fordham
+586,51.8838,1.0052,Elmstead
+587,51.97328,0.76797,Bures Hamlet
+588,51.96878,0.61043,Sible Hedingham
+589,51.69451,0.01427,Waltham Abbey
+592,51.62391,0.04004,Loughton
+593,51.63255,0.16038,Stapleford Abbotts
+595,51.60556,0.52164,Wickford
+599,51.56201,0.4543,Basildon
+600,51.59406,0.71452,Rochford
+601,51.60722,0.6503,Hockley
+602,51.58746,0.60872,Rayleigh
+604,51.5222,0.59057,Canvey Island
+605,53.16823,-2.93803,Saltney
+606,53.20424,-3.04064,Shotton
+607,53.25003,-3.14518,Flint
+608,53.16924,-3.13256,Mold
+609,53.28144,-3.24053,Holywell
+612,54.9324,-1.69096,Wickham and Dunston
+616,54.96584,-1.77193,Blaydon
+620,51.7429,-2.28391,Stonehouse
+621,51.68875,-2.35591,Dursley
+623,51.69289,-2.45867,Berkeley
+624,51.81691,-2.47879,Littledean
+625,51.73656,-2.55036,Lydney
+626,51.79561,-2.61054,Coleford
+627,51.85542,-2.51405,Drybrook
+628,51.94124,-2.41464,Oxenhall
+629,51.94252,-2.28662,Ashleworth
+631,52.00304,-2.12966,Ashchurch
+632,51.86451,-2.17719,Hucclecote
+633,51.84196,-2.2163,Gloucester
+634,51.73855,-2.2187,Rodborough
+637,51.91588,-2.05816,Prestbury
+638,51.88081,-2.06684,Cheltenham
+639,51.89693,-1.86338,Naunton
+640,52.06043,-1.76806,Chipping Campden
+641,51.98836,-1.70435,Moreton-in-Marsh
+642,51.735,-2.19117,Thrupp
+643,51.71263,-1.89723,Ampney St Mary
+644,51.64151,-2.17054,Tetbury
+664,51.45484,0.14046,Bexley
+666,51.47574,0.17745,Crayford
+679,51.52789,-0.02482,Poplar
+680,51.62196,-0.00339,Walthamstow
+682,51.5256,0.05583,East Ham
+683,51.54678,0.02793,Stratford
+708,51.60965,-0.30727,Harrow
+718,51.60694,0.0335,Ilford
+725,51.36405,-0.30197,Kingston Upon Thames
+742,51.57052,-0.1009,Hackney
+745,51.55277,-0.11607,Islington
+746,51.58335,-0.11625,Tottenham
+747,51.62825,-0.05659,Enfield
+756,51.61488,-0.23484,Barnet
+758,51.5864,-0.25472,Brent
+769,51.5748,0.17063,Romford
+771,51.54036,0.13582,Barking
+784,51.41151,-0.05716,Bromley
+789,51.39742,-0.07501,Croydon
+795,51.47322,-0.09055,Camberwell
+797,51.48369,0.03521,Greenwich
+798,51.48118,-0.02828,Lewisham
+799,51.44465,0.05651,Eltham
+805,51.35984,-0.14267,Sutton
+814,51.4496,-0.18941,Wandsworth
+817,51.41058,-0.22547,Merton
+824,51.46907,-0.11232,Lambeth
+847,51.53911,-0.34306,Southall
+849,51.53458,-0.473,Hillingdon
+863,51.49118,-0.26268,Hounslow
+865,51.49246,-0.22805,Hammersmith
+866,51.5111,-0.33398,Ealing
+867,51.50003,-0.19317,Kensington
+868,51.52607,-0.1907,Paddington
+879,51.51339,-0.12778,Camden Town
+898,53.52143,-2.21269,Manchester
+899,53.36309,-2.27653,Ringway
+901,53.37189,-2.74107,Runcorn
+902,50.84377,-1.78551,Ringwood
+903,50.75173,-1.65692,New Milton
+904,51.24841,-0.76194,Aldershot
+906,51.29246,-0.76075,Farnborough
+907,51.32959,-0.78559,Blackwater and Hawley
+908,51.07435,-0.80228,Liphook
+909,50.9962,-0.90263,Petersfield
+910,51.00849,-0.96934,Stroud
+911,51.04915,-0.89139,Liss
+912,51.13902,-0.98359,Alton
+913,51.11617,-0.84692,Lindford
+914,51.3372,-0.82559,Yateley
+917,50.7918,-0.97553,South Hayling
+919,50.81229,-1.17808,Gosport
+923,50.88957,-1.16819,Wickham
+924,50.88227,-1.03753,Southwick
+925,50.91084,-1.01275,Horndean
+926,50.86291,-0.9825,Havant
+930,51.28094,-1.0708,Basingstoke
+931,51.22767,-1.16211,Dummer
+932,51.34966,-1.11824,Pamber
+933,51.29963,-0.94132,Hook
+934,51.23327,-1.33391,Whitchurch
+935,51.24751,-0.94538,Odiham
+936,51.11361,-1.50422,Longstock
+939,51.06765,-1.30774,Winchester
+940,51.08367,-1.14615,Bishops Sutton
+941,50.91924,-1.30568,Hedge End
+942,50.86882,-1.29506,Locks Heath
+943,50.9474,-1.20845,Bishops Waltham
+944,50.91484,-1.50065,Totton
+945,50.75502,-1.56473,Lymington
+946,50.80976,-1.53442,Denny Lodge
+947,50.88729,-1.58341,Lyndhurst
+950,50.994,-1.50407,Romsey
+951,50.97663,-1.44015,North Baddesley
+952,50.98442,-1.38022,Eastleigh
+953,51.21065,-1.48314,Andover
+954,51.22696,-1.51303,Charlton
+955,50.93553,-1.80074,Fordingbridge
+956,51.23018,-1.66053,South Tidworth
+964,51.72064,-0.33353,St Albans
+965,51.77781,-0.37057,Redbourn
+966,51.77133,-0.29398,Sandridge
+967,51.81622,-0.35177,Harpenden
+968,51.83104,-0.19737,Welwyn
+970,51.80334,-0.20863,Welwyn Garden City
+971,51.74472,-0.19791,Hatfield
+972,51.81177,0.14718,Sawbridgeworth
+973,51.87178,0.16021,Bishops Stortford
+975,51.76502,-0.00723,Hoddesdon
+978,51.69799,-0.03189,Broxbourne
+981,51.79496,-0.66001,Tring
+982,51.73689,-0.47054,Hemel Hempstead
+983,51.76688,-0.56663,Berkhamsted
+985,51.8446,0.07178,Much Hadham
+986,51.88125,0.03278,Standon
+987,51.81375,-0.01669,Ware
+988,51.8962,-0.16569,Stevenage
+989,51.86046,-0.18022,Knebworth
+990,51.921,-0.25922,Ippollitts
+991,51.96727,-0.28654,Ickleford
+992,51.97888,-0.22057,Hitchin
+993,52.00335,-0.17443,Bygrave
+994,51.9458,-0.00796,Buntingford
+998,51.6315,-0.39027,Watford Rural
+1000,51.64554,-0.3652,Potters Bar
+1002,51.68363,-0.38842,Watford
+1003,51.6453,-0.48085,Chorleywood
+1004,51.70882,-0.45556,Kings Langley
+1005,51.7047,-0.41662,Abbots Langley
+1006,51.65684,-0.27514,Borehamwood
+1007,51.68611,-0.30876,Radlett
+1009,50.75286,-1.30531,Cowes
+1012,50.71557,-1.11178,Nettlestone
+1013,50.68657,-1.08401,Bembridge
+1014,50.65748,-1.1624,Sandown
+1015,50.63151,-1.177,Shanklin
+1016,50.60406,-1.24108,Ventnor
+1017,50.68027,-1.53853,Totland
+1018,50.68199,-1.52011,Freshwater
+1019,50.69979,-1.47744,Yarmouth
+1024,49.96401,-6.29276,Isles of Scilly
+1025,51.39751,0.1766,Swanley
+1027,51.36208,1.43073,Broadstairs
+1029,51.34216,1.37322,Manston
+1030,51.26692,1.33042,Sandwich
+1032,51.17109,1.28343,Whitfield
+1034,51.12845,1.29613,Dover
+1035,51.11447,1.15078,Hawkinge
+1038,51.07899,1.16551,Folkestone
+1039,51.07233,1.07795,Hythe
+1040,51.27743,1.21213,Wingham
+1041,51.22462,1.06805,Lower Hardres
+1043,51.3642,1.13054,Canterbury
+1044,51.37122,1.30062,Birchington
+1046,51.38304,1.3906,Margate
+1047,51.44637,0.20915,Dartford
+1048,51.44445,0.30837,Swanscombe
+1050,51.42757,0.38809,Gravesend
+1051,51.38235,0.35555,Meopham Station
+1052,51.4315,0.23433,Darenth
+1053,51.38417,0.30965,Hartley
+1054,51.39106,0.23236,Horton Kirby
+1057,51.41247,0.74833,Queenborough
+1059,51.30275,0.89675,Faversham
+1062,51.27414,0.49915,Maidstone
+1063,51.23484,0.61021,Leeds
+1064,51.24426,0.42301,West Farleigh
+1065,51.29307,0.41123,West Malling
+1066,51.30467,0.45919,Ditton
+1067,51.32662,0.4417,Snodland
+1068,51.33297,0.72491,Sittingbourne
+1072,51.17194,0.44067,Yalding
+1073,51.27593,0.18519,Sevenoaks
+1074,51.29525,0.16172,Dunton Green
+1075,51.29951,0.26953,Wrotham
+1076,51.0961,0.5381,Cranbrook
+1077,51.04328,0.52665,Four Throws
+1080,51.14917,0.88712,Ashford
+1081,51.14426,0.93972,Wye
+1082,51.09988,0.80547,Shadoxhurst
+1083,51.16519,0.70642,Smarden
+1084,50.98202,0.95226,New Romney
+1085,50.99327,0.93444,St Mary In The Marsh
+1087,51.06195,0.69753,Tenterden
+1088,51.1459,0.25912,Royal Tunbridge Wells
+1089,51.1942,0.07969,Edenbridge
+1090,51.19053,0.27705,Tonbridge
+1098,53.62404,-1.87601,Huddersfield
+1099,53.6012,-1.6796,Kirkburton
+1100,53.57988,-1.79457,Holme
+1103,53.68034,-1.69263,Mirfield
+1106,53.71885,-1.64082,Dewsbury
+1107,53.3641,-2.83262,Halewood
+1110,53.48965,-2.87577,Kirkby
+1112,53.41439,-2.83962,Hyton
+1114,53.78294,-2.25196,Burnley
+1115,53.80353,-2.29005,Ightenhill
+1116,53.91433,-2.17053,Salterforth
+1119,53.79238,-2.41598,Accrington
+1120,53.87338,-2.38636,Clitheroe
+1122,53.83695,-2.21429,Newchurch
+1125,53.91635,-3.02629,Hardhorn and Thornton
+1126,53.75026,-3.001,Lytham Saint Annes
+1128,53.60227,-2.84032,Burscough
+1130,54.06537,-2.6739,Caton
+1132,54.06964,-2.85125,Lancaster
+1133,54.14287,-2.78998,Warton
+1134,54.17537,-2.61134,Whittingham
+1135,53.70034,-2.20299,Rawtenstall
+1137,53.77753,-2.70722,Preston
+1139,53.68743,-2.74054,Leyland
+1140,53.86826,-2.71636,Claughton
+1141,53.75335,-2.83271,Freckleton
+1142,53.73107,-2.65641,Bamber Bridge
+1144,53.6448,-2.65205,Chorley
+1145,53.55242,-2.76838,Ormskirk
+1154,53.85958,-1.52709,Harewood
+1158,53.87365,-1.71251,Guiseley
+1159,53.91132,-1.67876,Otley
+1160,53.93179,-1.39375,Wetherby
+1161,53.90372,-1.35458,Boston Spa
+1162,53.78584,-1.33059,Micklefield
+1163,53.75227,-1.44791,Rothwell
+1164,53.74839,-1.60266,Gildersome
+1175,52.60942,-1.11531,Oadby
+1179,52.61217,-1.41362,Market Bosworth
+1180,52.84368,-1.32884,Lockington
+1183,52.76641,-1.19217,Loughborough
+1185,52.7838,-0.89527,Melton Mowbray
+1186,52.4669,-1.17706,Gilmorton
+1187,52.58332,-1.11141,Wigston
+1188,52.66244,-1.24141,Groby
+1189,52.74819,-1.4681,Ashby-de-la-Zouch
+1190,52.71619,-1.36041,Coalville
+1191,52.67739,-1.06808,Barkby
+1192,52.55264,-1.09728,Kilby
+1193,52.57012,-1.28728,Hinckley
+1195,53.51089,-0.03636,Tetney
+1196,53.56115,-0.39192,Bigby
+1197,53.25883,-0.58621,Burton
+1198,53.15858,-0.21703,Woodhall Spa
+1199,53.3732,0.02496,Louth
+1200,53.3293,0.2662,Mablethorpe
+1202,53.25429,-0.5084,Nettleham
+1203,53.24325,-0.41885,Fiskerton
+1204,53.15018,-0.38489,Dunston
+1205,53.17126,-0.55617,Waddington
+1206,53.20319,-0.59403,Lincoln
+1207,53.49216,-0.34327,Caistor
+1208,53.37321,-0.32384,Linwood
+1209,53.21719,-0.11124,Horncastle
+1210,52.9142,-0.6391,Grantham
+1211,52.94939,-0.64991,Great Gonerby
+1212,52.81819,-0.57829,Burton Coggles
+1213,52.98753,-0.39096,Sleaford
+1214,52.77693,-0.3765,Bourne
+1215,52.80714,-0.16616,Pinchbeck
+1216,52.78328,0.0286,Fleet
+1217,52.932,-0.10136,Swineshead
+1218,52.97477,-0.02203,Boston
+1219,53.04826,0.0455,Old Leake
+1220,53.17244,0.09181,Spilsby
+1221,53.16561,0.26804,Burgh Le Marsh
+1222,53.15261,0.33616,Skegness
+1223,52.65562,-0.25531,Deeping St James
+1224,52.65422,-0.48012,Stamford
+1236,53.49118,-3.02203,Crosby
+1238,53.37827,-2.86296,Garston
+1270,51.51145,-0.11921,Westminster
+1276,51.39136,0.4854,Strood
+1277,51.43322,0.54668,Hoo St Werburgh
+1279,51.34896,0.53338,Rochester
+1281,51.36102,0.5987,Gillingham
+1288,54.52141,-1.23054,Stainton
+1292,52.05741,-0.81555,Stony Stratford
+1293,52.05258,-0.78359,Bradwell
+1294,52.05955,-0.76152,Stantonbury
+1295,52.05739,-0.72802,Willen
+1296,52.08879,-0.72129,Newport Pagnell
+1297,51.99235,-0.70074,Bow Brickhill
+1299,51.99651,-0.75306,Bletchley
+1300,52.00397,-0.77762,Shenley Brook End
+1301,52.15411,-0.69165,Clifton Reynes
+1302,52.02021,-0.78301,Shenley Church End
+1303,52.02967,-0.74193,Woughton On The Green
+1304,52.01921,-0.68976,Walton
+1305,52.0357,-0.803,Bradwell Abbey
+1308,55.04642,-1.64469,Brunswick
+1313,54.99621,-1.68735,Newburn
+1315,54.99947,-1.57788,Byker
+1317,52.40601,1.3215,Harleston
+1318,52.41869,0.75903,Thetford
+1319,52.58588,0.83892,Ovington
+1320,52.50733,0.57739,Methwold
+1322,52.73642,1.24582,Hevingham
+1323,52.84173,1.27596,Erpingham
+1324,52.75971,1.47144,Smallburgh
+1325,52.63372,1.47327,Blofield
+1326,52.56445,1.3807,Alpington
+1327,52.50639,1.2701,Hempnall
+1328,52.476,1.06162,Old Buckenham
+1329,52.51544,0.99655,Attleborough
+1330,52.57095,1.11105,Wymondham
+1331,52.67542,0.92907,Scarning
+1333,52.72449,0.98124,Swanton Morley
+1334,52.84097,0.85257,Fakenham
+1335,52.89366,0.86793,Walsingham
+1336,52.94872,0.85966,Wells-next-the-Sea
+1337,52.85851,1.05135,Briston
+1338,52.91969,1.08541,Holt
+1339,52.93511,1.21602,Sheringham
+1340,52.92467,1.30157,Cromer
+1341,52.82203,1.40068,North Walsham
+1345,52.57614,1.71087,Great Yarmouth
+1348,52.66074,1.2831,Norwich
+1349,52.67798,1.21188,Taverham
+1350,52.63574,1.10973,Marlingford
+1351,52.63884,0.21112,Emneth
+1352,52.75978,0.41884,King's Lynn
+1353,52.87538,0.56647,Snettisham
+1354,52.73016,0.62756,West Acre
+1355,52.64814,0.46886,Shouldham
+1356,52.7245,0.33986,Wiggenhall St Germans
+1357,52.8253,0.51155,Sandringham
+1358,52.936,0.50754,Old Hunstanton
+1359,52.64414,0.69336,Swaffham
+1360,52.58977,0.37698,Denver
+1365,53.55494,-0.03583,Cleethorpes
+1366,53.54033,-0.13461,Bradley
+1367,53.6208,-0.22331,Immingham
+1368,53.58351,-0.19466,Stallingborough
+1371,53.5721,-0.70114,Burringham
+1372,53.68055,-0.44643,Barton-Upon-Humber
+1373,53.68387,-0.35847,Barrow-Upon-Humber
+1375,53.617,-0.33385,Ulceby
+1376,53.50661,-0.89316,Haxey
+1377,51.47916,-2.75176,Portbury
+1378,51.43443,-2.84886,Clevedon
+1380,51.34266,-2.97065,Weston-Super-Mare
+1381,51.32769,-2.93158,Hutton
+1382,51.32039,-2.82522,Winscombe
+1383,51.33081,-2.87709,Banwell
+1384,51.42221,-2.65158,Long Ashton
+1385,51.42523,-2.748,Nailsea
+1386,51.3798,-2.81767,Yatton
+1387,55.0246,-1.56823,Longbenton
+1394,53.99264,-2.05339,Thorlby
+1395,54.07773,-2.27361,Langcliffe
+1396,54.41381,-1.69025,Skeeby
+1397,54.43841,-1.8751,Marske
+1398,54.37042,-1.38885,Winton
+1399,54.33761,-1.48471,Yafforth
+1400,54.29267,-1.78489,Spennithorne
+1401,54.37521,-1.70902,Colburn
+1403,53.98722,-1.52565,Harrogate
+1404,54.03069,-1.61676,Clint
+1405,54.15636,-1.5666,North Stainley
+1406,54.013,-1.45668,Knaresborough
+1407,53.86987,-1.25168,Grimston
+1408,54.46614,-1.16368,Great and Little Broughton
+1410,54.27356,-0.42267,Scarborough
+1411,54.28798,-0.49587,Stainton Dale
+1412,54.19903,-0.29672,Muston
+1413,54.13631,-0.75397,Settrington
+1414,54.2587,-0.76717,Pickering
+1415,54.47654,-0.71123,Hutton Mulgrave
+1416,54.45038,-0.62104,Snainton
+1417,54.08182,-1.37628,Boroughbridge
+1418,54.08237,-0.94057,Thornton-le-Clay
+1419,54.11579,-1.1937,Easingwold
+1420,54.24282,-0.99325,Nawton
+1421,54.2237,-1.3496,Sowerby
+1422,53.7813,-1.05745,Selby
+1423,52.48616,-0.89244,Dingley
+1424,52.07215,-0.85164,Cosgrove
+1426,52.2915,-0.59668,Rushden
+1427,52.24033,-1.17833,Badby
+1428,52.12744,-0.99778,Towcester
+1429,52.0324,-1.14715,Brackley
+1430,52.40948,-0.69145,Warkton
+1432,52.40531,-0.72098,Kettering
+1434,52.47986,-0.7144,Corby
+1436,52.2599,-0.66362,Wollaston
+1439,52.24732,-0.92916,Duston
+1440,52.32208,-0.9435,Spratton
+1441,52.20954,-0.92714,Northampton
+1442,52.30254,-0.69754,Wellingborough
+1443,52.33288,-0.59831,Irthlingborough
+1444,52.07291,-1.28938,Middleton Cheney
+1445,52.52694,-0.44176,Tansor
+1446,55.03787,-1.86072,Stamfordham
+1447,55.17901,-2.0958,Elsdon
+1448,55.05304,-1.78553,Ponteland
+1451,55.12238,-1.52013,Blyth
+1452,54.9758,-1.81875,Wylam
+1453,54.96237,-1.85474,Prudhoe
+1454,54.94804,-1.90475,Stocksfield
+1455,54.94268,-1.97814,Broomhaugh and Riding
+1456,54.97683,-2.01563,Corbridge
+1457,54.97948,-2.10626,Hexham
+1458,54.92894,-2.25127,Allendale
+1459,55.13114,-2.25724,Bellingham
+1460,54.96698,-2.45927,Haltwhistle
+1461,55.18045,-1.68905,Morpeth
+1464,55.18437,-1.51467,Wansbeck
+1465,55.3127,-1.75104,Newton on the Moor
+1466,55.42858,-1.73135,Denwick
+1467,55.53363,-1.6926,Ellingham
+1468,55.57398,-1.65739,North Sunderland
+1469,55.60468,-1.71586,Bamburgh
+1470,55.59409,-1.81591,Belford
+1471,55.55558,-2.04439,Akeld
+1473,52.89934,-1.17335,Clifton
+1479,53.42705,-0.94339,Everton
+1481,52.91104,-1.05415,Cotgrave
+1482,52.94767,-0.92087,Bingham
+1483,53.01519,-1.03696,Lowdham
+1485,53.02688,-1.29319,Greasley
+1486,53.11569,-1.26035,Sutton in Ashfield
+1488,53.15933,-1.19678,Mansfield
+1489,52.935,-1.131,West Bridgford
+1490,53.20958,-1.18386,Warsop
+1491,53.14069,-1.10443,Rainworth
+1492,53.17826,-0.97046,Ompton
+1493,53.11553,-0.80012,North Muskham
+1494,53.06966,-0.79841,Newark-on-Trent
+1495,53.07294,-0.95506,Southwell
+1496,52.97062,-1.08561,Carlton
+1497,52.92583,-1.23533,Beeston
+1498,53.29205,-1.14928,Clumber and Hardwick
+1499,53.3377,-1.12134,Carlton in Lindrick
+1502,53.57191,-2.10874,Shaw
+1503,53.55309,-2.00906,Saddleworth
+1508,51.60781,-1.12625,Wallingford
+1509,51.59965,-1.24626,Didcot
+1510,51.59437,-1.42537,Wantage
+1511,51.67849,-1.34765,Marcham
+1512,51.66728,-1.2755,Culham
+1513,52.03219,-1.40666,Tadmarton
+1514,52.06241,-1.34061,Banbury
+1515,51.76232,-1.59134,Carterton
+1517,51.85659,-1.35814,Woodstock
+1518,51.90067,-1.21216,Chesterton
+1520,51.93709,-1.14751,Fringford
+1521,51.78529,-1.48675,Witney
+1522,51.79403,-1.43154,Eynsham
+1524,51.75813,-1.14653,Holton
+1525,51.70045,-0.91317,Chinnor
+1526,51.72984,-1.21513,Oxford
+1527,51.70046,-1.13025,Cuddesdon
+1528,51.64996,-0.99967,Watlington
+1529,51.82917,-1.28016,Kidlington
+1530,51.90845,-1.16695,Bicester
+1531,51.91135,-1.52747,Chadlington
+1532,51.78964,-1.4548,South Leigh
+1533,51.73794,-0.9818,Thame
+1534,51.50513,-1.10516,Whitchurch-on-Thames
+1535,51.54407,-0.92267,Rotherfield Greys
+1536,51.64892,-1.56345,Shellingford
+1541,52.57867,-0.34398,Ailsworth
+1548,50.3916,-4.04436,Plympton
+1549,50.35394,-4.08773,Plymstock
+1568,54.58734,-1.02501,Saltburn Marske and New Marske
+1569,54.56258,-0.96528,Skelton
+1570,54.54989,-0.85427,Loftus
+1571,54.53189,-1.06034,Guisborough
+1572,54.56583,-1.15236,Redcar
+1573,53.55113,-2.19624,Middleton
+1574,53.59064,-2.22211,Heywood
+1579,53.36891,-1.21389,Dinnington
+1580,53.35678,-1.28624,Todwick
+1583,53.465,-1.34619,Rawmarsh
+1586,53.42033,-1.24153,Bramley
+1587,52.65594,-0.70037,Hambleton
+1592,53.53167,-2.42096,Walkden
+1607,52.56057,-2.02065,West Bromwich
+1608,53.47398,-2.92668,Aintree
+1614,53.51346,-2.93659,Maghull
+1618,53.65974,-2.96859,Southport
+1629,53.45763,-1.49542,Ecclesfield
+1635,53.39794,-1.41641,Norton
+1636,52.37985,-2.46282,Cleobury Mortimer
+1638,52.83579,-3.12089,Oswestry Rural
+1639,52.8663,-3.02808,Oswestry
+1640,52.90335,-2.89364,Ellesmere
+1641,52.95147,-2.68921,Whitchurch Rural
+1643,52.69923,-2.76959,Shrewsbury
+1644,52.79556,-2.75052,Myddle
+1645,52.65299,-2.82791,Longden
+1646,52.53906,-2.79038,Church Stretton
+1647,52.42508,-2.88688,Hopesay
+1648,52.36523,-2.69474,Ludlow
+1649,52.49803,-2.98558,Lydham
+1650,52.66253,-2.35933,Shifnal
+1651,52.61175,-2.48003,Broseley
+1652,52.57803,-2.5815,Much Wenlock
+1653,52.8977,-2.46832,Sutton upon Tern
+1654,52.51593,-2.37435,Bridgnorth
+1655,52.5112,-2.44062,Chetton
+1656,52.63309,-2.27043,Albrighton
+1659,51.49961,-0.55198,Colnbrook with Poyle
+1660,52.50373,-1.77899,Castle Bromwich
+1661,52.47847,-1.74083,Chelmsley Wood
+1662,52.45865,-1.72181,Bickenhill
+1666,52.38048,-1.74288,Dorridge
+1667,51.11291,-2.44576,Bruton
+1668,51.23652,-2.32519,Frome
+1669,51.12489,-2.74313,Street
+1671,50.95107,-2.63358,Yeovil
+1672,50.96814,-2.63666,Mudford
+1673,51.27468,-2.47313,Kilmersdon
+1674,51.17102,-2.53073,Shepton Mallet
+1675,51.21266,-2.65291,St Cuthbert Out
+1676,51.14042,-2.70478,Glastonbury
+1677,51.08833,-2.51835,Castle Cary
+1678,50.99883,-2.41046,Templecombe
+1679,51.05729,-2.40955,Wincanton
+1680,51.27971,-2.85461,Weare
+1681,51.27131,-2.76987,Cheddar
+1682,51.22515,-2.81349,Wedmore
+1683,51.01234,-3.10203,Taunton
+1684,51.03262,-2.82438,Langport
+1685,51.06039,-2.70214,Somerton
+1686,50.97452,-2.77207,Martock
+1687,50.94638,-2.81004,South Petherton
+1688,50.94588,-2.75024,Norton Sub Hamdon
+1689,50.95058,-2.71757,Montacute
+1690,50.90693,-2.79229,Merriott
+1691,50.90753,-2.83497,Hinton St George
+1692,50.88269,-2.78619,Crewkerne
+1693,50.93392,-2.91373,Ilminster
+1694,51.03303,-3.10109,Staplegrove
+1695,50.87329,-2.96087,Chard
+1697,51.0451,-3.54509,Dulverton
+1698,51.16171,-3.3516,Williton
+1699,51.18137,-3.50957,Wootton Courtenay
+1700,50.99403,-3.03889,Stoke St Mary
+1701,51.07092,-3.26758,Lydeard St Lawrence
+1702,51.14633,-3.10379,Spaxton
+1703,51.12479,-2.99895,Bridgwater
+1704,51.12999,-2.91187,Stawell
+1705,51.24445,-2.99294,Burnham-on-Sea
+1706,51.22588,-2.9553,Burnham Without
+1708,51.48496,-2.50988,Kingswood
+1709,51.44465,-2.47201,Bitton
+1710,51.54228,-2.55955,Bradley Stoke
+1711,51.52338,-2.56364,Stoke Gifford
+1712,51.59629,-2.54866,Aust
+1713,51.52553,-2.48582,Frampton Cotterell
+1714,51.53928,-2.41675,Yate
+1715,51.55763,-2.29718,Hawkesbury
+1733,53.41478,-2.78244,Rainhill
+1739,52.60598,-1.67362,Tamworth
+1740,52.65005,-1.68069,Wigginton
+1741,52.80741,-1.68844,Branston
+1743,52.79908,-1.6084,Burton upon Trent
+1744,52.46596,-2.22376,Kinver
+1746,52.96693,-2.06552,Forsbrook
+1747,52.94795,-2.17117,Barlaston
+1748,53.1009,-2.01793,Leek
+1749,52.90304,-1.86767,Uttoxeter
+1750,52.90033,-2.14719,Stone
+1752,52.7889,-2.09936,Stafford
+1753,52.81408,-2.08161,Hopton
+1754,52.71243,-2.14656,Penkridge
+1755,52.79854,-2.26255,Gnosall
+1756,52.86777,-2.25851,Eccleshall
+1757,53.01526,-2.23703,Newcastle-under-Lyme
+1758,53.08802,-2.2658,Kidsgrove
+1759,53.11517,-2.16735,Biddulph
+1760,53.05052,-2.09847,Bagnall
+1762,52.70623,-1.99852,Cannock
+1763,52.6917,-1.818,Lichfield
+1764,52.66292,-1.81368,Swinfen and Packington
+1765,52.75834,-1.91701,Brereton
+1766,52.65767,-2.02218,Great Wyrley
+1767,52.68012,-1.91272,Burntwood
+1768,52.53342,-2.20936,Wombourne
+1769,52.62337,-2.1832,Bilbrook
+1776,53.36962,-2.14129,Cheadle
+1778,54.49144,-1.32992,Kirklevington
+1779,54.52393,-1.35257,Egglescliffe
+1780,54.53713,-1.30289,Thornaby
+1784,54.61809,-1.3139,Grindon
+1791,52.08212,0.44187,Haverhill
+1792,52.05706,0.72355,Sudbury
+1794,52.01888,1.26939,Levington
+1795,51.97028,1.3343,Felixstowe
+1796,52.09243,1.37262,Bromeswell
+1797,52.18475,1.32107,Kettleburgh
+1798,52.20597,1.03423,Stowupland
+1799,52.15686,1.59688,Aldeburgh
+1800,52.20397,1.58604,Leiston
+1801,52.22985,1.50316,Kelsale
+1802,52.32995,1.67259,Southwold
+1803,52.33982,1.4957,Halesworth
+1805,52.36431,1.23608,Syleham
+1806,52.37548,1.05319,Wortham
+1807,52.30615,1.12472,Eye
+1808,52.4298,0.5861,Brandon
+1809,52.32627,0.54924,Tuddenham
+1810,52.19245,0.66303,Whepstead
+1812,52.20909,0.83679,Hessett
+1813,52.29023,0.82877,Pakenham
+1815,52.24178,0.70848,Bury St Edmunds
+1816,52.06,1.18046,Ipswich
+1817,52.06102,1.24182,Kesgrave
+1818,52.131,1.11536,Hemingstone
+1819,52.06872,0.94901,Aldham
+1820,52.06169,1.0828,Sproughton
+1821,51.99067,1.14931,Holbrook
+1823,52.45441,1.71976,Oulton Broad
+1824,52.43791,1.58442,Weston
+1825,52.46125,1.43463,Bungay
+1827,54.82372,-1.45363,Hetton
+1829,54.89412,-1.52441,Washington
+1833,54.90088,-1.42451,Houghton-le-Spring
+1834,54.92334,-1.42419,Castletown
+1838,51.30799,-0.05149,Whyteleafe
+1841,51.25167,-0.73032,Ash
+1843,51.311,-0.72868,Camberley
+1847,51.36776,-0.65671,Windlesham
+1849,51.31162,-0.54929,Woking
+1850,51.29671,-0.50816,Ripley
+1851,51.32963,-0.62625,Bisley
+1852,51.4009,-0.56948,Virginia Water
+1854,51.08155,-0.71785,Haslemere
+1855,51.24596,-0.62301,Worplesdon
+1856,51.24315,-0.53999,Guildford
+1857,51.20237,-0.51551,Wonersh
+1858,51.14078,-0.48174,Cranleigh
+1859,51.18915,-0.61039,Godalming
+1860,51.15082,-0.64014,Witley
+1861,51.21815,-0.79282,Farnham
+1863,51.32769,-0.40237,Cobham
+1867,51.36309,-0.49451,Addlestone
+1871,51.35096,-0.26799,Epsom
+1874,51.3007,-0.33731,Leatherhead
+1876,51.26869,-0.42879,East Horsley
+1877,51.38959,-0.3269,Esher
+1878,51.40089,-0.36243,West Molesey
+1881,51.23242,-0.2796,Brockham
+1882,51.22871,-0.33418,Dorking
+1883,51.19463,-0.34113,Capel
+1884,51.17126,-0.1617,Horley
+1885,51.17427,-0.01564,Lingfield
+1886,51.2513,0.00344,Limpsfield
+1887,51.23543,-0.06889,Godstone
+1888,51.32296,-0.20014,Reigate and Banstead
+1892,51.428,-0.50677,Staines
+1894,51.42674,-0.54997,Egham
+1897,51.5911,-1.79644,Haydon Wick
+1898,51.61086,-1.78335,Blunsdon St Andrew
+1900,51.53089,-1.81978,Wroughton
+1902,51.62067,-1.74141,Stanton Fitzwarren
+1905,53.51712,-2.03771,Mossley
+1910,53.47395,-2.08137,Ashton-under-Lyne
+1913,52.70002,-2.43956,St Georges and Priorslee
+1914,52.66404,-2.44363,Hollinswood
+1915,52.66125,-2.46726,Telford
+1916,52.7149,-2.53594,Wellington
+1917,52.7355,-2.55397,Rodington
+1918,52.63525,-2.44925,Madeley
+1919,52.62974,-2.47875,The Gorge
+1926,51.52093,0.44055,Corringham
+1930,50.42326,-3.56982,Torquay
+1933,53.4193,-2.42136,Partington
+1936,53.45095,-2.36294,Urmston
+1943,53.64741,-1.51888,Crigglestone
+1945,53.69997,-1.41375,Normanton
+1946,53.66639,-1.35065,Featherstone
+1948,53.60599,-1.31983,North Elmsall
+1954,52.64597,-1.93348,Brownhills
+1955,52.6091,-1.91729,Aldridge
+1957,52.58484,-2.06052,Willenhall
+1959,53.38226,-2.46911,Lymm
+1960,53.41054,-2.58075,Birchwood
+1961,53.45384,-2.54821,Croft
+1962,53.36472,-2.57412,Appleton
+1963,53.39857,-2.63624,Great Sankey
+1964,52.50803,-1.69351,Coleshill
+1965,52.21704,-1.86679,Alcester
+1966,52.16847,-1.85377,Bidford-on-Avon
+1967,52.27641,-1.89593,Studley
+1968,52.3509,-1.7915,Tanworth-in-Arden
+1969,52.28524,-1.78008,Henley-in-Arden
+1971,52.51885,-1.45318,Nuneaton
+1972,52.47399,-1.47288,Bedworth
+1974,52.35522,-1.28633,Rugby
+1975,52.36165,-1.30826,Dunchurch
+1977,52.2962,-1.53072,Leamington Spa
+1978,52.25735,-1.48424,Radford Semele
+1979,52.2829,-1.57924,Warwick
+1980,52.229,-1.5944,Wasperton
+1981,52.06726,-1.62504,Shipston-on-Stour
+1982,52.1853,-1.71328,Stratford-Upon-Avon
+1983,52.23349,-1.38494,Ladbroke
+1984,52.3511,-1.54336,Kenilworth
+1985,52.58493,-1.55864,Atherstone
+1987,51.43998,-1.48775,Hungerford
+1988,51.43326,-1.2418,Bucklebury
+1989,51.39368,-1.24102,Thatcham
+1990,51.40325,-1.33575,Newbury
+1991,51.3979,-1.07706,Sulhamstead
+1995,50.83181,-0.37959,Worthing
+1996,50.83013,-0.32426,Lancing
+1997,50.81446,-0.49377,Rustington
+1998,50.81408,-0.53495,Littlehampton
+1999,50.84881,-0.57933,Arundel
+2001,50.83557,-0.26583,Shoreham-by-Sea
+2002,50.89036,-0.3221,Steyning
+2003,50.8892,-0.18421,Newtimber
+2004,50.92645,-0.26815,Henfield
+2005,50.92918,-0.15276,Clayton
+2006,50.99061,-0.62915,Tillington
+2007,50.98383,-0.74619,Midhurst
+2008,50.85074,-0.92878,Hermitage
+2009,50.86403,-0.81478,Funtington
+2010,50.83756,-0.7771,Chichester
+2011,50.78278,-0.78563,Sidlesham
+2012,50.78362,-0.69622,Aldwick
+2013,50.79835,-0.64756,Felpham
+2015,51.11079,-0.20554,Crawley
+2016,51.07579,-0.33254,Horsham
+2017,51.03701,-0.32537,Southwater
+2018,51.03197,-0.48245,Wisborough Green
+2019,50.95675,-0.13316,Burgess Hill
+2020,51.00204,-0.09713,Haywards Heath
+2021,51.02122,-0.11488,Cuckfield Rural
+2022,51.12474,-0.01205,East Grinstead
+2023,50.93647,-0.4699,Storrington
+2031,53.57369,-2.66908,Pemberton
+2032,53.49803,-2.51712,Leigh
+2033,51.17117,-2.1874,Longbridge Deverill
+2034,51.26201,-2.17917,Westbury
+2036,51.35088,-2.26425,Bradford-on-Avon
+2037,51.33589,-1.98708,Roundway
+2038,51.43931,-1.99856,Calne
+2039,51.37178,-2.13649,Melksham
+2040,51.42383,-2.21001,Corsham
+2041,51.47511,-2.1944,Yatton Keynell
+2042,51.47255,-2.0792,Bremhill
+2043,51.59304,-2.08951,Malmesbury
+2044,51.40741,-1.6851,Savernake
+2045,51.324,-1.78614,Manningford
+2047,51.07406,-1.82441,Salisbury
+2048,51.10117,-2.00571,Dinton
+2049,51.16479,-1.764,Amesbury
+2050,51.02271,-1.77185,Downton
+2051,51.4753,-0.62475,Windsor
+2052,51.40468,-0.66138,Sunninghill
+2053,51.52231,-0.72569,Maidenhead
+2058,53.42801,-3.05061,Wallasey
+2061,53.37116,-3.16947,Hoylake
+2064,53.34754,-3.10122,Heswall
+2066,53.34474,-3.01101,Birkenhead
+2067,51.48055,-0.86224,Twyford
+2070,51.37471,-0.8002,Wokingham Without
+2071,51.45219,-0.90612,Woodley
+2072,51.43893,-0.9309,Earley
+2076,52.55695,-2.07818,Wednesfield
+2087,52.38699,-1.8795,Wythall
+2088,52.35557,-1.9486,Alvechurch
+2090,52.34477,-2.06753,Bromsgrove
+2093,52.3034,-1.91346,Redditch
+2095,52.38496,-2.26009,Kidderminster
+2096,52.38569,-2.32916,Upper Arley
+2097,52.33637,-2.28035,Stourport-on-Severn
+2098,52.11459,-2.06426,Wick
+2099,52.09481,-1.92847,Evesham
+2100,52.04261,-1.87314,Broadway
+2101,52.11328,-2.31839,Great Malvern
+2102,52.30476,-2.56764,Tenbury
+2103,52.22732,-2.37045,Martley
+2104,52.19642,-2.05268,North Piddle
+2105,52.08207,-2.20287,Worcester
+2106,52.26826,-2.15682,Droitwich
+2108,53.95031,-1.05822,Heslington
+2109,53.91046,-1.02105,Wheldrake
+2110,53.92562,-1.12122,Copmanthorpe
+2112,53.97452,-1.17204,Upper Poppleton
+2113,53.98579,-1.11385,Rawcliffe
+2115,54.01143,-1.05837,Earswick
+2116,49.45856,-2.53684,St Peter Port
+2118,49.52875,-2.45821,St Sampson
+2119,49.52875,-2.45821,Carmel
+2121,49.52875,-2.45821,L'Islet
+2122,49.52875,-2.45821,Richmond
+2123,49.52875,-2.45821,Mouilpied
+2124,49.57183,-2.28244,nr Mouilpied
+2126,54.17891,-4.46857,"Douglas, Braddan"
+2127,54.17219,-4.45155,Onchan
+2128,54.18407,-4.53302,"Peel, German"
+2129,54.19316,-4.7065,"Baldrine, Loman"
+2130,54.28659,-4.58037,Kirk Michael
+2131,54.32613,-4.41041,"St Judes, Andreas"
+2132,54.278,-4.08474,Ramsay
+2133,54.09184,-4.68352,Arbory
+2136,49.18581,-2.13418,St+F2813 Ouen
+2137,49.19392,-2.09104,St Helier
+2139,54.73301,-6.25997,Mill Town
+2140,54.63826,-5.54448,Donaghadee
+2165,54.591,-5.79746,Dundonald
+2166,54.53994,-5.90409,Carryduff
+2169,55.17971,-6.71005,Portstewart
+2170,55.19824,-6.64932,Portrush
+2178,54.41256,-6.46416,Portadown
+2182,54.45514,-6.33292,Lurgan
+2185,55.00933,-7.32731,Londonderry
+2187,54.33396,-5.70444,Downpatrick
+2188,54.22095,-5.89385,Newcastle
+2193,54.37531,-7.31559,Fivemiletown
+2198,54.55423,-6.01688,Dunmurry
+2204,55.19997,-6.25787,Ballycastle
+2205,55.2014,-6.51755,Bushmills
+2209,54.67658,-5.90634,Whiteabbey
+2211,54.64154,-5.82079,Holywood
+2213,54.65808,-5.6641,Bangor
+2221,57.10801,-2.23776,Milltimber
+2222,57.10076,-2.27073,Peterculter
+2225,57.2096,-2.20033,Aberdeen Airport
+2226,57.18724,-2.11913,Bridge Of Don
+2228,57.15311,-2.11241,Aberdeen
+2229,56.84678,-2.47712,Laurencekirk
+2230,57.07479,-2.52623,Banchory
+2231,57.15545,-2.31742,Westhill
+2232,57.22464,-2.74203,Alford
+2233,57.09393,-2.81204,Aboyne
+2234,57.03829,-3.14869,Ballatar
+2235,57.19715,-3.06589,Strathdon
+2236,56.97778,-2.21718,Stonehaven
+2237,57.37592,-2.10478,Ellon
+2238,57.50079,-1.88819,Peterhead
+2239,57.65714,-2.04358,Fraserburgh
+2240,57.66877,-2.49122,Macduff
+2241,57.65139,-2.56639,Banff
+2242,57.28907,-2.40485,Inverurie
+2243,57.34396,-2.60651,Insch
+2244,57.52537,-2.3941,Turriff
+2245,57.45361,-2.76333,Huntly
+2247,56.57312,-2.59738,Kirkton
+2248,56.5033,-2.71814,Carnoustie
+2251,56.0137,-4.75306,Helensburgh
+2252,55.83482,-5.0567,Rothesay
+2253,55.90186,-5.24762,Tighnabruaich
+2255,55.95474,-4.93154,Port Riddell
+2256,56.15675,-4.90504,Lochgoilhead
+2258,56.25758,-4.9369,Cairndow
+2259,56.15422,-5.08365,Strachur
+2262,56.0133,-5.44799,Ardrishaig
+2268,56.52032,-4.77019,Bridge of Orchy
+2272,55.63962,-6.18624,Port Ellen
+2273,55.7559,-6.28324,Bowmore
+2274,55.79785,-6.29265,Blackrock
+2275,55.81932,-6.1656,Ballygrant
+2276,55.86226,-6.11902,Port Askaig
+2277,55.68236,-6.50288,Portnahaven
+2278,55.73797,-6.38332,Port Charlotte
+2281,56.07177,-6.20088,Scalasaig
+2284,56.43838,-5.67471,Lochdon
+2287,56.31356,-6.23228,Bunessan
+2297,56.49469,-6.8835,Crossapol
+2304,55.90925,-3.28308,Juniper Green
+2310,55.95652,-3.39838,Kirkliston
+2312,55.98455,-3.38336,Queensferry
+2318,55.9336,-3.18463,Edinburgh
+2319,56.11516,-3.78053,Alloa
+2320,56.15009,-3.84977,Menstrie
+2321,56.15263,-3.79998,Alva
+2322,56.15078,-3.74032,Tillicoultry
+2327,54.98928,-3.25044,Annan
+2330,54.99731,-3.06777,Gretna
+2334,54.92201,-3.81016,Dalbeattie
+2335,54.83721,-4.05555,Kirkcudbright
+2343,56.47812,-2.86217,Dundee
+2344,55.5958,-4.49509,Kilmarnock
+2345,55.60713,-4.33065,Newmilns
+2346,55.61075,-4.28164,Darvel
+2347,55.45063,-4.23917,Cumnock
+2348,55.59619,-4.56338,Gatehead
+2350,55.59894,-4.38256,Galston
+2351,55.50987,-4.38668,Mauchline
+2353,55.94261,-4.32034,Milngavie
+2354,55.91127,-4.21604,Bishopbriggs
+2355,55.94024,-4.15364,Kirkintilloch
+2356,55.93845,-3.04548,Musselburgh
+2357,56.03627,-2.82661,Gullane
+2358,55.96799,-2.94853,Cockenzie and Port Seton
+2359,55.94196,-2.94469,Tranent
+2360,55.90919,-2.8799,Pencaitland
+2361,55.91053,-2.94233,Ormiston
+2363,56.04766,-2.73052,North Berwick
+2368,55.77811,-4.27227,Thornliebank
+2369,55.77345,-4.32941,Newton Mearns
+2371,58.21347,-6.38138,Stornoway
+2375,57.79992,-6.96123,Leverburgh
+2380,56.01153,-3.6041,Grangepans
+2382,56.00499,-3.75461,Hope St
+2383,56.01087,-3.71958,Grangemouth
+2384,55.99734,-3.90662,Dennyloanhead
+2386,56.02149,-3.91423,Stoneywood
+2391,56.07674,-3.49272,Dunfermline
+2395,56.12234,-3.18238,Kirkcaldy
+2396,56.06346,-3.23037,Burntisland
+2400,56.19719,-3.15405,Glenrothes
+2401,56.19755,-3.01061,Leven
+2402,56.20965,-2.83356,Kilconquhar
+2430,55.87372,-4.10199,Glasgow
+2433,57.67758,-4.03762,Cromarty
+2434,57.57422,-3.86458,Nairn
+2436,57.58564,-4.54783,Strathpeffer
+2437,57.59965,-4.42996,Dingwall
+2438,57.66431,-4.33703,Evanton
+2439,57.69985,-4.26043,Alness
+2440,57.70169,-4.15479,Invergordon
+2441,57.80478,-4.06162,Tain
+2444,57.72377,-5.72019,Gairloch
+2451,58.01527,-4.15668,Rogart
+2452,57.47726,-4.24499,Inverness
+2455,57.27372,-5.73605,Kyleakin
+2458,57.11488,-5.87374,Saasaig
+2460,57.1141,-5.98441,Ferrindonald
+2466,57.33737,-5.65106,Plockton
+2471,57.52634,-4.45682,Muir Of Ord
+2472,57.32228,-4.50465,Lewiston
+2475,57.56922,-4.17706,Avoch
+2477,57.97509,-3.975,Golspie
+2479,58.50634,-3.49149,Halkirk
+2481,58.58913,-3.55523,Thurso
+2482,58.34893,-3.16359,Whaligoe
+2483,58.30741,-3.27829,Lybster
+2488,58.0137,-3.85692,Brora
+2489,56.93428,-4.255,Dalwhinnie
+2492,57.19857,-3.80587,Aviemore
+2494,57.25419,-3.74891,Boat Of Garten
+2495,57.26187,-3.64646,Nethy Bridge
+2496,57.3298,-3.60464,Grantown-on-Spey
+2499,57.14424,-4.68275,Fort Augustus
+2500,56.82148,-5.11207,Fort William
+2503,56.72124,-5.86584,Kentra
+2505,56.91265,-5.84124,Arisaig
+2507,57.00374,-5.83251,Mallaig
+2508,56.90217,-6.14094,Isle Of Eigg
+2509,57.05693,-6.50319,Isle Of Canna
+2510,56.675,-5.10977,Glencoe
+2511,56.71451,-4.96427,Kinlochleven
+2512,55.89235,-4.62927,Kilmacolm
+2516,55.88928,-4.88661,Wemyss Bay
+2517,55.9528,-4.82244,Greenock
+2518,57.01529,-6.28049,Isle Of Rum
+2520,55.87324,-3.10446,Bonnyrigg and Lasswade
+2521,55.87905,-3.15579,Loanhead
+2522,55.88441,-3.06001,Dalkeith
+2523,55.83956,-3.05081,Arniston
+2525,55.85821,-3.17434,Roslin
+2526,55.83257,-3.22307,Penicuik
+2528,57.33098,-3.35051,Ballindalloch
+2529,57.48589,-3.2261,Aberlour
+2532,57.65468,-3.32732,Elgin
+2533,57.71706,-3.28931,Lossiemouth
+2534,57.63161,-3.11041,Mosstodloch
+2535,57.61104,-3.60363,Forres
+2537,55.61923,-4.66337,Irvine
+2538,55.6553,-4.69921,Kilwinning
+2539,55.74041,-4.67162,Glengarnock
+2540,55.74859,-4.62596,Beith
+2541,55.64157,-4.75072,Stevenston
+2543,55.65019,-4.80697,Ardrossan
+2544,55.69135,-4.85449,West Kilbride
+2545,55.70981,-4.71412,Dalry
+2546,55.75263,-4.6884,Kilbirnie
+2548,55.75447,-4.92287,Millport
+2549,55.75701,-4.85291,Fairlie
+2550,55.79725,-4.86224,Largs
+2551,55.86512,-4.88162,Skelmorlie
+2552,55.97334,-4.0577,Kilsyth
+2553,55.94755,-3.98586,Cumbernauld
+2554,55.95345,-4.01019,Balloch
+2556,55.77706,-3.91179,Wishaw
+2557,55.81846,-4.02078,Motherwell
+2558,55.85964,-4.03091,Coatbridge
+2559,55.86704,-3.96257,Airdrie
+2561,55.65331,-2.2384,Cornhill-on-Tweed
+2562,55.74699,-2.01275,Berwick-upon-Tweed
+2563,58.9803,-2.95862,Kirkwall
+2564,58.95963,-3.27278,Stromness
+2565,59.04195,-3.00217,Gorseness
+2566,56.20866,-3.43173,Kinross
+2575,56.68745,-4.3823,Killichonan
+2578,56.30228,-3.70355,Auchterarder
+2579,56.26072,-3.78244,Blackford
+2580,56.32927,-3.8277,Muthill
+2581,56.37162,-3.99491,Comrie
+2582,56.37332,-3.82657,Crieff
+2586,55.83375,-4.55184,Kilbarchan
+2587,55.85649,-4.5821,Ranfurly
+2588,55.7954,-4.62273,Lochwinnoch
+2590,55.85205,-4.44757,Paisley
+2591,55.87464,-4.39623,Renfrew
+2592,55.83105,-4.50854,Johnstone
+2594,55.90944,-4.49919,Bishopton
+2596,55.80948,-4.55184,Howwood
+2597,60.15232,-1.16779,Sound
+2599,59.88369,-1.30316,Toab
+2600,55.54945,-4.64755,Troon
+2606,55.49734,-4.60446,Ayr
+2609,55.81977,-4.20605,Cambuslang
+2610,55.76912,-4.17289,East Kilbride
+2611,55.68013,-4.06932,Strathaven
+2612,55.66661,-3.78555,New Lanark
+2614,55.77028,-4.05337,Hamilton
+2615,55.7305,-3.84103,Carluke
+2616,55.72496,-3.96658,Larkhall
+2618,56.19081,-4.05966,Doune
+2619,56.24019,-4.21887,Callander
+2620,56.32448,-4.32728,Strathyre
+2623,56.46574,-4.31969,Killin
+2626,56.14242,-3.93955,Bridge Of Allan
+2627,56.04243,-4.36487,Killearn
+2629,55.62422,-3.0101,Walkerburn
+2631,55.65494,-3.19209,Peebles
+2633,55.6239,-2.80997,Galashiels
+2634,55.71203,-2.44887,Greenlaw
+2636,55.92975,-2.36975,Cockburnspath
+2640,55.64182,-2.67051,Earlston
+2642,55.58238,-2.6933,Newtown St Boswells
+2644,55.47531,-2.54111,Jedburgh
+2647,55.91309,-4.4066,Clydebank
+2648,55.95195,-4.57403,Dumbarton
+2649,56.01196,-4.58444,Alexandria
+2650,55.89063,-3.42319,Kirknewton
+2652,55.9011,-3.66353,Bathgate
+2653,55.97656,-3.59785,Linlithgow
+2654,55.93756,-3.48256,Broxburn
+2656,55.89212,-3.524,Livingston
+2657,55.84748,-3.57178,West Calder
+2658,51.73412,-3.13977,Abertillery
+2659,51.7707,-3.25665,Tredegar
+2660,51.78482,-3.19615,Ebbw Vale
+2662,51.55992,-3.58268,Garw Valley
+2663,51.52424,-3.69101,Cynffig
+2664,51.61024,-3.65087,Maesteg
+2665,51.52211,-3.51793,Pencoed
+2666,51.48456,-3.69818,Porthcawl
+2667,51.6998,-3.24311,Bargoed
+2668,51.65132,-3.236,Gelligaer
+2669,51.58587,-3.2169,
+2670,51.64249,-3.13025,Abercarn
+2671,51.6688,-3.19743,Blackwood
+2672,51.71964,-3.23786,New Tredegar
+2673,51.47387,-3.17648,Butetown
+2674,51.47281,-3.19229,Grangetown
+2675,51.51947,-3.20216,Rhiwbina
+2676,51.53401,-3.27319,Pentyrch
+2677,51.5155,-3.15016,Pentwyn
+2678,51.48479,-3.16379,Adamsdown
+2679,51.51947,-3.11134,Trowbridge
+2680,51.48219,-3.2415,Ely
+2681,51.73245,-4.10721,Llannon
+2682,51.69989,-4.16648,Llanelli Rural
+2683,51.68922,-4.25569,Cefn Sidan
+2684,51.7579,-4.2852,Kidwelly
+2685,51.79798,-3.95796,Betws
+2686,51.95284,-3.94723,Talley
+2687,52.01025,-3.78651,Llandovery
+2688,51.85639,-4.30762,Carmarthen
+2689,51.88597,-4.17106,Llanegwad
+2690,51.85022,-4.4351,Meidrim
+2691,51.85258,-4.61822,Llanfallteg
+2692,52.0401,-4.47312,Newcastle Emlyn
+2693,52.01955,-4.24166,Llanfihangel-Ar-Arth
+2694,52.08378,-4.17335,Llanwenog
+2695,52.08619,-4.62896,Llangoedmor
+2696,52.08625,-4.37201,Troedyraur
+2697,52.20794,-4.358,New Quay
+2698,52.23254,-4.24945,Aberaeron
+2699,52.19028,-4.29561,Llanarth
+2700,52.14338,-4.11048,Llangybi
+2701,52.38184,-4.05129,Llanfarian
+2702,52.47045,-4.02302,Geneur Glyn
+2703,52.2381,-3.93626,Tregaron
+2704,53.26827,-3.59257,Betws-yn-Rhos
+2705,53.05695,-3.78474,Bro Machno
+2706,53.0546,-3.87866,Dolwyddelan
+2707,53.13877,-3.78514,Llanrwst
+2708,53.14718,-3.82288,Trefriw
+2709,53.28749,-3.75983,Mochdre
+2710,53.28916,-3.70738,Old Colwyn
+2711,53.31813,-3.81514,Llandudno
+2712,53.29035,-3.80946,Deganwy
+2713,53.26022,-3.83968,Henryd
+2714,53.24987,-3.98015,Llanfairfechan
+2715,53.27076,-3.91212,Penmaenmawr
+2716,53.10263,-3.31455,Ruthin
+2717,53.18489,-3.43231,Denbigh
+2718,53.25319,-3.4346,St Asaph
+2719,53.31023,-3.47554,Rhyl
+2720,53.33082,-3.40866,Prestatyn
+2721,52.95949,-3.15982,Llangollen
+2722,52.99006,-3.40947,Corwen
+2723,52.90493,-3.60003,Bala
+2724,52.54657,-4.04127,Aberdovey
+2725,52.60374,-4.06313,Bryncrug
+2726,52.66546,-4.0823,Llangelynin
+2728,52.71076,-4.01043,Arthog
+2729,52.75614,-3.87468,Brithdir
+2730,52.96914,-3.9375,Ffestiniog
+2731,52.7253,-4.05405,Barmouth
+2733,52.79111,-4.09572,Dyffryn Ardudwy
+2734,52.81989,-4.09562,Llanbedr
+2735,52.85477,-4.10621,Harlech
+2736,52.9014,-4.06237,Talsarnau
+2737,52.93544,-4.06994,Penrhyndeudraeth
+2738,52.92883,-4.13808,Porthmadog
+2739,52.97377,-4.23712,Dolbenmaen
+2740,52.92425,-4.24052,Criccieth
+2741,52.88418,-4.49117,Buan
+2742,53.05829,-4.28478,Llanllyfni
+2743,53.13355,-4.20355,Llanrug
+2744,53.18669,-4.19879,Y Felinheli
+2745,53.20718,-4.10998,Llandygai
+2746,53.28022,-4.09857,Beaumaris
+2747,53.23417,-4.15926,Cwm Cadnant
+2748,53.21505,-4.26915,Llanfihangel Ysgeifiog
+2749,53.1954,-4.26212,Llanidan
+2750,53.21007,-4.38572,Bodorgan
+2751,53.21824,-4.47007,Aberffraw
+2752,53.22805,-4.51709,Rhosneigr
+2753,53.30067,-4.5694,Valley
+2754,53.38055,-4.40427,Rhosybol
+2755,53.41097,-4.45565,Llanbadrig
+2756,53.39818,-4.37668,Amlwch
+2757,53.38583,-4.31883,Penysarn
+2759,53.32732,-4.36823,Llannerch-Y-Medd
+2760,53.34957,-4.24023,Moelfre
+2761,53.33511,-4.24397,Llaneugrad
+2763,53.28343,-4.21876,Pentraeth
+2765,53.26011,-4.31053,Llangefni
+2766,53.31678,-4.26253,Llanfair-Mathafarn-Eithaf
+2767,51.66501,-3.3,Treharris
+2769,51.74067,-3.3688,Town
+2770,51.72552,-2.88616,Gwehelog Fawr
+2771,51.64951,-2.68808,St Arvans
+2772,51.80307,-2.72232,Monmouth
+2773,51.59051,-2.77669,Rogiet
+2774,51.82884,-3.00864,Abergavenny
+2775,51.68722,-3.79836,Blaenhonddan
+2776,51.67428,-3.76168,Tonna
+2777,51.60725,-3.79375,Baglan
+2778,51.60559,-3.72436,Bryn
+2779,51.72153,-3.8475,Pontardawe
+2780,51.57943,-3.04497,Graig
+2781,51.60637,-2.94305,Caerleon
+2782,51.58913,-2.9629,Alway
+2783,51.59057,-3.0048,Allt-yr-yn
+2784,51.97349,-4.55974,Clydau
+2785,51.95717,-4.60684,Crymych
+2786,52.01684,-4.59282,Boncath
+2787,51.99718,-4.70679,Eglwyswrw
+2788,52.01534,-4.8522,Newport
+2789,51.79916,-4.97345,Haverfordwest
+2790,51.84093,-5.06333,Nolton
+2791,51.87409,-4.85342,Wiston
+2792,52.00147,-5.01162,Pencaer
+2793,51.98818,-4.96848,Fishguard
+2794,51.88121,-4.74342,Maenclochog
+2795,51.78165,-4.73157,Narberth
+2796,51.72867,-4.76603,Jeffreyston
+2797,51.71029,-4.70555,Saundersfoot
+2798,51.67176,-4.73797,Penally
+2799,51.66716,-4.92863,Pembroke
+2800,51.6913,-4.93453,Pembroke Dock
+2801,51.71634,-5.01146,Milford Haven
+2802,52.26047,-3.3657,Llandrindod Wells
+2803,52.14145,-3.39275,Duhonw
+2804,51.96006,-3.37111,Llanddew
+2805,52.11786,-3.55416,Llangamarch
+2806,52.12692,-3.61584,Treflys
+2807,52.30909,-3.50804,Rhayader
+2808,52.3524,-3.08513,Knighton
+2809,52.26735,-3.04348,Presteigne
+2810,51.85996,-3.14586,Llangattock
+2811,51.78122,-3.76729,Ystradgynlais
+2812,52.55518,-3.12995,Montgomery
+2813,52.52004,-3.31183,Llanllwchaiarn
+2814,52.51644,-3.46501,Caersws
+2815,52.44076,-3.54784,Llanidloes
+2816,52.57388,-3.61156,Llanbrynmair
+2817,52.61405,-3.81838,Glantwymyn
+2818,52.65784,-3.20505,Castle Caereinion
+2819,52.75604,-3.18553,Llansantffraid
+2820,51.6026,-3.33288,Pontypridd
+2821,51.56034,-3.33164,Llantwit Fardre
+2822,51.60153,-3.42382,Cymmer
+2823,51.62009,-3.45041,Tonypandy
+2824,51.64758,-3.48164,Ystrad
+2825,51.66685,-3.52132,Treorchy
+2826,51.65788,-3.44872,Ferndale
+2827,51.71802,-3.45788,Aberdare
+2828,51.66882,-3.36085,Penrhiwceiber
+2829,51.52989,-3.39852,Llanharan
+2830,51.62742,-3.93905,Landore
+2831,51.62021,-3.99364,Sketty
+2832,51.57965,-4.05105,Bishopston
+2833,51.67054,-4.04792,Gorseinon
+2834,51.64851,-3.96886,Penderry
+2835,51.67539,-3.92084,Morriston
+2836,51.6615,-3.88989,Llansamlet
+2837,51.40748,-3.47962,Llantwit Major
+2839,51.4119,-3.25542,Barry
+2840,51.43328,-3.18838,Penarth
+2841,51.46176,-3.45402,Cowbridge
+2842,51.71882,-3.04528,Trevethin
+2843,51.65064,-3.02637,Cwmbran
+2844,53.06314,-3.03425,Broughton
+2845,53.08601,-2.98851,Gresford
+2846,53.0359,-2.95902,Abenbury
+2847,52.99198,-3.05043,Ruabon
