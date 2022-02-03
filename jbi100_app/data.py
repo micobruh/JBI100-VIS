@@ -9,6 +9,10 @@ def get_data():
     return pd.read_csv("https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/jbi100_app/datasets/dataset_clean.csv")
 
 
+def get_coordinates():
+    return pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/jbi100_app/datasets/locations.csv')
+
+
 def update_date(start_date, end_date):
     start_date_date = datetime.date.fromisoformat(start_date)
     end_date_date = datetime.date.fromisoformat(end_date)

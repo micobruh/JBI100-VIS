@@ -8,6 +8,8 @@ from jbi100_app.views.heatmap import MapViewHeat
 from jbi100_app.views.hexagon import MapViewHex
 from jbi100_app.views.menu import make_menu_layout
 
+# TODO add documentation
+
 # Create data
 df = get_data()
 
@@ -81,9 +83,13 @@ def update_view(tab):
 
 @app.callback(
     Output('heatmap', 'figure'),
-    Input('select-z-attribute-dropdown', 'value')
+    Input('select-z-attribute-dropdown', 'value'),
+    Input('city-selection-dropdown', 'value')
 )
-def update_heatmap(attr):
+def update_heatmap(attr, city):
+    if city != mapViewHeat.current_city:
+        mapViewHeat.update_heatmap_area(city)
+
     return mapViewHeat.update_z_attr(attr)
 
 

@@ -11,33 +11,35 @@ class Barplot(html.Div):
         super().__init__(
             className="graph_card",
             children=[
-                html.H6(name),
+                html.H6("Barplot"),
                 dcc.Graph(id=self.html_id)
             ],
         )
 
     def update(self, feature_x_1, feature_x_2, type):
+        # TODO range of date
         self.fig = go.Figure()
 
         traces = []
         if feature_x_1 == feature_x_2:
             temp = self.df[[feature_x_1]]
-            temp = temp[temp[feature_x_1]!='100000000']
-            temp = temp[temp[feature_x_1]!=100000000]
+            temp = temp[temp[feature_x_1] != '100000000']
+            temp = temp[temp[feature_x_1] != 100000000]
             temp = temp.groupby(feature_x_1).size()
             temp = temp.rename('Size').reset_index()
             trace = go.Bar(name=feature_x_1, x=temp[feature_x_1], y=temp['Size'])
             traces.append(trace)
         else:
             temp = self.df[[feature_x_1, feature_x_2]]
-            temp = temp[(temp[feature_x_1]!='100000000')&(temp[feature_x_2]!='100000000')]
-            temp = temp[(temp[feature_x_1]!=100000000)&(temp[feature_x_2]!=100000000)]
+            temp = temp[(temp[feature_x_1] != '100000000') & (temp[feature_x_2] != '100000000')]
+            temp = temp[(temp[feature_x_1] != 100000000) & (temp[feature_x_2] != 100000000)]
             temp = temp.groupby([feature_x_1, feature_x_2]).size()
             temp = temp.rename('Size').reset_index()
             for i in temp[feature_x_1].unique():
-                trace = go.Bar(name=str(i), x=temp[temp[feature_x_1]==i][feature_x_2], y=temp[temp[feature_x_1]==i]['Size'])
+                trace = go.Bar(name=str(i), x=temp[temp[feature_x_1] == i][feature_x_2],
+                               y=temp[temp[feature_x_1] == i]['Size'])
                 traces.append(trace)
-        
+
         for i in range(len(traces)):
             self.fig.add_trace(traces[i])
         self.fig.update_layout(
@@ -62,7 +64,12 @@ class Barplot(html.Div):
             )
         else:
             self.fig.update_layout(
-                title_text='Number of Accidents with ' + feature_x_2.replace("_", " ") + ' Grouped by ' + feature_x_1.replace("_", " "),
+                title_text='Number of Accidents with ' + feature_x_2.replace("_",
+                                                                             " ") + ' Grouped by ' + feature_x_1.replace(
+                    "_", " "),
             )
 
         return self.fig
+
+    def reload_df(self, df):
+        self.df = df

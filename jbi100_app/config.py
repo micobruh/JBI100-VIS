@@ -1,3 +1,5 @@
+from jbi100_app.data import get_coordinates
+
 # Here you can add any global configuations
 
 color_list1 = ["green", "blue"]
@@ -21,4 +23,6 @@ final = ['Day_of_Week', 'Hour', 'Road_Type', 'Speed_limit', 'Pedestrian_Crossing
          'Junction_Location', 'Sex_of_Casualty', 'Road_Surface_Conditions']
 
 attributes_heat = ['Speed_limit', 'Accident_Severity', 'Pedestrian_Movement']
+
+cities_df = get_coordinates().sort_values('city')
 # pip install requirements.txt

@@ -2,7 +2,7 @@ from datetime import date
 
 from dash import dcc, html
 
-from ..config import final, attributes_heat
+from ..config import final, attributes_heat, cities_df
 
 
 def generate_description_card():
@@ -16,7 +16,7 @@ def generate_description_card():
             html.H5("Dashboard"),
             html.Div(
                 id="intro",
-                children="Choose the attributes and time range of your interest",
+                # children="Choose the attributes and time range of your interest",
             ),
         ],
     )
@@ -33,11 +33,18 @@ def generate_control_card(isHeatMap):
             children=[
                 html.H6("Tools for the HeatMap View: "),
                 html.Br(),
-                html.Label("z Attribute"),
+                html.Label("Select Attribute:"),
                 dcc.Dropdown(
                     id="select-z-attribute-dropdown",
                     options=[{"label": i.replace("_", " "), "value": i} for i in attributes_heat],
                     value=attributes_heat[0],
+                ),
+                html.Br(),
+                html.Label('Select City:'),
+                dcc.Dropdown(
+                    id="city-selection-dropdown",
+                    options=[{"label": entry, "value": entry} for entry in cities_df['city'].tolist()],
+                    value='Hunshelf',
                 ),
             ],
             style={"textAlign": "float-left"}
