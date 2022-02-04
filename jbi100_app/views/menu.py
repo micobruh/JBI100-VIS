@@ -52,6 +52,8 @@ def generate_control_card(isHeatMap):
             id="control-card",
             children=[
                 html.H6("Tools for the Chart View: "),
+                html.Br(),
+                html.Label('Select month range:'),
                 dcc.Dropdown(
                     id='month-selector-dropdown',
                     options=[{"label": i.replace("_", " "), "value": i} for i in months_list],
