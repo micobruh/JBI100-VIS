@@ -22,7 +22,7 @@ final = ['Day_of_Week', 'Hour', 'Road_Type', 'Speed_limit', 'Pedestrian_Crossing
          'Pedestrian_Crossing-Human_Control', 'Casualty_Severity', 'Casualty_Class', 'Urban_or_Rural_Area',
          'Junction_Location', 'Sex_of_Casualty', 'Road_Surface_Conditions']
 
-attributes_heat = ['Speed_limit', 'Accident_Severity', 'Pedestrian_Movement']
+attributes_heat = ['Speed_limit', 'Accident_Severity', 'Hour', 'Junction_Detail', 'Casualty_Class']
 
 cities_df = get_coordinates().sort_values('city')
 # pip install requirements.txt
