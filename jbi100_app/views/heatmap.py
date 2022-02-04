@@ -14,6 +14,8 @@ class MapViewHeat(html.Div):
                       height=650)
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
+    fig.update_mapboxes(zoom=8)
+
     current_city = 'Hunshelf'
 
     # fig.update_mapboxes(layout=)
