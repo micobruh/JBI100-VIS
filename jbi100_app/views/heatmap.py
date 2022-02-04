@@ -7,6 +7,7 @@ from ..config import cities_df
 
 class MapViewHeat(html.Div):
     df = pd.read_csv('https://raw.githubusercontent.com/dbusn/JBI100-VIS/main/jbi100_app/datasets/dataset_heatmap.csv')
+    df.astype('float')
 
     fig = go.Figure(go.Densitymapbox(lat=df.Latitude, lon=df.Longitude,
                                      hovertext="", hoverinfo="text", radius=5, opacity=0.5))
@@ -14,11 +15,9 @@ class MapViewHeat(html.Div):
                       height=650)
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
-    fig.update_mapboxes(zoom=8)
+    fig.update_mapboxes(zoom=6)
 
-    current_city = 'Hunshelf'
-
-    # fig.update_mapboxes(layout=)
+    current_city = 'Abbots Langley'
 
     def update_z_attr(self, attr):
         self.fig.update_traces(z=self.df[attr])
