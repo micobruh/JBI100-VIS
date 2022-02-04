@@ -1,8 +1,6 @@
-from datetime import date
-
 from dash import dcc, html
 
-from ..config import final, attributes_heat, cities_df
+from ..config import final, attributes_heat, cities_df, months_list
 
 
 def generate_description_card():
@@ -44,7 +42,7 @@ def generate_control_card(isHeatMap):
                 dcc.Dropdown(
                     id="city-selection-dropdown",
                     options=[{"label": entry, "value": entry} for entry in cities_df['city'].tolist()],
-                    value='Hunshelf',
+                    value='January',
                 ),
             ],
             style={"textAlign": "float-left"}
@@ -54,13 +52,9 @@ def generate_control_card(isHeatMap):
             id="control-card",
             children=[
                 html.H6("Tools for the Chart View: "),
-                dcc.DatePickerRange(
-                    id='date-picker-range',
-                    min_date_allowed=date(2015, 1, 1),
-                    max_date_allowed=date(2015, 12, 31),
-                    initial_visible_month=date(2015, 1, 1),
-                    start_date=date(2015, 1, 1),
-                    end_date=date(2015, 12, 31)
+                dcc.Dropdown(
+                    id='month-selector-dropdown',
+                    options=[{"label": i.replace("_", " "), "value": i} for i in months_list],
                 ),
                 html.Br(),
                 html.Br(),
