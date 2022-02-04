@@ -56,10 +56,8 @@ app.layout = html.Div(
     Input("select-x-attribute-bar-1", "value"),
     Input("select-x-attribute-bar-2", "value"),
     Input("amount-or-percent", 'value'),
-    Input("date-picker-range", "start_date"),
-    Input("date-picker-range", "end_date"),
 )
-def update_x(feature_x_1, feature_x_2, type, start_date, end_date):
+def update_x(feature_x_1, feature_x_2, type):
     # df = update_date(start_date, end_date)
     # print(df['Date'].tolist())
     #
