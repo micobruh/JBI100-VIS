@@ -109,89 +109,118 @@ def get_data():
                   to_replace = ["0", "1", "2", "3"],
                   value = ["No/Not Applicable", "Yes", "Not Known", "Probable"]
               )
+              Casualty_IMD_Decile = df.Casualty_IMD_Decile.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                  value = ["Most Deprived 10%", "More Deprived 10-20%", "More Deprived 20-30%", "More Deprived 30-40%", 
+                           "More Deprived 40-50%", "Less Deprived 40-50%", "Less Deprived 30-40%", "Less Deprived 20-30%", 
+                           "Less Deprived 10-20%", "Least Deprived 10%"]                   
+              ),
+              Towing_and_Articulation = df.Towing_and_Articulation.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "9"],
+                  value = ["No Tow/Articulation", "Articulated Vehicle", "Double or Multiple Trailer", "Caravan", 
+                           "Single Trailer", "Other Tow", "100000000"]
+              ), 
+              Vehicle_Manoeuvre = df.Vehicle_Manoeuvre.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "99"],
+                  value = ["Reversing", "Parked", "Waiting to Go-Held Up", "Slowing or Stopping", "Moving off", "U-Turn", "Turn Left", 
+                           "Waiting to Turn Left", "Turn Right", "Waiting to Turn Right", "Changing Lane to Left", "Changing Lane to Right", 
+                           "Overtaking Moving Vehicle-Offside", "Overtaking Static Vehicle-Offside", "Overtaking-Nearside", 
+                           "Going Ahead Left-Hand Bend", "Going Ahead Right-Hand Bend", "Going Ahead Others", "100000000"]
+              ),
+              Vehicle_Location-Restricted_Lane = df.Vehicle_Location-Restricted_Lane.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "99"],
+                  value = ["On main C'Way-Not in Restricted Lane", "Tram/Light Rail Track", "Bus Lane", "Busway (Including Guided Busway)", 
+                           "Cycle Lane (On Main Carriageway)", "Cycleway or Shared Use Footway (Not Part of Main Carriageway)", 
+                           "On Lay-By or Hard Shoulder", "Entering Lay-by or Hard Shoulder", "Leaving Lay-by or Hard Shoulder", 
+                           "Footway (Pavement)", "Not on Carriageway", "100000000"]                 
+              ),
+              Junction_Location = df.Junction_Location.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                  value = ["Not at or Within 20 Metres of Junction", "Approaching Junction or Waiting/Parked at Junction Approach", 
+                           "Cleared Junction or Waiting/Parked at Junction Exit", "Leaving Roundabout", "Entering Roundabout", 
+                           "Leaving Main Road", "Entering Main Road", "Entering from Slip Road", 
+                           "Mid Junction-on Roundabout or on Main Road", "100000000"]                 
+              ),
+              Hit_Object_in_Carriageway = df.Hit_Object_in_Carriageway.replace(
+                  to_replace = ["0", "1", "2", "4", "5", "6", "7", "8", "9", "10", "11", "12", "99"],
+                  value = ["None", "Previous Accident", "Road Works", "Parked Vehicles", "Bridge (Roof)", "Bridge (Side)", 
+                           "Bollard or Refuge", "Open Door of Vehicle", "Central Island of Roundabout", "Kerb", "Other Object", 
+                           "Any Animal (Except Ridden Horse)", "100000000"]                  
+              ),
+              Vehicle_Leaving_Carriageway = df.Vehicle_Leaving_Carriageway.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                  value = ["Did Not Leave Carriageway", "Nearside", "Nearside and Rebounded", "Straight Ahead at Junction", 
+                           "Offside on to Central Reservation", "Offside on to Central reservation + Rebounded", 
+                           "Offside-Crossed Central Reservation", "Offside", "Offside and Rebounded", "100000000"]                  
+              ),
+              Hit_Object_off_Carriageway = df.Hit_Object_off_Carriageway.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "99"],
+                  value = ["None", "Road Sign or Traffic Signal", "Lamp Post", "Telegraph or Electricity Pole", "Tree", 
+                           "Bus Stop or Bus Shelter", "Central Crash Barrier", "Near/Offside Crash Barrier", 
+                           "Submerged in Water", "Entered Ditch", "Other Permanent Object", "Wall or Fence", "100000000"]                  
+              ),
+              1st_Point_of_Impact = df.1st_Point_of_Impact.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "9"],
+                  value = ["Did Not Impact", "Front", "Back", "Offside", "Nearside", "100000000"]                      
+              ),
+              Was_Vehicle_Left_Hand_Drive? = df.Was_Vehicle_Left_Hand_Drive?.replace(
+                  to_replace = ["1", "2", "9"],
+                  value = ["No", "Yes", "100000000"]                      
+              ),
+              Journey_Purpose_of_Driver = df.Journey_Purpose_of_Driver.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "15"],
+                  value = ["Journey as Part of Work", "Commuting to/from Work", "Taking Pupil to/from School", 
+                           "Pupil Riding to/from School", "Other", "100000000", "Other"]
+              ),
+              Age_Band_of_Driver = df.Age_Band_of_Driver.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
+                  value = ["0-5", "6-10", "11-15", "16-20", "21-25", "26-35", "36-45", "46-55", "56-65", "66-75", "Over 75"]
+              ),
+              Propulsion_Code = df.Propulsion_Code.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+                  value = ["Petrol", "Heavy Oil", "Electric", "Steam", "Gas", "Petrol/Gas (LPG)", "Gas/Bi-fuel", "Hybrid Electric", 
+                           "Gas Diesel", "New Fuel Technology", "Fuel Cells", "Electric Diesel"]
+              ),
+              Accident_Severity = df.Accident_Severity.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Fatal", "Serious", "Slight"]
+              ),
+              Pedestrian_Crossing-Human_Control = df.Pedestrian_Crossing-Human_Control.replace(
+                  to_replace = ["0", "1", "2", "9"],
+                  value = ["None within 50 Metres", "Control by School Crossing Patrol", "Control by Other Authorised Person", "100000000"]
+              ),
+              Urban_or_Rural_Area = df.Urban_or_Rural_Area.replace(
+                  to_replace = ["1", "2", "3"]
+                  value = ["Urban", "Rural", "Unallocated"]
+              ),
+              Did_Police_Officer_Attend_Scene_of_Accident = df.Did_Police_Officer_Attend_Scene_of_Accident.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Yes", "No", "No"]
+              ),
+              Casualty_Class = df.Casualty_Class.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Driver or Rider", "Passenger", "Pedestrian"]
+              ),
+              Sex_of_Casualty = df.Sex_of_Casualty.replace(
+                  to_replace = ["1", "2", "9"],
+                  value = ["Male", "Female", "100000000"]                  
+              ),
+              Casualty_Severity = df.Casualty_Severity.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Fatal", "Serious", "Slight"]                    
+              ),
+              Car_Passenger = df.Car_Passenger.replace(
+                  to_replace = ["0", "1", "2", "9"],
+                  value = ["Not Car Passenger", "Front Seat Passenger", "Rear Seat Passenger", "100000000"]                  
+              ),
+              Casualty_Home_Area_Type = df.Casualty_Home_Area_Type.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Urban Area", "Small Town", "Rural"]                              
+              ),
+               Driver_Home_Area_Type = df.Driver_Home_Area_Type.replace(
+                  to_replace = ["1", "2", "3"],
+                  value = ["Urban Area", "Small Town", "Rural"]                              
+              )             
           )
-
-    df["Casualty_IMD_Decile"].replace({"1": "Most Deprived 10%", "2": "More Deprived 10-20%", "3": "More Deprived 20-30%", 
-    "4": "More Deprived 30-40%", "5": "More Deprived 40-50%", "6": "Less Deprived 40-50%", "7": "Less Deprived 30-40%", 
-    "8": "Less Deprived 20-30%", "9": "Less Deprived 10-20%", "10": "Least Deprived 10%"}, inplace=True)
-
-    df["Towing_and_Articulation"].replace({"0": "No Tow/Articulation", "1": "Articulated Vehicle", 
-    "2": "Double or Multiple Trailer", "3": "Caravan", 
-    "4": "Single Trailer", "5": "Other Tow", "9": "100000000"}, inplace=True)
-
-    df["Vehicle_Manoeuvre"].replace({"1": "Reversing", "2": "Parked", "3": "Waiting to Go-Held Up", 
-    "4": "Slowing or Stopping", "5": "Moving off", "6": "U-Turn", "7": "Turn Left", "8": "Waiting to Turn Left", 
-    "9": "Turn Right", "10": "Waiting to Turn Right", "11": "Changing Lane to Left", "12": "Changing Lane to Right", 
-    "13": "Overtaking Moving Vehicle-Offside", "14": "Overtaking Static Vehicle-Offside", "15": "Overtaking-Nearside", 
-    "16": "Going Ahead Left-Hand Bend", "17": "Going Ahead Right-Hand Bend", "18": "Going Ahead Others", 
-    "99": "100000000"}, inplace=True)
-
-    df["Vehicle_Location-Restricted_Lane"].replace({"0": "On main C'Way-Not in Restricted Lane", 
-    "1": "Tram/Light Rail Track", "2": "Bus Lane", "3": "Busway (Including Guided Busway)", 
-    "4": "Cycle Lane (On Main Carriageway)", "5": "Cycleway or Shared Use Footway (Not Part of Main Carriageway)", 
-    "6": "On Lay-By or Hard Shoulder", "7": "Entering Lay-by or Hard Shoulder", "8": "Leaving Lay-by or Hard Shoulder", 
-    "9": "Footway (Pavement)", "10": "Not on Carriageway", "99": "100000000"}, inplace=True)
-
-    df["Junction_Location"].replace({"0": "Not at or Within 20 Metres of Junction", 
-    "1": "Approaching Junction or Waiting/Parked at Junction Approach", 
-    "2": "Cleared Junction or Waiting/Parked at Junction Exit", "3": "Leaving Roundabout", 
-    "4": "Entering Roundabout", "5": "Leaving Main Road", 
-    "6": "Entering Main Road", "7": "Entering from Slip Road", "8": "Mid Junction-on Roundabout or on Main Road", 
-    "9": "100000000"}, inplace=True)
-
-    df["Hit_Object_in_Carriageway"].replace({"0": "None", "1": "Previous Accident", "2": "Road Works", 
-    "4": "Parked Vehicles", "5": "Bridge (Roof)", "6": "Bridge (Side)", "7": "Bollard or Refuge", 
-    "8": "Open Door of Vehicle", "9": "Central Island of Roundabout", "10": "Kerb", "11": "Other Object", 
-    "12": "Any Animal (Except Ridden Horse)", "99": "100000000"}, inplace=True)
-
-    df["Vehicle_Leaving_Carriageway"].replace({"0": "Did Not Leave Carriageway", "1": "Nearside", 
-    "2": "Nearside and Rebounded", "3": "Straight Ahead at Junction", "4": "Offside on to Central Reservation", 
-    "5": "Offside on to Central reservation + Rebounded", "6": "Offside-Crossed Central Reservation", "7": "Offside", 
-    "8": "Offside and Rebounded", "9": "100000000"}, inplace=True)
-
-    df["Hit_Object_off_Carriageway"].replace({"0": "None", "1": "Road Sign or Traffic Signal", "2": "Lamp Post", 
-    "3": "Telegraph or Electricity Pole", "4": "Tree", "5": "Bus Stop or Bus Shelter", "6": "Central Crash Barrier", 
-    "7": "Near/Offside Crash Barrier", "8": "Submerged in Water", "9": "Entered Ditch", "10": "Other Permanent Object", 
-    "11": "Wall or Fence", "99": "100000000"}, inplace=True)
-
-    df["1st_Point_of_Impact"].replace({"0": "Did Not Impact", "1": "Front", "2": "Back", 
-    "3": "Offside", "4": "Nearside", "9": "100000000"}, inplace=True)
-
-    df["Was_Vehicle_Left_Hand_Drive?"].replace({"1": "No", "2": "Yes", "9": "100000000"}, inplace=True)
-
-    df["Journey_Purpose_of_Driver"].replace({"1": "Journey as Part of Work", "2": "Commuting to/from Work", 
-    "3": "Taking Pupil to/from School", "4": "Pupil Riding to/from School", "5": "Other", "6": "100000000", 
-    "15": "Other"}, inplace=True)
-
-    df["Age_Band_of_Driver"].replace({"1": "0-5", "2": "6-10", "3": "11-15", 
-    "4": "16-20", "5": "21-25", "6": "26-35", "7": "36-45", "8": "46-55", "9": "56-65", 
-    "10": "66-75", "11": "Over 75"}, inplace=True)
-
-    df["Propulsion_Code"].replace({"1": "Petrol", "2": "Heavy Oil", 
-    "3": "Electric", "4": "Steam", "5": "Gas", "6": "Petrol/Gas (LPG)", 
-    "7": "Gas/Bi-fuel", "8": "Hybrid Electric", "9": "Gas Diesel", "10": "New Fuel Technology", 
-    "11": "Fuel Cells", "12": "Electric Diesel"}, inplace=True)
-
-    df["Accident_Severity"].replace({"1": "Fatal", "2": "Serious", "3": "Slight"}, inplace=True)
-
-    df["Pedestrian_Crossing-Human_Control"].replace({"0": "None within 50 Metres", 
-    "1": "Control by School Crossing Patrol", "2": "Control by Other Authorised Person", "9": "100000000"}, inplace=True)
-
-    df["Urban_or_Rural_Area"].replace({"1": "Urban", "2": "Rural", "3": "Unallocated"}, inplace=True)
-
-    df["Did_Police_Officer_Attend_Scene_of_Accident"].replace({"1": "Yes", "2": "No", "3": "No"}, inplace=True)
-
-    df["Casualty_Class"].replace({"1": "Driver or Rider", "2": "Passenger", "3": "Pedestrian"}, inplace=True)
-
-    df["Sex_of_Casualty"].replace({"1": "Male", "2": "Female", "9": "100000000"}, inplace=True)
-
-    df["Casualty_Severity"].replace({"1": "Fatal", "2": "Serious", "3": "Slight"}, inplace=True)
-
-    df["Car_Passenger"].replace({"0": "Not Car Passenger", "1": "Front Seat Passenger", 
-    "2": "Rear Seat Passenger", "9": "100000000"}, inplace=True)
-
-    df["Casualty_Home_Area_Type"].replace({"1": "Urban Area", "2": "Small Town", "3": "Rural"}, inplace=True)
-
-    df["Driver_Home_Area_Type"].replace({"1": "Urban Area", "2": "Small Town", "3": "Rural"}, inplace=True)
 
     return df
