@@ -13,7 +13,11 @@ def get_data():
           .assign(
               Hour = [re.findall('([0-9]+)\:[0-9]+', i) for i in df['Time'].tolist()].str[0]
           )
-          .replace(['?', -1, np.nan], 100000000) # Redefine rows with unknown values
+          .replace(
+              # Redefine rows with unknown values
+              to_replace = ['?', -1, np.nan], 
+              replace = 100000000
+          )
           .astype('str')
           .assign(
               # Replace numeric values to understandable strings 
@@ -67,42 +71,45 @@ def get_data():
                   to_replace = ["1", "2", "3", "4", "5", "6", "7", "9"],
                   value = ["Dry", "Wet or Damp", "Snow", "Frost or Ice", "Flood over 3cm. Deep", "Oil or Diesel", "Mud", "100000000"]
               ),
+              Special_Conditions_at_Site = df.Special_Conditions_at_Site.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "9"],
+                  value = ["None", "Auto Traffic Signal-Out", "Auto Signal Part Defective", "Road Sign or Marking Defective or Obscured", 
+                           "Roadworks", "Road Surface Defective", "Oil or Diesel", "Mud", "100000000"]                  
+              ),
+              Carriageway_Hazards = df.Carriageway_Hazards.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "9"],
+                  value = ["None", "Vehicle Load on Road", "Other Object on Road", "Previous Accident", "Dog on Road", 
+                           "Other Animal on Road", "Pedestrian In Carriageway-Not Injured", 
+                           "Any Animal in Carriageway (Except Ridden Horse)", "100000000"]
+              ),
+              Age_Band_of_Casualty = df.Age_Band_of_Casualty.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
+                  value = ["0-5", "6-10", "11-15", "16-20", "21-25", "26-35", "36-45", "46-55", "56-65", "66-75", "Over 75"]
+              ),
+              Pedestrian_Location = df.Pedestrian_Location.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                  value = ["Not a Pedestrian", "Crossing on Pedestrian Crossing Facility", "Crossing in Zig-Zag Approach Lines", 
+                           "Crossing in Zig-Zag Exit Lines", "Crossing Elsewhere within 50m. of Pedestrian Crossing", 
+                           "In Carriageway, Crossing Elsewhere", "On Footway or Verge", "On Refuge, Central Island or Central Reservation", 
+                           "In Centre of Carriageway-Not on Refuge, Island or Central Reservation", "In Carriageway, Not Crossing", "Others"]                  
+              ),
+              Pedestrian_Movement = df.Pedestrian_Movement.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+                  value = ["Not a Pedestrian", "Crossing from Driver's Nearside", "Crossing from Nearside-Masked by Parked or Stationary Vehicle", 
+                           "Crossing from Driver's Offside", "Crossing from Offside-Masked by Parked or Stationary Vehicle", 
+                           "In carriageway, Stationary-Not Crossing (Standing or Playing)", 
+                           "In carriageway, Stationary-Not Crossing (Standing or Playing)-Masked by Parked or Stationary Vehicle", 
+                           "Walking along in Carriageway, Facing Traffic", "Walking along in Carriageway, Back to Traffic", "Others"]                   
+              ),
+              Bus_or_Coach_Passenger = df.Bus_or_Coach_Passenger.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "9"],
+                  value = ["Not a Bus or Coach Passenger", "Boarding", "Alighting", "Standing Passenger", "Seated passenger", "100000000"]
+              ),
+              Pedestrian_Road_Maintenance_Worker = df.Pedestrian_Road_Maintenance_Worker.replace(
+                  to_replace = ["0", "1", "2", "3"],
+                  value = ["No/Not Applicable", "Yes", "Not Known", "Probable"]
+              )
           )
-
-    df["Special_Conditions_at_Site"].replace({"0": "None", "1": "Auto Traffic Signal-Out", 
-    "2": "Auto Signal Part Defective", "3": "Road Sign or Marking Defective or Obscured", 
-    "4": "Roadworks", "5": "Road Surface Defective", "6": "Oil or Diesel", 
-    "7": "Mud", "9": "100000000"}, inplace=True)
-
-    df["Carriageway_Hazards"].replace({"0": "None", "1": "Vehicle Load on Road", 
-    "2": "Other Object on Road", "3": "Previous Accident", 
-    "4": "Dog on Road", "5": "Other Animal on Road", "6": "Pedestrian In Carriageway-Not Injured", 
-    "7": "Any Animal in Carriageway (Except Ridden Horse)", "9": "100000000"}, inplace=True)
-
-    df["Age_Band_of_Casualty"].replace({"1": "0-5", "2": "6-10", "3": "11-15", 
-    "4": "16-20", "5": "21-25", "6": "26-35", "7": "36-45", "8": "46-55", "9": "56-65", 
-    "10": "66-75", "11": "Over 75"}, inplace=True)
-
-    df["Pedestrian_Location"].replace({"0": "Not a Pedestrian", "1": "Crossing on Pedestrian Crossing Facility", 
-    "2": "Crossing in Zig-Zag Approach Lines", "3": "Crossing in Zig-Zag Exit Lines", 
-    "4": "Crossing Elsewhere within 50m. of Pedestrian Crossing", "5": "In Carriageway, Crossing Elsewhere", 
-    "6": "On Footway or Verge", "7": "On Refuge, Central Island or Central Reservation", 
-    "8": "In Centre of Carriageway-Not on Refuge, Island or Central Reservation", "9": "In Carriageway, Not Crossing", 
-    "10": "Others"}, inplace=True)
-
-    df["Pedestrian_Movement"].replace({"0": "Not a Pedestrian", "1": "Crossing from Driver's Nearside", 
-    "2": "Crossing from Nearside-Masked by Parked or Stationary Vehicle", "3": "Crossing from Driver's Offside", 
-    "4": "Crossing from Offside-Masked by Parked or Stationary Vehicle", 
-    "5": "In carriageway, Stationary-Not Crossing (Standing or Playing)", 
-    "6": "In carriageway, Stationary-Not Crossing (Standing or Playing)-Masked by Parked or Stationary Vehicle", 
-    "7": "Walking along in Carriageway, Facing Traffic", 
-    "8": "Walking along in Carriageway, Back to Traffic", "9": "Others"}, inplace=True)
-
-    df["Bus_or_Coach_Passenger"].replace({"0": "Not a Bus or Coach Passenger", "1": "Boarding", 
-    "2": "Alighting", "3": "Standing Passenger", "4": "Seated passenger", "9": "100000000"}, inplace=True)
-
-    df["Pedestrian_Road_Maintenance_Worker"].replace({"0": "No/Not Applicable", "1": "Yes", 
-    "2": "Not Known", "3": "Probable"}, inplace=True)
 
     df["Casualty_IMD_Decile"].replace({"1": "Most Deprived 10%", "2": "More Deprived 10-20%", "3": "More Deprived 20-30%", 
     "4": "More Deprived 30-40%", "5": "More Deprived 40-50%", "6": "Less Deprived 40-50%", "7": "Less Deprived 30-40%", 
