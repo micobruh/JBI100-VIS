@@ -14,27 +14,34 @@ def get_data():
     df['Hour'] = hour_list
     df['Hour'] = df['Hour'].str[0]
 
-    # Redefine rows with unknown values
-    df = df.replace(['?', -1, np.nan], 100000000)
-
-    df = df.astype('str')
-
-    # Replace numeric values to understandable strings
-    df["Day_of_Week"].replace({"1": "Sunday", "2": "Monday", "3": "Tuesday", 
-    "4": "Wednesday", "5": "Thursday", "6": "Friday", "7": "Saturday"}, inplace=True)
-
-    df["1st_Road_Class"].replace({"1": "Motorway", "2": "A(M)", "3": "A", 
-    "4": "B", "5": "C", "6": "100000000"}, inplace=True)
-
-    df["Road_Type"].replace({"1": "Roundabout", "2": "One Way Street", "3": "Dual Carriageway", 
-    "6": "Single Carriageway", "7": "Slip road", "9": "100000000"}, inplace=True)
-
-    df["Speed_limit"].replace({"99": "100000000"}, inplace=True)
-
-    df["Junction_Detail"].replace({"0": "Not at Junction or within 20 Metres", "1": "Roundabout", 
-    "2": "Mini-Roundabout", "3": "T or Staggered Junction", "5": "Slip Road", "6": "Crossroads", 
-    "7": "More than 4 Arms (Not Roundabout)", "8": "Private Drive or Entrance", "9": "Other Junction", 
-    "99": "100000000"}, inplace=True)
+    
+    
+    df = (df.replace(['?', -1, np.nan], 100000000) # Redefine rows with unknown values
+          .astype('str')
+          .assign(
+              # Replace numeric values to understandable strings 
+              Day_of_Week = df.Day_of_Week.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7"], 
+                  value = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+              ),
+              1st_Road_Class = df.1st_Road_Class.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6"], 
+                  value = ["Motorway", "A(M)", "A", "B", "C", "100000000"]
+              ),
+              Road_Type = df.Road_Type.replace(
+                  to_replace = ["1", "2", "3", "6", "7", "9"], 
+                  value = ["Roundabout", "One Way Street", "Dual Carriageway", "Single Carriageway", "Slip road", "100000000"]                  
+              ),
+              Speed_limit = df.Speed_limit.replace(
+                  to_replace = "99",
+                  value = "100000000"
+              ),
+              Junction_Detail = df.Junction_Detail.replace(
+                  to_replace = ["0", "1", "2", "3", "5", "6", "7", "8", "9", "99"], 
+                  value = ["Not at Junction or within 20 Metres", "Roundabout", "Mini-Roundabout", "T or Staggered Junction", 
+                           "Slip Road", "Crossroads", "More than 4 Arms (Not Roundabout)", "Private Drive or Entrance", "Other Junction", "100000000"]                 
+              ),
+          )
 
     df["Junction_Control"].replace({"0": "Not at Junction or within 20 Metres", "1": "Authorised Person", 
     "2": "Auto Traffic Signal", "3": "Stop Sign", "4": "Give Way or Uncontrolled", 
