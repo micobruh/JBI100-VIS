@@ -9,14 +9,11 @@ def get_data():
     df = pd.read_csv("dataset.csv")
 
     # Any further data preprocessing can go here
-    time_list = df['Time'].tolist()
-    hour_list = [re.findall('([0-9]+)\:[0-9]+', i) for i in time_list]
-    df['Hour'] = hour_list
-    df['Hour'] = df['Hour'].str[0]
-
-    
-    
-    df = (df.replace(['?', -1, np.nan], 100000000) # Redefine rows with unknown values
+    df = (df
+          .assign(
+              Hour = [re.findall('([0-9]+)\:[0-9]+', i) for i in df['Time'].tolist()].str[0]
+          )
+          .replace(['?', -1, np.nan], 100000000) # Redefine rows with unknown values
           .astype('str')
           .assign(
               # Replace numeric values to understandable strings 
@@ -39,32 +36,38 @@ def get_data():
               Junction_Detail = df.Junction_Detail.replace(
                   to_replace = ["0", "1", "2", "3", "5", "6", "7", "8", "9", "99"], 
                   value = ["Not at Junction or within 20 Metres", "Roundabout", "Mini-Roundabout", "T or Staggered Junction", 
-                           "Slip Road", "Crossroads", "More than 4 Arms (Not Roundabout)", "Private Drive or Entrance", "Other Junction", "100000000"]                 
+                           "Slip Road", "Crossroads", "More than 4 Arms (Not Roundabout)", "Private Drive or Entrance", 
+                           "Other Junction", "100000000"]                 
+              ),
+              Junction_Control = df.Junction_Control.replace(
+                  to_replace = ["0", "1", "2", "3", "4", "9"], 
+                  value = ["Not at Junction or within 20 Metres", "Authorised Person", "Auto Traffic Signal", "Stop Sign", 
+                           "Give Way or Uncontrolled", "100000000"]                         
+              ),
+              2nd_Road_Class = df.1st_Road_Class.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6"], 
+                  value = ["Motorway", "A(M)", "A", "B", "C", "100000000"]
+              ),
+              Pedestrian_Crossing-Physical_Facilities = df.Pedestrian_Crossing-Physical_Facilities.replace(
+                  to_replace = ["0", "1", "4", "5", "7", "8", "9"], 
+                  value = ["No Physical Crossing Facilities within 50 Metres", "Zebra", 
+                           "Pelican, Puffin, Toucan or Similar Non-Junction Pedestrian Light Crossing", 
+                           "Pedestrian Phase at Traffic Signal Junction", "Footbridge or Subway", "Central Refuge", "100000000"]                    
+              ),
+              Light_Conditions = df.Light_Conditions.replace(
+                  to_replace = ["1", "4", "5", "6", "7"],
+                  value = ["Daylight", "Darkness-Lights Lit", "Darkness-Lights Unlit", "Darkness-No Lighting", "Darkness-Lighting Unknown"]
+              ),
+              Weather_Conditions = df.Weather_Conditions.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                  value = ["Fine No High Winds", "Raining No High Winds", "Snowing No High Winds", "Fine + High Winds", 
+                           "Raining + High Winds", "Snowing + High Winds", "Fog or Mist", "Other", "100000000"]
+              ),
+              Road_Surface_Conditions = df.Road_Surface_Conditions.replace(
+                  to_replace = ["1", "2", "3", "4", "5", "6", "7", "9"],
+                  value = ["Dry", "Wet or Damp", "Snow", "Frost or Ice", "Flood over 3cm. Deep", "Oil or Diesel", "Mud", "100000000"]
               ),
           )
-
-    df["Junction_Control"].replace({"0": "Not at Junction or within 20 Metres", "1": "Authorised Person", 
-    "2": "Auto Traffic Signal", "3": "Stop Sign", "4": "Give Way or Uncontrolled", 
-    "9": "100000000"}, inplace=True)
-
-    df["2nd_Road_Class"].replace({"1": "Motorway", "2": "A(M)", "3": "A", 
-    "4": "B", "5": "C", "6": "100000000"}, inplace=True)
-
-    df["Pedestrian_Crossing-Physical_Facilities"].replace({"0": "No Physical Crossing Facilities within 50 Metres", 
-    "1": "Zebra", "4": "Pelican, Puffin, Toucan or Similar Non-Junction Pedestrian Light Crossing", 
-    "5": "Pedestrian Phase at Traffic Signal Junction", "7": "Footbridge or Subway", "8": "Central Refuge", 
-    "9": "100000000"}, inplace=True)
-
-    df["Light_Conditions"].replace({"1": "Daylight", "4": "Darkness-Lights Lit", "5": "Darkness-Lights Unlit", 
-    "6": "Darkness-No Lighting", "7": "Darkness-Lighting Unknown"}, inplace=True)
-
-    df["Weather_Conditions"].replace({"1": "Fine No High Winds", "2": "Raining No High Winds", "3": "Snowing No High Winds", 
-    "4": "Fine + High Winds", "5": "Raining + High Winds", "6": "Snowing + High Winds", 
-    "7": "Fog or Mist", "8": "Other", "9": "100000000"}, inplace=True)
-
-    df["Road_Surface_Conditions"].replace({"1": "Dry", "2": "Wet or Damp", "3": "Snow", 
-    "4": "Frost or Ice", "5": "Flood over 3cm. Deep", "6": "Oil or Diesel", 
-    "7": "Mud", "9": "100000000"}, inplace=True)
 
     df["Special_Conditions_at_Site"].replace({"0": "None", "1": "Auto Traffic Signal-Out", 
     "2": "Auto Signal Part Defective", "3": "Road Sign or Marking Defective or Obscured", 
